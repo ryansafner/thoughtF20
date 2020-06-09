@@ -1,0 +1,80 @@
+lessons:
+  - title: '<span class="fake-header-table">I Pre-Classical Economics (Pre-1750)</span>'
+    header: True
+
+  - title: "1.1 Introduction and Overview"
+    slides: "1.1-slides"
+    class: "1.1-class"
+    reading: "1.1-reading"
+    
+  - title: "1.2 Key Themes & Questions"
+  
+  - title: "1.3 The Ancient Greeks"
+
+  - title: "1.4 Medieval Religious Writers"
+  
+  - title: "1.5 The Physiocrats"
+  
+  - title: "1.6 The Mercantilists"
+
+  - title: '<span class="fake-header-table">II Classical Economics (c.1750-1870)</span>'
+    header: True
+
+  - title: "2.1 Pre-Smithian Political Economy"
+
+  - title: "2.2 Smith & the Invisible Hand"
+
+  - title: "2.3 Hume, Locke & Money"
+
+  - title: "2.4 Malthus & Population"
+
+  - title: "2.5 The Ricardian System"
+
+  - title: "2.6 Say & Classical 'Macroeconomics'"
+  
+  - title: "2.7 Marxist Challenges"
+
+  - title: "2.8 Mill & The Apex of Classical Economics"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Paper 1 Due**'
+
+  - title: '<span class="fake-header-table">III Neoclassical Economics (c.1870-1930)</span>'
+    header: True
+
+  - title: "3.1 Jevons, Menger, and Walras: The Marginalist Revolution"
+
+  - title: "3.2 Marshallian Economics I: Demand & Utility"
+
+  - title: "3.3 Marshallian Economics II: Theory of the Firm"
+
+  - title: "3.4 Marginal Productivity Theory"
+  
+  - title: "3.5 Pareto, Pigou & Welfare Economics"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Paper 2 Due**'
+
+  - title: '<span class="fake-header-table">IV Challenges & Extensions to Neoclassical Economics</span>'
+    header: True
+    
+  - title: "4.1 Austrians & Capital Theory"
+
+  - title: "4.2 The Socialist Calculation Debate"
+
+  - title: "4.3 American Institutional Economics"
+
+  - title: "4.4 Mathematicization & Samuelsonian Economics"
+
+  - title: '<span class="fake-header-table">V Mid-20th Century & Macroeconomics</span>'
+    header: True
+
+  - title: "5.1 Pre-Keynesian Macroeconomics"
+
+  - title: "5.2 The Keynesian Revolution"
+
+  - title: "5.3 Monetarism"
+
+  - title: "5.4 New Classical Macroeconomics"
+
+  - title: "5.5 Public Choice & New Institutional Economics"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Term Paper Due**'

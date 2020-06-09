@@ -1,0 +1,27 @@
+---
+title: "History of Economic Thought"
+author: "Ryan Safner"
+---
+
+^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for ECON 452: History of Economic Thought, held during Fall 2020 at Hood College.
+
+**Last Update**: [`r format(Sys.time(), "%X %a %b %d %Y")`](https://github.com/ryansafner/thoughtF20/commits/master)
+
+By the end of this course, you will:
+
+- Read, discuss, and write about a large range of key economic texts
+- Recognize key eras, thinkers, and changes in the evolution of thought about economic subjects
+- Critique and compare the ideas of different thinkers
+- Reflect on the role of historical circumstances and prevailing attitudes on how economics has been shaped
+- Reflect on the nature of economics as a discipline: what is it about? what subjects does it study? how does it study them? is it a science? what value judgments does it make? how does it relate to public policy, ethics & aesthetics, and political advocacy?
+- Understand the origins of key economic concepts and models (Supply and Demand, utility functions, production functions, short and long run analysis, perfect competition, aggregate demand and aggregate supply, quantity theory of money)
+- Trace the evolution of major ideas through time, via your own writing
+
+Given these objectives, this course fulfills two of the learning outcomes for [the George B. Delaplaine, Jr. School of Business](https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes) Economics B.A. program:
+
+- Apply economic reasoning and models to understand and analyze problems of public policy [...]
+- Demonstrate effective oral and written communications skills for personal and professional success[...]
+
+<figure>
+[![](/images/thought_flowchart.png)](/images/thought_flowchart.png)
+</figure>

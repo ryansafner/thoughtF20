@@ -1,0 +1,19 @@
+---
+title: Reference
+slug: reference
+output:
+  blogdown::html_page:
+    template: ../pandoc/toc-title_html.template
+    toc: true
+---
+
+Look here over the course of the semester for resources, links, and tips on how to succeed in the course, how to write well, and other things of interest related to economic development. 
+
+# Tips for Success {#tips}
+
+1. **Take notes. On paper. Really.** [Studies show](https://journals.sagepub.com/doi/abs/10.1177/0956797614524581) that using pen and paper trump taking notes on a device. The main reason is because *you cannot possibly write down everything I am saying by hand*. This forces you to selectively filter my lecture to its most essential and important components -- an integral part of the learning and retention process. If you are taking notes on a laptop, you become a court stenographer, thoughtlessly transcribing everything I am saying. At the other extreme, do not assume *everything* is written in my lecture slides. My lecture slides are visuals and cues to organize the content both for me and for you. I try hard to make sure that I have few words on slides, and even fewer answers to problems. 
+    - My suggestion: print out my lecture slides in advance (or follow along on your device) and take additional notes by hand.
+2. **At least skim all of the readings.** I give out readings for a reason, and that reason is not to bore you or waste your time. The truth is, as a beginner, you can't rely on heuristics or memory to "fill in the blanks." You need the readings to provide context to what I am saying in class. I cannot help you if you are not going to try. Any professor also will lose patience at short notice when it's discovered you haven't done the reading.
+3. **Do the homeworks** (if there are any). You might be surprised that I need to say this, but I do. Students that do not do the homeworks do poorly on exams, which often are similar to homework questions. Homeworks are *the best* practice for exams, they give you a sense of the relevant content areas that might come up, the type and style of questions that I ask, and you often get answer keys to help you "get inside my head" and study from. There is no good reason why you should have a low homework grade.
+4. **Work on assignments together and study together**. Recognize that you are not in this alone, and other students are just as anxious or uncertain as you are. More surprisingly, other students probably have some answers you are looking for, and you may have answers for some of their problems! You will learn better when you collaborate with others similar to you. More importantly, you don't truly understand something unless you can explain it to others.^[Yes, that means I am doing a *ton* of learning every time I teach!] As a wise woman once told me "whomever is doing the talking is doing the learning."
+5. **Learn how to learn**. The most important skill you learn in college is *how to learn*. Taking a course on a subject will *not* make you an expert on that subject. It a) helps you recognize that you do not know everything on that subject, and this prevents you from [actively saying stupid things](http://www.smbc-comics.com/?id=2475); and b) gives you enough context and skills to figure out how to *actually* fill those gaps. This is the actual skill that's relevant in the real world.^[Yes, Google is your best friend. But you do not yet know how to ask the right questions, or understand what constitutes good answers.]

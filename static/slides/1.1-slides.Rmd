@@ -1,0 +1,954 @@
+---
+title: "1.1: Introduction to Industrial Organization"
+subtitle: "ECON 326 · Industrial Organization · Spring 2020"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i> safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/IOs20"><i class="fa fa-github fa-fw"></i> ryansafner/IOs20</a><br> <a href="https://IOs20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i> IOs20.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    df_print: paged
+    #seal: false
+    css: [custom.css, custom-fonts.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = F,
+                      warning = F,
+                      message = F,
+                      fig.retina = 3,
+                      fig.align = "center")
+library("tidyverse")
+
+theme_slides <- theme_light() + 
+  theme(
+    text = element_text(family = "Fira Sans", size = 24)
+  )
+
+library(wbstats)
+library(fredr)
+fredr_set_key("9100cdf3c862283007d8c83ce02059e6")
+
+```
+
+# Industrial Organization
+
+.pull-left[
+
+- .hi[How are industries organized, and why do they operate the way they do?]
+
+- .hi[How do we properly regulate industry?]
+
+- .hi[How does, and should, *actual* competition between firms work?]
+
+]
+
+.pull-right[
+
+.center[
+![](https://www.dropbox.com/s/ymuz42mg47mtnyb/industry.png?raw=1)
+]
+]
+
+---
+
+# You Already Know a lot of IO Basics
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/9s3qzw1m3rrl9sy/stigler.png?raw=1)
+
+George Stigler
+
+1911-1991
+
+Economics Nobel 1982
+]
+]
+
+.right-column[
+
+> *"Let us start this...on a higher plane of candor than [we] will always maintain, .hi[there is no such subject as industrial organization*]," (p.1).
+
+> "*These courses deal with the size, structure, the effects of concentration on competition, the effects of competition upon prices, investment, innovation, and so on. But this is precisely the content of economic theory - price or resource allocation theory, now often given the unfelicitious name of .hi[microeconomics]*," (p.1).
+
+]
+
+.source[Stigler, George J, 1968, *The Organization of Industry*]
+
+---
+
+# You Already Know a lot of IO Basics
+
+.pull-left[
+
+- You (hopefully) learn(ed) in **Microeconomics (206, 306)**:
+
+- .hi[Market structures]:
+  1. .hi-purple[perfect competition]
+  2. .hi-purple[monopoly]
+  3. .hi-purple[monopolistic competition]
+  4. .hi-purple[oligopoly]
+]
+
+.pull-right[
+.center[
+![:scale 75%](https://micros20.classes.ryansafner.com/images/micro_hex.png)
+]
+]
+
+---
+
+# You Already Know a lot of IO Basics
+
+.pull-left[
+- You (hopefully) learn(ed) in **Microeconomics (206, 306)**:
+
+- **Something** about the following .hi[concepts]:
+  1. .hi-purple[pricing]
+  2. .hi-purple[game theory]
+  3. .hi-purple[antitrust]
+  4. .hi-purple[entrepreneurship]
+]
+
+.pull-right[
+.center[
+![:scale 75%](https://micros20.classes.ryansafner.com/images/micro_hex.png)
+]
+]
+
+---
+
+# Imperfect Competition
+
+```{r, fig.retina=3, fig.align="center", fig.width=16}
+spectrum<-ggplot(data = tibble(x=c(0,10),
+                     y=c(0,10)))+
+  aes(x = x,
+      y = y)+
+  geom_label(x=0.5,y=3, label="Less \n Competitive", size =14, color = "#fde0dd")+
+  geom_label(x=5.5,y=3, label="More \n Competitive", size = 14, color = "#7a0177")+
+  geom_label(x=1,y=2, label="Monopoly", size =10, color = "#fbb4b9")+
+  geom_label(x=5,y=2, label="Perfect \n Competition", size =10, color = "#7a0177")+
+  annotate("segment", x = 1, xend = 5, y = 3, yend = 3, colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6))+
+  scale_y_continuous(breaks=seq(1,5,1),
+                     limits=c(1,5))+
+  theme_void()+
+  theme(
+    text = element_text(family = "Fira Sans", size = 24)
+  )
+    
+spectrum
+```
+
+---
+
+# Imperfect Competition
+
+```{r, fig.retina=3, fig.align="center", fig.width=16}
+spectrum+geom_segment(x=4.5,xend=4.5,y=0,yend=5, color="red", size =1 , linetype="dashed")+
+  annotate("segment", x = 1, xend = 4.5, y = 4, yend = 4, colour = "red", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x=3,y=4.5, label='"Imperfect Competition"', size = 12, color = "red")
+```
+
+---
+
+# Imperfect Competition
+
+```{r, fig.retina=3, fig.align="center", fig.width=16}
+spectrum+geom_segment(x=4.5,xend=4.5,y=0,yend=5, color="red", size =1 , linetype="dashed")+
+  annotate("segment", x = 1, xend = 4.5, y = 4, yend = 4, colour = "red", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x=3,y=4.5, label='"Imperfect Competition"', size = 12, color = "red")+
+  geom_label(x=2,y=3.5, label="Oligopoly", size =10, color = "#fbb4b9")
+```
+
+---
+
+# Imperfect Competition
+
+```{r, fig.retina=3, fig.align="center", fig.width=16}
+spectrum+geom_segment(x=4.5,xend=4.5,y=0,yend=5, color="red", size =1 , linetype="dashed")+
+  annotate("segment", x = 1, xend = 4.5, y = 4, yend = 4, colour = "red", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x=3,y=4.5, label='"Imperfect Competition"', size = 12, color = "red")+
+  geom_label(x=2,y=3.5, label="Oligopoly", size =10, color = "#fbb4b9")+
+  geom_label(x=3.75,y=3.5, label="Monopolistic \n Competition", size =10, color = "#c51b8a")
+```
+
+---
+
+# Classic Elements of Industrial Organization
+
+.pull-left[
+
+1. .hi[Structure-Conduct-Performance (SCP) paradigm]
+
+2. .hi[Price theory and Game theory]
+
+3. .hi[Economics of Organization/Firms]
+
+4. .hi[Antitrust and economics of regulation]
+]
+
+.pull-right[
+
+.center[
+![](https://www.dropbox.com/s/ymuz42mg47mtnyb/industry.png?raw=1)
+]
+]
+
+---
+
+# Structure-Conduct-Performance Paradigm
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
+]
+]
+
+.pull-right[
+
+- An industry's .hi-purple["Performance"]
+  - Price (high, low)
+  - Output (high, low)
+  - Profit
+  - Productive efficiency
+  - Allocative efficiency (CS, DWL)
+  - Quality, safety, etc.
+]
+---
+
+# Structure-Conduct-Performance Paradigm
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
+]
+]
+
+.pull-right[
+
+- ... which is determined by its firms' .hi-purple["Conduct"]
+  - Pricing behavior
+  - Output choices
+  - Legal tactics
+  - Entry and exit
+  - Collusion
+  - Competition
+  - Innovation
+]
+
+---
+
+# Structure-Conduct-Performance Paradigm
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
+]
+]
+
+.pull-right[
+
+- ... which is determined by the industry's .hi-purple["Structure"]
+  - Number of buyers
+  - Number of sellers
+  - Product differentiation
+  - Vertical integration
+  - Barriers to entry
+]
+
+---
+
+# Structure-Conduct-Performance Paradigm
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
+]
+]
+
+.pull-right[
+
+- ... which is determined by the product's .hi-purple["Technology"]
+  - **Consumer demand** (price and income elasticity, substitutes, location, etc)
+  - **Good's features**: inputs, technology, durability, rivalry, excludability
+  - **Production features**: economies of scale, economies of scope, network externalities, two-sided platforms
+]
+
+---
+
+# Structure-Conduct-Performance Paradigm
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
+]
+]
+
+.pull-right[
+
+- .hi-purple[Government policy] can affect nearly every stage
+  - Entry regulation
+  - Price regulation
+  - Antitrust regulation
+  - Taxes and subsidies
+]
+
+---
+
+# Limitations of SCP
+
+.pull-left[
+
+- How do you define "an industry"
+  - What does Coca Cola compete with?
+  - What does Google compete with?
+
+- Substitutes in production vs. substitutes in consumption?
+
+- Geographic boundaries
+]
+
+.pull-right[
+.center[
+![:scale 100%](https://www.dropbox.com/s/dv8ce57s6azr8e8/groceryaisle.jpg?raw=1)
+]
+]
+
+---
+
+# Price Theory
+
+.pull-left[
+
+- Economics is a .hi[way of thinking] based on a few core ideas:
+
+- .hi-purple[People respond to incentives]
+    - Money, punishment, taxes and subsidies, risk of injury, reputation, profits, sex, effort, morals
+
+- .hi-purple[Environments adjust until they are in equilibrium]
+    - People make adjustments until their choices are optimal given others’ actions
+]
+
+.pull-right[
+
+.center[
+![:scale 70%](https://www.dropbox.com/s/wp97bsk0yni31k9/incentive2.jpg?raw=1)
+
+![:scale 70%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+---
+
+# Price Theory: Optimization and Equilibrium
+
+.pull-left[
+- If people can **learn** and **change** their behavior, they will always switch to a higher-valued option
+
+- If there are no alternatives that are better, people are at an .hi[optimum]
+
+- If **everyone** is at an optimum, the system is in .hi[equilibrium]
+]
+
+.pull-right[
+.center[
+![:scale 70%](https://www.dropbox.com/s/wp97bsk0yni31k9/incentive2.jpg?raw=1)
+
+![:scale 70%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+---
+
+# The Major Models of Price Theory
+
+.pull-left[
+
+## Optimization
+
+- Agents have .hi[objectives] they value
+
+- Agents face .hi[constraints]
+
+- Make .hi[tradeoffs] to maximize objectives within constraints
+
+.center[
+![](https://www.dropbox.com/s/qvr240t5j6t3arm/optimize.jpeg?raw=1)
+]
+]
+
+--
+
+.pull-right[
+
+## Equilibrium
+
+- Agents .hi[compete] with others over **scarce** resources
+
+- Agents .hi[adjust] behaviors based on prices
+
+- .hi[Stable outcomes] when adjustments stop
+
+.center[
+![](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+
+]
+
+---
+
+# Economics (Price Theory) Is Broader Than You Think
+
+.center[
+![:scale 82%](https://www.dropbox.com/s/bqb48eg20ld6li9/cooleconbooks.png?raw=1)
+]
+
+---
+
+# Remember: All Models are Wrong!
+
+.pull-left[
+.content-box-red[
+.red[**Caution**:] Don't conflate models with reality!
+]
+- Models help us *understand* reality.
+
+- A good economist is always aware of:
+    - "*ceterus paribus*"
+    - "...and then what?"
+    - "...compared to what?"
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/17cb7ceqipgi8fs/citymodel.jpg?raw=1)
+]
+]
+
+---
+
+# .st[Economics] IO Often Uses, but Is Not Limited to, Math
+
+```{r, fig.width=12}
+red_pink <- "#e64173"
+blue <- "#2b59c3"
+
+venn_colors <- c(red_pink, blue)
+venn_lines <- rep("solid", 10)
+# Locations of circles
+venn_df <- tibble(
+  x  = c( 0.0,   2.0),
+  y  = c( 0.0,   0.0),
+  r  = c( 2.0,   2.0),
+  l  = c( "Math \n Modeling", "Thinking Like \n an Economist"),
+  xl = c( -1.0,    3.0),
+  yl = c( 0.0,   0.0))
+# Venn
+ggplot(data = venn_df, aes(x0 = x, y0 = y, r = r, fill = l, color = l)) +
+ggforce::geom_circle(aes(linetype = l), alpha = 0.3, size = 0.75) +
+theme_void() +
+theme(legend.position = "none") +
+scale_fill_manual(values = venn_colors) +
+scale_color_manual(values = venn_colors) +
+scale_linetype_manual(values = venn_lines) +
+  geom_text(aes(x = xl, y = yl, label = l), size = 8, family = "Fira Sans Condensed") +
+coord_equal()
+```
+
+---
+
+# The Economics of Organization
+
+.pull-left[
+
+- Studying the problem of .hi[economic organization] provides more perspectives
+
+- .hi[Firms] (hierarchies) and **markets** are substitutable methods of production
+
+- .hi[Team production] of many economic goods and services
+
+- Organize to **minimize** **transaction costs** in production
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](https://www.dropbox.com/s/usjcm7s1euszomm/firms.png?raw=1)
+]
+]
+
+---
+
+# The Economics of Organization
+
+.pull-left[
+
+- **Most** production takes place in firms
+
+- Firms grapple with their own .hi-purple[principal-agent problems]: 
+  - management vs. labor, management vs. owners
+
+- Firms must relate to other firms
+  - specialization & division of labor
+  - up/downstream market power
+  - mergers & acquisitions, vertical integration
+]
+
+.pull-right[
+.center[
+![:scale 100%](https://www.dropbox.com/s/usjcm7s1euszomm/firms.png?raw=1)
+]
+]
+
+---
+
+
+# Game Theory and Strategic Behavior
+
+.pull-left[
+
+- .hi[Game theory]: a set of tools that model strategic interactions ("games") between rational players, 3 elements:
+    1. **Players**
+    2. **Strategies** that players can choose from
+    3. **Payoffs** are *jointly-determined* from combination of all players' strategies 
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](https://www.dropbox.com/s/93gtv9xei0q5fik/gametheory.jpg?raw=1)
+]
+]
+
+---
+
+# Game Theory vs. Price Theory Models I
+
+.pull-left[
+
+- .hi-purple[Optimization models] **ignore all other agents** and just focus on how can **you** maximize **your** objective within **your** constraints
+  - Other agents are a primary cause of your constraints - but not considered in the model!
+  - Consumers max utility; firms max profit, etc.
+
+- **Outcome**: .hi[optimum]: decision where *you* have no better alternatives
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/kjm2fzw4o3p0sk3/optimize.jpg?raw=1)
+]
+]
+
+---
+
+# Game Theory vs. Price Theory Models II
+
+.pull-left[
+
+- Traditional economic models are often called .hi[Decision theory]:
+
+- .hi-purple[Equilibrium models] assume that there are **so many agents** that **no agent's decision can affect the outcome**
+  - P.C.: firms are price-**takers**
+  - Monopoly: the **only** buyer or seller
+  - **Ignores all other agents' choices**!
+
+- **Outcome**: .hi[equilibrium]: where *nobody* has no better alternatives
+
+]
+
+.pull-right[
+
+.center[
+![](https://www.dropbox.com/s/9d2bkesu20g5fj7/crowdartistic.jpg?raw=1)
+]
+]
+
+---
+
+# Game Theory vs. Price Theory Models III
+
+.pull-left[
+
+- .hi[Game theory models] directly confront **strategic interactions** between players
+  - How each player would respond to a strategy chosen by other player(s)
+  - Lead to a stable outcome where everyone has considered and chosen their best responses
+
+- **Outcome**: .hi-purple[Nash equilibrium]: where *nobody* has a better strategy *given the strategies everyone else is playing*
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/tymdsxbqaq2scxq/chessknights.jpg?raw=1)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Motivations for this Semester
+
+---
+
+# Unequal Growth, or Unshared Prosperity? I
+
+.pull-left[
+- Common argument: "**real wages** have been stagnant since 1970" or "real wages have not kept up with productivity since 1970"
+
+- **Labor's share** of national income has gone down recently
+
+- .hi-purple[Might this be because of *increasing market power*?]
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/6t0gb5f38aoe7pn/monopolyman.jpg?raw=1)
+]
+]
+
+---
+
+# Unequal Growth, or Unshared Prosperity? II
+
+```{r, fig.width=12}
+labor<-fredr(
+  series_id = "MPU4910141"
+)
+
+#series %>%
+#  spread(key = "Series",
+#         value = value) %>%
+#  mutate(Sum = Capital + Labor)
+ggplot(data = labor)+
+  aes(x = date,
+      y = value,
+      color = series_id)+
+  #geom_point()+
+  geom_path(size=2)+
+  scale_x_date(date_labels = "%Y", breaks = "2 years")+
+  scale_y_continuous(breaks=seq(0.60,0.70,0.01),
+                     limits=c(0.6,0.7))+
+  theme_slides+
+  guides(color=F)+
+  labs(x = "Year",
+       y = "Labor's Share of Cost",
+       title = "The Decline of Labor's Share in Cost",
+       subtitle = "(Private Nonfarm Business Sector)",
+       caption = "Data Source: FRED")
+```
+
+---
+
+# Unequal Growth, or Unshared Prosperity? III
+
+```{r, fig.width=12}
+profits<-fredr(
+  series_id = "CP"
+)
+
+#series %>%
+#  spread(key = "Series",
+#         value = value) %>%
+#  mutate(Sum = Capital + Labor)
+ggplot(data = profits)+
+  aes(x = date,
+      y = value,
+      color = series_id)+
+  #geom_point()+
+  geom_path(size=2)+
+  scale_x_date(date_labels = "%Y", breaks = "10 years")+
+  scale_y_continuous(breaks=seq(0,2000,200),
+                     labels=scales::dollar,
+                     limits=c(0,2000),
+                     expand=c(0,0))+
+  theme_slides+
+  guides(color=F)+
+  labs(x = "Year",
+       y = "Corporate Profits (in Billions)",
+       title = "The Rise of Corporate Profits",
+       subtitle = "(Unadjusted, After Tax)",
+       caption = "Data Source: FRED")
+```
+
+---
+
+# The Rise of Market Power?
+
+.center[
+![:scale 95%](https://www.dropbox.com/s/rqhq6sf9gxf97uv/marketpower.png?raw=1)
+]
+
+---
+
+# Is New Antitrust Action Necessary? 
+
+.center[
+![:scale 95%](https://www.dropbox.com/s/oy0owy8v6o443i8/antitrust2.png?raw=1)
+]
+
+---
+
+# Is New Antitrust *Thinking* Necessary?
+
+.center[
+![:scale 80%](https://www.dropbox.com/s/8v4qavdm0bynjwc/antitrustarticles.png?raw=1)
+]
+
+---
+
+# Questions for the Semester
+
+1. Has there been a **general increase in market power/concentration**?
+
+2. If so, what should we do about it?
+
+3. Should we revitalize **antitrust laws**?
+
+4. Are **platforms** like Facebook, Amazon, Google, etc. uniquely problematic? How should we regulate them?
+
+---
+
+# Other Proposals I Hope to Discuss
+ 
+.right-column[
+
+1. Is "**property**" another name for **monopoly**? Should we adopt a **Common Ownership Self-Assessed Tax**? 
+
+2. Should your **data** be **owned** (and compensated) as **labor**?
+
+3. Will **automation** take all the jobs? If so, what do we do about that? 
+
+]
+
+.left-column[
+![:scale 80%](https://www.dropbox.com/s/txihggxo1imaz3m/radicalmarkets.jpg?raw=1)
+]
+
+---
+
+# Other Proposals I Hope to Discuss
+
+.center[
+![:scale 80%](https://www.dropbox.com/s/m6ajij72dps6957/big1.png?raw=1)
+]
+
+---
+
+# Unintended Consequences
+
+.center[
+![:scale 90%](https://www.dropbox.com/s/aovtp296wj7pwdq/freelancer.png?raw=1)
+]
+
+---
+
+class: inverse, center, middle
+# About This Course
+
+---
+
+# Learning Goals I
+
+1. Understand key economic models of perfect competition, monopoly, monopolistic competition, oligopoly (Bertrand, Cournot, and Stackelberg competition), and contestable markets
+
+2. Apply models of competition to different industries and regulatory regimes
+
+3. Simulate strategic and game theoretic interactions and apply them to industry behavior
+
+4. Discuss how firms actually compete with one another
+
+---
+
+# Learning Goals II
+
+<ol start="5">
+  <li> Critique textbook models and theories of regulation and antitrust</li>
+  <li> Understand the economic problems that firms solve, create, and grapple with</li>
+  <li> Debate regulatory solutions to problems and current events in various industries</li>
+</ol>
+
+---
+
+# Format For the Course
+
+.pull-left[
+
+  - Part lecture, part conversation
+  - Multiple lectures to introduce topic, give background and context
+  - Some readings-based discussions
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/6g428kr267v1rxu/roundtable.jpg?raw=1)
+]
+]
+
+---
+
+# A Hybrid Course in Three Parts
+
+- .hi-purple[Models/Review]
+  - Production theory (technology, costs, etc)
+  - Market structures (perfect competition, monopoly)
+  - Some extensions beyond ECON 306
+  - Mostly **lecture** (1 or 2 discussions)
+  - *Some* math & practice (**HWs**, **Midterm**)
+
+---
+
+# A Hybrid Course in Three Parts
+
+- .hi-purple[Competition]
+  - Oligopoly models
+  - Game theory
+  - **Playing games** in class (**Moblab**)
+  - Applications & readings on how firms compete
+      - competitive process
+      - entrepreneurship
+      - innovation
+  - Mix of lecture and **discussions**
+
+---
+
+# A Hybrid Course in Three Parts
+
+- .hi-purple[Applications]
+  - Why firms exist & challenges for firms
+  - Antitrust (theory, history, applications)
+  - Regulating natural monopoly: telecom
+  - Automation, gig economy
+  - Networks, platforms, ownership of data
+  - More **readings** and **discussions** with some lecture
+
+---
+
+# Assignments
+
+```{r}
+
+assignments <- tribble(
+  ~"",  ~Assignment, ~Percent,
+  "n"     , "Participation (Average)", "20%",
+  "n", "Homework (Average)", "10%",
+  1, "Position Paper", "25%",
+  1      , "Midterm", "20%",
+  1     , "Final (Take-home)", "25%"
+)
+knitr::kable(assignments, "html")
+```
+
+.center[
+See more details at the [assignments page](/assignments)
+]
+
+---
+
+# Readings
+
+.pull-left[
+.center[
+![:scale 60%](https://www.dropbox.com/s/12vt4htv8ljxg5n/zerotoone.jpg?raw=1)
+]
+]
+.pull-right[
+.center[
+![:scale 60%](https://www.dropbox.com/s/txihggxo1imaz3m/radicalmarkets.jpg?raw=1)
+]
+]
+
+---
+
+# Textbooks You Might Want
+
+.pull-left[
+.center[
+![:scale 70%](https://www.dropbox.com/s/686njcmtnq3srp7/churchandware.jpg?raw=1)
+]
+]
+.pull-right[
+.center[
+![:scale 73%](https://www.dropbox.com/s/cafpkx0ax7kpchm/carltonperloff.jpg?raw=1)
+]
+]
+
+---
+
+# So We Can Play Games :) 
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/gj6t2mm2q4fauo9/moblab.png?raw=1)
+]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/24tjbrnsuzchsnv/moblabexample.png?raw=1)
+]
+]
+
+
+---
+
+# Course Website
+
+.center[
+![:scale 30%](../images/io_hex.png)
+
+[IOs20.classes.ryansafner.com](http://IOs20.classes.ryansafner.com)
+]
+
+---
+
+# Tips for Success, Or: How to College
+
+.pull-left[
+- Take notes. On paper. Really.
+
+- Read the readings. I've optimized them for you.
+
+- Participate<sup>*</sup>
+
+- You are learning how to learn
+
+- See the [reference page](http://IOs20.classes.ryansafner.com/reference) for more
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/rfdf5g27mdtq5wx/education.png?raw=1)
+]
+]
+.footnote[<sup>*</sup> To the degree you feel comfortable. But try to push that boundary with baby steps!]
+
+---
+
+# Roadmap for the Semester
+
+.center[
+![:scale 75%](../images/io_flowchart.png)
+]

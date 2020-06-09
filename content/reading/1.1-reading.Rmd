@@ -1,0 +1,18 @@
+---
+title: "1.2. Technology and Cost - Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+
+# Required Readings:
+
+- NONE
+
+# Recommended Readings:
+
+This is a part of our review of major production concepts from Microeconomics. You should consider looking at the following textbooks if you are rusty or want to know more about these concepts:   
+
+- <i class="fas fas fa-book"></i> Ch. 2: pp.29-40 in @Carlton
+- <i class="fas fas fa-book"></i> Ch. 2.1-2.2, 3.1 in @Church^[Again, there is [a free PDF](https://works.bepress.com/jeffrey_church/23/) from the authors.]

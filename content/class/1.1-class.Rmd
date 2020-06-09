@@ -1,0 +1,53 @@
+---
+title: "1.1. Introduction and Overview"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Overview
+
+An introduction to the course.
+
+# Slides
+
+- [<i class="fas fa-external-link-square-alt"></i> Lecture Slides](/slides/1.1-slides.html)
+
+# Links
+
+These are the articles mentioned in the slides:
+
+On the California Law re: Employees vs. Contractors: 
+
+- [Reason (Dec 17, 2019), "California Freelancers Suffer From Totally Predictable 'Unintended Consequences' of Gig Worker Protection Bill"](https://reason.com/2019/12/17/california-freelancers-suffer-from-totally-predictable-unintended-consequences-of-gig-worker-protection-bill/)
+- [SBNation (Dec 16, 2019), "California’s terrible AB5 came for me today, and I’m devastated"](https://www.mavsmoneyball.com/2019/12/16/21024414/california-terrible-ab5-came-for-me-today-and-im-devastated)
+- [Washington Post (Dec 19, 2019), "How a law aimed at Uber and Lyft is hurting freelance writers"](https://www.washingtonpost.com/opinions/2019/12/19/how-law-aimed-uber-lyft-is-hurting-freelance-writers/)
+- [Washington Post (Sept 17, 2019), "A California bill has nationwide ramifications for the gig economy"](https://www.washingtonpost.com/opinions/a-california-bill-has-nationwide-ramifications-for-the-gig-economy/2019/09/17/e92a805c-d670-11e9-86ac-0f250cc91758_story.html)
+- [Hollywood Reporter (Oct 17, 2019), "'Everybody Is Freaking Out': Freelance Writers Scramble to Make Sense of New California Law"](https://www.hollywoodreporter.com/news/everybody-is-freaking-freelance-writers-scramble-make-sense-new-california-law-1248195)
+- [New York Times (Dec 31, 2019), "California Wanted to Protect Uber Drivers. Now It May Hurt Freelancers."](https://www.nytimes.com/2019/12/31/technology/california-freelance-gig-workers.html)
+
+Antitrust:
+
+- [The Hill (Dec 27, 2019), "Antitrust should be used to break up partisan tech giants like Facebook, Google"](https://thehill.com/blogs/pundits-blog/media/311886-antitrust-should-be-used-to-break-up-partisan-tech-giants-like)
+- [Wall Street Journal (Jan 16, 2020), " The Antitrust Case Against Facebook, Google and Amazon"](https://www.wsj.com/articles/the-antitrust-case-against-facebook-google-amazon-and-apple-1516121561)
+- [Washington Examiner (Apr 24, 2019), "Consumer doom: Both parties are pushing antitrust rules as a 2020 issue"](https://www.washingtonexaminer.com/opinion/consumer-doom-both-parties-are-pushing-antitrust-rules-as-a-2020-issue)
+- [Wall Street Journal (June 1, 2019), "Justice Department Is Preparing Antitrust Investigation of Google "](https://www.wsj.com/articles/justice-department-is-preparing-antitrust-investigation-of-google-11559348795)
+- [New York Times (Apr 22, 2019), "Is It Time to Break Up Google?"](https://www.nytimes.com/2017/04/22/opinion/sunday/is-it-time-to-break-up-google.html)
+
+On the Rise of Market Concentration
+
+- [Brookings (May 21, 2019), "The rise of corporate market power"](https://www.brookings.edu/blog/up-front/2019/05/21/the-rise-of-corporate-market-power/)
+- [The Irish Times (Apr 19, 2016), "Paul Krugman: Monopoly capitalism is killing US economy"](https://www.irishtimes.com/business/economy/paul-krugman-monopoly-capitalism-is-killing-us-economy-1.2615956)
+- [The Nation (Oct 23, 2017), "America Has a Monopoly Problem—and It’s Huge"](https://www.thenation.com/article/america-has-a-monopoly-problem-and-its-huge/)\
+
+On "Hipster Antitrust"
+
+- [New York Times (Sept 7, 2018), "Amazon’s Antitrust Antagonist Has a Breakthrough Idea"](https://www.nytimes.com/2018/09/07/technology/monopoly-antitrust-lina-khan-amazon.html)
+- [American Bar Association, Hipster Antitrust, a Brief Primer"](https://www.americanbar.org/groups/young_lawyers/publications/tyl/topics/antitrust/hipster-antitrust-brief-primer/)
+- [Mercatus (Oct 18, 2018), "What is 'Hipster Antitrust?'](https://www.mercatus.org/bridge/commentary/what-hipster-antitrust)
