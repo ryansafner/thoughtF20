@@ -9,12 +9,14 @@ author: "Ryan Safner"
 
 By the end of this course, you will:
 
-- Read, discuss, and write about a large range of key economic texts
-- Recognize key eras, thinkers, and changes in the evolution of thought about economic subjects
-- Critique and compare the ideas of different thinkers
-- Reflect on the role of historical circumstances and prevailing attitudes on how economics has been shaped
-- Reflect on the nature of economics as a discipline: what is it about? what subjects does it study? how does it study them? is it a science? what value judgments does it make? how does it relate to public policy, ethics & aesthetics, and political advocacy?
-- Understand the origins of key economic concepts and models (Supply and Demand, utility functions, production functions, short and long run analysis, perfect competition, aggregate demand and aggregate supply, quantity theory of money)
+- Identify key economic writers and their contributions to economic thought
+- Discuss the influence and value of different writers and their contributions
+- Identify and distinguish the major schools of economic thought: Classical, Marxist, Neoclassical, Austrian, Keynesian, Monetarist, New Classical
+- Place theories and ideas studied within the context of the time
+- Better comprehend the origins and context of orthodox economic theory today
+- Explore critiques of orthodox economic theory from various heterodox schools of thought and understand contested areas
+- Reflect on the nature of economics as a discipline
+- Understand the origins of key economic concepts and models
 - Trace the evolution of major ideas through time, via your own writing
 
 Given these objectives, this course fulfills two of the learning outcomes for [the George B. Delaplaine, Jr. School of Business](https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes) Economics B.A. program:

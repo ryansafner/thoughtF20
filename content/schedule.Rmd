@@ -12,7 +12,7 @@ This page contains all of the following resources for each class meeting:
 
 Relevant materials (if applicable, icons will become links) will be posted before class meets.
 
-**Last Update**: [`r format(Sys.time(), "%X %a %b %d %Y")`](https://github.com/ryansafner/IOS20/commits/master).
+**Last Update**: [`r format(Sys.time(), "%X %a %b %d %Y")`](https://github.com/ryansafner/thoughtF20/commits/master).
 
 ---
 
