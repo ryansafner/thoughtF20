@@ -148,9 +148,10 @@ Your final course grade is the weighted average of the following assignments. Th
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~"",  ~Assignment, ~Percent,
-  "n"     , "Participation (average)", "40%",
-  "1"      , "Term Paper", "40%",
-    "2", "Short Papers", "10% each"
+  "n"     , "Participation (Average)", "35%",
+  "1"      , "Term Paper", "35%",
+  "2", "Short Papers", "20%",
+  "n", "Tournament Votes", "10%"
 )
 
 grading <- tribble(
@@ -192,6 +193,14 @@ Every week, we will have a discussion board thread on Blackboard. You will be ex
 
 I am interested in your thoughts, reactions, comments, and questions about any of the material (lectures and/or readings). You do not need to write more than a paragraph. Anything more than that, including continuing to reply to each others’ thoughts, questions, or comments, (which I strongly hope you do!) is solely based on your own interest and curiosity. I will jump in to answer questions the group is stuck on, give my two cents, and stir the pot as needed. I strontly hope we still keep a conversation going and can learn from each other, that was always my goal, not to lecture at you! If you crave visual human contact, you can submit your comments/reactions in the form of a short video, and we can try that out! Though we might eventually need to move beyond Blackboard in that case. We’ll see how things go.
 
+## Tournament Votes
+
+Since we all missed out on the NCAA Basketball Tournament last spring, I have set up a tournament for "the most interesting person in the history of economics." Each era of economic thought (Classical, Neoclassical, Heterodox, Modern) will have its own "division", in which we will vote for the champion of each era (out of up to 8 thinkers), who will then go head to head against the champions of other divisions for the title. 
+
+Once we complete an era, we will hold the votes in head-to-head matchups between economists. Your assignment is to write up a short explanation behind your vote (1-3 sentences) between each pair. This will allow you to remember and place each thinker in the context of the history of economic thought.
+
+Whomever is able to most closely predict the outcome of the tournament in advance will earn 20 bonus points.
+
 ## Grading Scale {-}
 
 All grades are based on the following traditional scale:
@@ -212,6 +221,7 @@ These grades are firm cutoffs, but I do of course round upwards ($\geq 0.5$) for
 This syllabus is a contract between you, the student, and me, your instructor. It has been carefully and deliberately thought out^[A syllabus can and will be used as a legal document for disputes tried at a court of law. Ask me how I know.], and I will uphold my end of the agreement and expect you to uphold yours. 
 
 In the language of game theory, this syllabus is my commitment device. I am a very understanding person, and I know that exceptions to rules often need to be made for students. However, to be *fair* to *all* students the syllabus artificially constrains my ability to make exceptions at a whim for anyone. This prevents clever students from exploiting my congenial personality at everyone else's expense. Please read and familiarize yourself with the course policies and expectations of you. Chances are, if you have a question, it is answered herein.
+
 
 ## Online Attendance and Participation {-}
 
