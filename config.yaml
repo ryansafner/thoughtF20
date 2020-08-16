@@ -45,12 +45,12 @@ params:
   course:
     number: ECON 452
     semester: Fall 2020
-    days: "TuTh"
-    time: "2:00–3:15PM"
-    location: "101 Rosenstock"
+    days: "MW"
+    time: "3:25–4:45PM"
+    location: "ON ZOOM"
     twitter: ryansafner
     dates: >-
-      January 15–May 8, 2020
+      August 17–November 24, 2020
     github: "ryansafner/thoughtF20"
     #slack: "https://hood-io.slack.com/"
     copyrightYear: "2020"
