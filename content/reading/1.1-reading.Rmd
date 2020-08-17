@@ -12,7 +12,13 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Recommended Readings:
 
-This is a part of our review of major production concepts from Microeconomics. You should consider looking at the following textbooks if you are rusty or want to know more about these concepts:   
+This week we will be covering elements of:
 
-- <i class="fas fas fa-book"></i> Ch. 2: pp.29-40 in @Carlton
-- <i class="fas fas fa-book"></i> Ch. 2.1-2.2, 3.1 in @Church^[Again, there is [a free PDF](https://works.bepress.com/jeffrey_church/23/) from the authors.]
+- <i class="fas fas fa-book"></i> Ch.1 in Landreth and Colander
+- <i class="fas fas fa-book"></i> Ch.1 in Blaug 1996
+
+I recommend reading this to get acquainted with some of the big picture ideas and debates we are going to wrestle with this semeste, as well as the state of economics today. Regarding economics today, here are some articles that I mention in today's class:
+
+- [<i class="fas fa-file-pdf"></i> Colander, 2015, "Intellectual Incest on the Charles: Why Economists are a little bit off"](/readings/Colander-2015.pdf)
+- [<i class="fas fa-file-pdf"></i> Cawley, 2018, "A Guide and Advice for Economists on the U.S. Junior Academic Job Market, 2018-2019 Edition"](/readings/Cawley-2018.pdf)
+- [<i class="fas fa-file-pdf"></i> Heckman and Moktan, 2020, "Publishing and Promotion in Economics: The Tyranny of the Top Five"](/readings/Heckman-Moktan-2020.pdf)

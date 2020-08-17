@@ -1,6 +1,82 @@
+/* TYPOGRAPHY */
+
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:200,400,600,800');
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,700);
+
+
+body {
+  font-family: 'Fira Sans Condensed',
+  sans;
+}
+
+h1, h2, h3 {
+  font-weight: 800;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Fira Mono',
+  monospace;
+}
+
+
 /*Ideas for title slide (aligned left, fa-icons, etc) from https://github.com/apreshill/talks/blob/master/orasa-big-magic/css/my-theme.css*/
 
 /* ----ADDING------------------------------------------------ */
+
+/* 
+Three column layout
+*/
+.pull-left-3 {
+  float: left;
+  width: 30%;
+  padding: 0 2.5% 0 0;
+}
+
+.pull-middle-3 {
+  float: left;
+  width: 30%;
+  padding: 0 2.5%;
+}
+
+.pull-right-3 {
+  float: right;
+  width: 30%;
+  padding: 0 0 0 2.5%;
+}
+
+.pull-right-3 ~ * {
+  clear: both;
+}
+
+
+/*
+Wider pull left/right
+*/
+.pull-left-wide {
+  float: left;
+  width: 65%;
+}
+
+.pull-left-narrow {
+  float: left;
+  width: 32%;
+}
+
+.pull-right-wide {
+  float: right;
+  width: 65%;
+}
+
+.pull-right-narrow {
+  float: right;
+  width: 32%;
+}
+
+.pull-right-narrow ~ *,
+.pull-right-wide ~ * {
+  clear: both;
+}
 
 /* Create a highlighted class called 'hi'  */
 .hi {
@@ -102,11 +178,31 @@
 /* Mono-spaced font */
 .mono {
   font-family: monospace;
+  font-size: 100%
 }
+
+/* Italic (helpful for tables) */
+.it {
+  font-style: italic;
+}
+
+/* Bold (helpful for tables) */
+.b {
+  font-weight: 600;
+}
+
+/* Math font */
+.math {
+  font-family: "MathJax_Math";
+  font-weight: 400;
+}
+
 /* Underline */
 .ul {
   text-decoration: underline;
+  display: inline-block;
 }
+
 /* Overline */
 .ovl {
   text-decoration: overline;
@@ -128,6 +224,16 @@
   background-color: rgba(249, 39, 114, 0.5);
 }
 
+/* FONT WEIGHTS */
+
+.light{
+  font-weight: 200;
+}
+
+.heavy{
+  font-weight: 800;
+}
+
 .bigger {
   font-size: 125%;
 }
@@ -138,6 +244,10 @@
 
 .smallest {
   font-size: 85%;
+}
+
+.quitesmall {
+  font-size: 70%;
 }
 
 .tiny {
@@ -154,7 +264,7 @@
   font-size: 20px;
 }
 
-.super{
+.sup{
   vertical-align: super;
   font-size: 70%;
 }
@@ -311,12 +421,12 @@ th, td { padding: 5px; }
 
 .remark-slide-content {
   background-color: #F5F5F5 ; /* #23373B; */
-  background-image: url(https://ios20.classes.ryansafner.com/images/io_hex.png);
-  background-position: 99% 99%;
-  background-size: 8%;
+  background-image: url(https://thoughtf20.classes.ryansafner.com/images/thought_hex2.png);
+  background-position: 99% 1%;
+  background-size: 7%;
   color: #000000;
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   padding: 0em 2em 1em 2em /* 1em first */
 }
@@ -363,10 +473,9 @@ th, td { padding: 5px; }
 }
 
 .remark-slide-content > h1 {
-  font-variant: normal;
-  font-family: 'Yanone Kaffeesatz';
-  font-weight: normal;
-  font-size: 60px;
+  /* font-variant: normal;
+  /* font-weight: normal; */
+  font-size: 48px;
   margin-top: 0px;
   margin-left: -00px;
   color: #236192; /* #56B4E9 ; FAFAFA */
@@ -374,7 +483,7 @@ th, td { padding: 5px; }
 
 .inverse > h1 {
   /*font-variant: small-caps;*/
-  font-size: 60px;
+  font-size: 56px;
   color: #FFFFFF;
 }
 
@@ -408,18 +517,17 @@ color: #23373B;
 
 .title-slide {
   background-color: #236192;
-  background-image: url(https://ios20.classes.ryansafner.com/images/io_hex.png);
+  background-image: url(https://thoughtf20.classes.ryansafner.com/images/thought_hex2.png);
   background-position: 99% 90%;
   background-size: 25%;
 }
 
 .title-slide > h1  {
   color: #FFFFFF;
-  font-variant: normal;
-  font-size: 64px;
-  font-family: 'Yanone Kaffeesatz';
-  text-shadow: none;
-  font-weight: 400;
+  /* font-variant: normal; */
+  font-size: 56px;
+  /* text-shadow: none; */
+  /*font-weight: 400; */
   text-align: left; /*changed from center*/
   margin-left: 15px;
   padding-top: 250px; /* changed from 0*/
@@ -428,17 +536,17 @@ color: #23373B;
   margin-top: -50px; /* changed from -25*/
   padding-bottom: -20px;
   color: #FFFFFF;
-  text-shadow: none;
-  font-weight: 300;
-  font-size: 38px;
+  /* text-shadow: none; */
+  /* font-weight: 300; */
+  font-size: 40px;
   text-align: left; /*changed from center*/
   margin-left: 15px;
 }
 .title-slide > h3  {
   margin-top: 0px;  /*added*/
   color: #FFFFFF;
-  text-shadow: none;
-  font-weight: 300;
+  /* text-shadow: none; */
+  /* font-weight: 300; */
   font-size: 30px;
   text-align: left; /*changed from center*/
   margin-left: 15px;
@@ -447,13 +555,11 @@ color: #23373B;
 
 .remark-slide-number {
   font-size: 13pt;
-  font-family: 'Fira Sans';
   color: #272822;
   opacity: 1;
 }
 .inverse .remark-slide-number {
   font-size: 13pt;
-  font-family: 'Fira Sans';
   color: #FAFAFA;
   opacity: 1;
 }
@@ -651,18 +757,8 @@ color: #23373B;
   float: bottom;
 }
 
-.tri-left {
-  width: 30%;
-  float: left;
-}
 
-.tri-middle {
-  width: 30%;
-  float: left;
-}
-
-.tri-right {
-  width: 30%;
-  float: left;
-}
-
+/* 
+for nice numbered bullets 
+https://github.com/malcolmbarrett/kakashi/blob/master/kakashi.css 
+*/ 

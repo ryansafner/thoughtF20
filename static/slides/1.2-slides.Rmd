@@ -1,0 +1,135 @@
+---
+title: "1.1 — Introduction"
+subtitle: "ECON 452 • History of Economic Thought • Fall 2020"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/thoughtF20"><i class="fa fa-github fa-fw"></i>ryansafner/thoughtF20</a><br> <a href="https://thoughtF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>thoughtF20.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    df_print: paged
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F)
+library(tidyverse)
+set.seed(256)
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+```
+
+class: inverse, center, middle
+
+# Why Care About History?
+
+---
+
+
+# Philosophies of Science
+
+.pull-left[
+
+1. Popper (Falsification)
+
+2. Kuhn (Paradigms & Revolutions)
+
+3. Lakatos (Research programs)
+
+]
+
+.pull-right[
+
+]
+
+---
+
+# Whig Theory
+
+
+
+---
+
+# Scope of Economics?
+
+.pull-left[
+
+]
+
+.pull-right[
+
+]
+
+---
+
+# Methdology of Economics?
+
+.pull-left[
+- Inductive vs. deductive?
+
+- Theoretical vs. empirical?
+
+- Vernacular vs. Mathematics?
+]
+
+.pull-right[
+
+]
+
+---
+
+# Is Economics a Science?
+
+.pull-left[
+
+- Is economics a .hi-purple[science]?
+  - Empirical testing
+  - Falsification
+  - Inductive reasoning
+
+- Is economics an art, craft, etc?
+  - Objective?
+]
+
+.pull-right[
+
+
+]
+
+---
+
+# Common Questions
+
+.pull-left[
+
+- How are prices formed?
+
+- What is value?
+
+- Role of money
+
+- 
+]
+
+.pull-right[
+
+
+]
+
+---
