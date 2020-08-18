@@ -27,6 +27,9 @@ menu:
     - name: Reference
       url: /reference/
       weight: 4
+    - name: Slack
+      url: "https://hoodcollegeeconomics.slack.com"
+      weight: 6
 # Disable taxonomies
 taxonomies:
   tag: ""
