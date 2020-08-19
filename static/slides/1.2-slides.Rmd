@@ -507,7 +507,7 @@ Thomas Kuhn
 
 - Classical economics $\rightarrow$ marginalist *revolution*
 
-- Classical macroeconomics $\righarrow$ Keynesian revolution $\rightarrow$ counterrevolution
+- Classical macroeconomics $\rightarrow$ Keynesian revolution $\rightarrow$ counterrevolution
 
 .source[Kuhn, Thomas, 1962, *The Structure of Scientific Revolutions*]
 
