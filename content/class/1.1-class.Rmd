@@ -1,5 +1,5 @@
 ---
-title: "1.1 — Introduction"
+title: "1.1 — Introduction — Class Notes"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl

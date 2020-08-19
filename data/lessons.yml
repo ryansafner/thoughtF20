@@ -7,8 +7,11 @@ lessons:
     class: "1.1-class"
     reading: "1.1-reading"
     
-  - title: "1.2 Key Themes & Questions"
-  
+  - title: "1.2 So What Exactly is Economics?"
+    slides: "1.2-slides"
+    class: "1.2-class"
+    reading: "1.2-reading"
+    
   - title: "1.3 The Ancient Greeks"
 
   - title: "1.4 Medieval Religious Writers"

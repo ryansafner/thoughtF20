@@ -1,0 +1,26 @@
+---
+title: "1.2. Technology and Cost - Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+
+# Required Readings:
+
+- NONE
+
+# Recommended Readings:
+
+This week we will be covering elements of:
+
+- <i class="fas fas fa-book"></i> Ch.1 (Introduction) in Landreth and Colander
+- <i class="fas fas fa-book"></i> Preface & Ch.17 (Methodological Postscript) in Blaug 1996 
+
+Other helpful readings"
+
+- [<i class="fas fa-file-pdf"></i> Blaug, 1975, "Kuhn versus Lakatos, or paradigms versus research programmes in the history of economics"](/readings/Blaug-1975.pdf)
+- [<i class="fas fa-file-pdf"></i> McCloskey, 1998, *The Rhetoric of Economics* pp.20-28](/readings/McCloskey-1998.pdf)
+
+<!--<i class="fab fa-wikipedia-w"></i>
+<!--http://en.wikipedia.org/wiki/Positivism -->
