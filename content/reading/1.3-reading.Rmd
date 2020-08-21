@@ -1,0 +1,22 @@
+---
+title: "1.3 — Ancient Writers — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+
+# Required Readings:
+
+- NONE
+
+# Recommended Readings:
+
+This week we will be covering elements of:
+
+- <i class="fas fas fa-book"></i> Ch.2 (Early Preclassical Economic Thought) in Landreth & Colander
+
+Blaug unfortunately does not cover anything before mercantilism & the physiocrats.
+
+Other helpful readings:
+

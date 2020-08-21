@@ -12,8 +12,9 @@ lessons:
     class: "1.2-class"
     reading: "1.2-reading"
     
-  - title: "1.3 The Ancient Greeks"
-
+  - title: "1.3 Ancient Writers"
+    reading: "1.3-reading"
+    
   - title: "1.4 Medieval Religious Writers"
   
   - title: "1.5 The Physiocrats"

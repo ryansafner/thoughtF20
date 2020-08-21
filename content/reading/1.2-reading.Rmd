@@ -1,5 +1,5 @@
 ---
-title: "1.2. Technology and Cost - Readings"
+title: "1.2 — What Exactly is Economics? — Class Notes"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -17,10 +17,19 @@ This week we will be covering elements of:
 - <i class="fas fas fa-book"></i> Ch.1 (Introduction) in Landreth and Colander
 - <i class="fas fas fa-book"></i> Preface & Ch.17 (Methodological Postscript) in Blaug 1996 
 
-Other helpful readings"
+Other helpful readings:
 
 - [<i class="fas fa-file-pdf"></i> Blaug, 1975, "Kuhn versus Lakatos, or paradigms versus research programmes in the history of economics"](/readings/Blaug-1975.pdf)
 - [<i class="fas fa-file-pdf"></i> McCloskey, 1998, *The Rhetoric of Economics* pp.20-28](/readings/McCloskey-1998.pdf)
 
-<!--<i class="fab fa-wikipedia-w"></i>
-<!--http://en.wikipedia.org/wiki/Positivism -->
+The following Wikipedia entries can also provide more background on the philosophy of science (broadly in order):
+
+- [<i class="fab fa-wikipedia-w"></i> Philosophy of Science](https://en.wikipedia.org/wiki/Philosophy_of_science)
+- [<i class="fab fa-wikipedia-w"></i> Positivism](http://en.wikipedia.org/wiki/Positivism)
+- [<i class="fab fa-wikipedia-w"></i> Logical Positivism](https://en.wikipedia.org/wiki/Logical_positivism)
+- [<i class="fab fa-wikipedia-w"></i> Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper)
+- [<i class="fab fa-wikipedia-w"></i> Thomas Kuhn](https://en.wikipedia.org/wiki/Thomas_Kuhn)
+- [<i class="fab fa-wikipedia-w"></i> Imre Lakatos](https://en.wikipedia.org/wiki/Imre_Lakatos)
+https://en.wikipedia.org/wiki/Imre_Lakatos
+- [<i class="fab fa-wikipedia-w"></i> Lionel Robbins on Economics](https://en.wikipedia.org/wiki/An_Essay_on_the_Nature_and_Significance_of_Economic_Science)
+- [<i class="fab fa-wikipedia-w"></i> Milton Friedman on Positivist Methodology](https://en.wikipedia.org/wiki/Essays_in_Positive_Economics)
