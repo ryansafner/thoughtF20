@@ -1,5 +1,5 @@
 ---
-title: "1.3 — Ancient Writers — Readings"
+title: "1.3 — Ancient Writers (Mostly Greek) — Readings"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -25,6 +25,7 @@ Blaug unfortunately does not cover anything before mercantilism & the physiocrat
 
 The following Wikipedia entries can also provide more background on these writers and their famous works:
 
+- [<i class="fab fa-wikipedia-w"></i> Liberty of Ancients Compared with that of Moderns](https://en.wikipedia.org/wiki/The_Liberty_of_Ancients_Compared_with_that_of_Moderns)
 - [<i class="fab fa-wikipedia-w"></i> Plato](https://en.wikipedia.org/wiki/Plato)
 - [<i class="fab fa-wikipedia-w"></i> Plato's *Republic*](https://en.wikipedia.org/wiki/Republic_(Plato))
 - [<i class="fab fa-wikipedia-w"></i> Aristotle](https://en.wikipedia.org/wiki/Aristotle)
