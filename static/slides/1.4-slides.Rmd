@@ -1016,7 +1016,7 @@ Thomas Aquinas
 ]
 ]
 .right-column[
-.smaller[
+.smallest[
 > "According to the Philosopher, exchange of things is twofold; one, natural as it were, and necessary, whereby one commodity is exchanged for another, or money taken in exchange for a commodity, in order to satisfy the needs of life...[The first] belongs rather to housekeepers or civil servants who have to provide the household or the state with the necessaries of life. The other kind of exchange is either that of money for money, or of any commodity for money, not on account of the necessities of life, but for profit...The former kind of exchange is commendable because it supplies a natural need: but the latter is justly deserving of blame, because, considered in itself, it satisfies the greed for gain, which knows no limit and tends to infinity..." (p. 23 in *Reader*).
 
 ]
