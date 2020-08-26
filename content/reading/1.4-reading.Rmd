@@ -1,0 +1,28 @@
+---
+title: "1.4 — Medieval Religious WRiters — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> St. Thomas Aquinas & skim *Summa Theologica* in *Reader*
+- <i class="fas fas fa-book"></i> Ch.2 (Early Preclassical Economic Thought) in Landreth & Colander
+
+Blaug unfortunately does not cover anything before mercantilism & the physiocrats.
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background on these writers and their famous works:
+
+- [<i class="fab fa-wikipedia-w"></i> Thomas Aquinas](https://en.wikipedia.org/wiki/Thomas_Aquinas)
+
+# Questions to Help Your Reading
+
+- What topics does Aquinas cover in his writings?
+- What questions is he interested in?
+- What is his style of inquiry?
+- What does he say about whether prices are "just"?
+- What is his view on usury?
+- How does he engage with "the philosopher" (Aristotle)?
