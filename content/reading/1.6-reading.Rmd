@@ -1,0 +1,38 @@
+---
+title: "1.6 — Political Revolution — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, August 2, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> John Locke & his writings in *Reader*
+- [<i class="fas fas fa-file-pdf"></i> https://publics20.classes.ryansafner.com/readings/Hobbes-1651.pdf](Hobbes (1651) - Selections from Leviathan)
+
+## If You Hadn't Yet:
+- <i class="fas fas fa-book"></i> Ch.3 Early Preclassical Economic Thought up through Physiocracy (p.56) in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.1 Pre-Adamite Economics up through Physiocracy (p.24) in Blaug
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background on these writers and their famous works:
+
+- [<i class="fab fa-wikipedia-w"></i> Thomas Hobbes](https://en.wikipedia.org/wiki/Thomas_Hobbes)
+- [<i class="fab fa-wikipedia-w"></i> John Locke](https://en.wikipedia.org/wiki/John_Locke)
+- [<i class="fab fa-wikipedia-w"></i> Richard Cantillon](https://en.wikipedia.org/wiki/Richard_Cantillon)
+
+# Questions to Help Your Reading
+
+- What does Hobbes have to say about an “ultimate good” or “ultimate goal” for humanity?
+- Is Hobbes a subjectivist in terms of value and human choice?
+- What’s the problem with everyone having equal power and limitations?
+- When is it in an individual’s interest to limit themselves?
+- What is the origin of the State or Commonwealth?
+- How would you consider Hobbes’ analysis in terms of game theory? A prisoners’ dilemma? A stag hunt?
+- What is the origin of property, according to Locke?
+- Compare and contrast Hobbes' and Locke's view of the state of nature.
+- What are the three inconveniences of anarchy, according to Locke?
+- What is the role of money, according to Locke? What happens if money increases in supply?

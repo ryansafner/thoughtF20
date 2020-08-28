@@ -1,5 +1,5 @@
 ---
-title: "1.4 — Medieval Religious WRiters — Readings"
+title: "1.4 — Medieval Religious Writers — Readings"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -17,6 +17,9 @@ Blaug unfortunately does not cover anything before mercantilism & the physiocrat
 The following Wikipedia entries can also provide more background on these writers and their famous works:
 
 - [<i class="fab fa-wikipedia-w"></i> Thomas Aquinas](https://en.wikipedia.org/wiki/Thomas_Aquinas)
+- [<i class="fab fa-wikipedia-w"></i> Ibn Khaldun](https://en.wikipedia.org/wiki/Ibn_Khaldun)
+
+- Al-Hamdi, 2006, [Ibn Khaldun: The Father of the Division of Labor](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.515.2885&rep=rep1&type=pdf)
 
 # Questions to Help Your Reading
 

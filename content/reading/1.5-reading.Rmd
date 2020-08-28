@@ -1,0 +1,35 @@
+---
+title: "1.5 — Mercantilism — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Monday, August 31, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Thomas Mun, William Petty, Bernard de Mandeville^[Yes, this is a little out of order] & *skim* each's writings in *Reader*
+- <i class="fas fas fa-book"></i> Ch.3 Early Preclassical Economic Thought up through Physiocracy (p.56) in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.1 Pre-Adamite Economics up through Physiocracy (p.24) in Blaug
+
+We are entering the era of mercantilism, and will spend at least a week in this era before we get to the Classical economists. There are a lot of well-develoepd writings from a lot of well-known thinkers of this era. Since we will not be lingering long, there is a lot of reading in a short amount of time. Thus, it's most important that you read the *secondary* textbook, and in the *Reader*, read the biographies of Mun, Petty, and Mandeville, and then *skim* each of their writings to get a feel for what they are interested in and how they discuss it. 
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background on these writers and their famous works:
+
+- [<i class="fab fa-wikipedia-w"></i> Mercantilism](https://en.wikipedia.org/wiki/Mercantilism)
+- [<i class="fab fa-wikipedia-w"></i> Thomas Mun](https://en.wikipedia.org/wiki/Thomas_Mun)
+- [<i class="fab fa-wikipedia-w"></i> William Petty](https://en.wikipedia.org/wiki/William_Petty)
+- [<i class="fab fa-wikipedia-w"></i> Bernard Mandeville](https://en.wikipedia.org/wiki/Bernard_Mandeville)
+
+# Questions to Help Your Reading
+
+- *Who* are the mercantlists, and why are they writing?
+- What are the mercantilists interested in?
+- What are the policy prescriptions of the mercantilists?
+- How do the mercantlists view human nature?
+- What is the role of government according to the mercantilists?
+- What aspects of mercantilism are still present today?
+- What does modern economics think of mercantilist ideas?

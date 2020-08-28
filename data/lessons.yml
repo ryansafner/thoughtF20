@@ -22,9 +22,13 @@ lessons:
     class: "1.4-class"
     slides: "1.4-slides"
   
-  - title: "1.5 The Physiocrats"
-  
-  - title: "1.6 The Mercantilists"
+  - title: "1.5 Mercantilism"
+    reading: "1.5-reading"
+
+  - title: "1.6 Political Revolution"
+    reading: "1.6-reading"
+    
+  - title: "1.7 The Physiocrats"
 
   - title: '<span class="fake-header-table">II Classical Economics (c.1750-1870)</span>'
     header: True
