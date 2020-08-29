@@ -7,6 +7,9 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required Readings:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Xd_zkMEgkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 - <i class="fas fas fa-book"></i> St. Thomas Aquinas & skim *Summa Theologica* in *Reader*
 - <i class="fas fas fa-book"></i> Ch.2 (Early Preclassical Economic Thought) in Landreth & Colander
 
