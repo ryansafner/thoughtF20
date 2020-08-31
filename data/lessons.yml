@@ -24,7 +24,9 @@ lessons:
   
   - title: "1.5 Mercantilism"
     reading: "1.5-reading"
-
+    class: "1.5-class"
+    slides: "1.5-slides"
+    
   - title: "1.6 Political Revolution"
     reading: "1.6-reading"
     

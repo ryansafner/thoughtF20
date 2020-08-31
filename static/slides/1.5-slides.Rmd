@@ -1,0 +1,1011 @@
+---
+title: "1.5 — Mercantilism"
+subtitle: "ECON 452 • History of Economic Thought • Fall 2020"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/thoughtF20"><i class="fa fa-github fa-fw"></i>ryansafner/thoughtF20</a><br> <a href="https://thoughtF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>thoughtF20.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    df_print: paged
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F)
+library(tidyverse)
+set.seed(256)
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+```
+
+class: inverse
+
+# Outline
+
+## [From Medieval to the Proto-Modern World](#3)
+
+## [Mercantilist Europe (c.1500-c.1800)](#16)
+
+## [Thomas Mun](#39)
+
+## [Sir William Petty](#42)
+
+## [Bernard de Mandeville](#49)
+
+---
+
+class: inverse, center, middle
+
+# From Medieval to the Proto-Modern World
+
+---
+
+# The Peace of Westphalia (1648)
+
+.center[
+![:scale 70%](https://www.dropbox.com/s/v7e2h85c0y55tk2/europemap1648.jpg?raw=1)
+]
+
+---
+
+# The Black Death I
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/vkwr5xv5hmq85s4/ratsblackdeath.jpg?raw=1)
+]
+]
+
+--
+
+.pull-right[
+
+- Bubonic plague ravages Europe (esp. 1340s-1350s)
+
+- 75-200 million die (30-60% of European population)
+
+- Absolutely enormous social, political, economic consequences
+  - Some good in the long run??
+
+.source[North, Douglass C. and Robert Paul Thomas, (1973), *The Rise of the Western World: A New Economic History*, p 12-13]
+]
+
+---
+
+# The Black Death Consequences I
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/w2z08kc08e2kagy/blackdeath.jpg?raw=1)
+]
+]
+
+.pull-right[
+.smaller[
+- Reverses the effects of the Commercial Revolution from decimated population
+
+- Real wages increase, real rents decrease, agricultural prices decrease
+
+- Drastic shift in bargaining power from lords to peasants
+  - Peasants gain longer leases and more direct property rights in land
+
+- Scarce labor $\rightarrow$ incentive to seek out labor-saving innovations
+]
+
+.source[North, Douglass C. and Robert Paul Thomas, (1973), *The Rise of the Western World: A New Economic History*, p 12-13]
+
+]
+
+---
+
+# The Black Death Consequences II
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/v01v1fkmmxzon0w/wattylerrebellion.jpg?raw=1)
+.smallest[
+King Richard II executing Wat Tyler, leader of the Peasants Revolt
+]
+]
+]
+
+.pull-right[
+.smallest[
+- Lords attempt to force a return to "normal"
+
+- **1351 Statute of Laborers** in England: fix price controls, force down wages
+  - Leads to Peasant Revolt (1381)
+
+- Manorialism fades away slowly, Lords and peasants need more *flexibility* in prices and contracts to change with circumstances (not immutable custom)
+  - Peasants become more "indepedent contractor" than feudal serf
+
+.source[North, Douglass C. and Robert Paul Thomas, (1973), *The Rise of the Western World: A New Economic History*, p 12-13]
+
+]
+]
+
+---
+
+# Other Key Historical Events: The Reformation I
+
+.pull-left[
+.center[
+![:scale 100%](../images/luther-nailed-it.jpg)
+
+]
+]
+
+.pull-right[
+.smallest[
+- Printing press emerges in Europe around 1450 via Johannes Gutenberg in Mainz
+  - Prints the first "Gutenberg Bible" 
+
+- Martin Luther publishes *95 Theses* against the Catholic church in 1517 Wittenberg
+
+- Luther is far from the first Christian dissident
+  - But he is the first to "get away with it"
+  - protected by a powerful group of disgruntled lords away from Emperor Charles V
+  - plus *he* has a *printing press!*
+]
+]
+
+---
+
+# Other Key Historical Events: The Reformation II
+
+.center[
+![:scale 80%](https://www.dropbox.com/s/sved526wwnndw75/reformationmap.png?raw=1)
+.quitesmall[
+Over 300 years, religious wars overlaid political & military competition between early European states. Some of the most devastating until WWI.
+]
+]
+
+---
+
+# Other Key Historical Events: The Age of Discovery I
+
+.center[
+![](https://www.dropbox.com/s/e8or1dqj5s8uot0/explorersmap.jpg?raw=1)
+
+Byzantine Empire falls in 1453 to Ottoman Turks, which cuts off Europe's access to the Eastern trade; search for sea-routes to India and China begin
+]
+
+---
+
+# Other Key Historical Events: The Age of Discovery II
+
+.center[
+![:scale 90%](https://www.dropbox.com/s/8gx0aw4pu2mqtan/mercantiletrademap.jpeg?raw=1)
+]
+
+---
+
+# Other Key Historical Events: The Age of Discovery III
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/xsnozfmw1oihr9s/atlantictrade.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Trade (and later colonization) with world is immensely profitable
+
+- "Discovery" of New World & Atlantic trade
+  - Colonies ship raw materials back to Europe in exchagne for manufactured goods
+]
+
+---
+
+# Other Key Historical Events: The Age of Discovery IV
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/3wohf12mfnt5pvb/jamestown.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Europe recovers from the Black Death, population growth from economic improvements
+
+- Land-abundant, labor-scarce colonies are an "escape valve" for Malthusian pressures in land-scarce, labor-abundant Europe
+
+- Also an escape valve for some religious dissident groups (Puritans, Protestant Dissenters, Quakers, etc.)
+
+]
+
+---
+
+# Other Key Historical Events: The Age of Discovery IV
+
+.pull-left[
+.center[
+![:scale 80%](https://www.dropbox.com/s/5u0vycuiog6ao51/amsterdamstockexchange.jpg?raw=1)
+
+The Amsterdam Stock Exchange (1601)
+]
+]
+
+.pull-right[
+.smaller[
+- Towns become specialized and very wealthy cities
+
+- .hi[“The Middle Class”] emerges in terms of wealth, power, and social status
+  - “Freemen”, not peasants tied to the land
+  - But not big landowners or aristocratic nobles
+  
+- Small-property-holding townspeople growing wealthy from manufacturing, shipping, or colonial trading ventures
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Mercantilist Europe (c.1500-c.1800)
+
+---
+
+# Mercantilism I
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/xvrtcn0zofmxh2h/seaport.png?raw=1)
+]
+]
+
+.pull-right[
+.smallest[
+- .hi-purple[Feudalism] fades away *slowly*: feudal custom and obligatory service replaced by cash payment and flexible contracts
+
+- Rising merchant class grows *outside* of landlord-serf & patronage-dominated customs
+  - in some countries (Netherlands & England), become part of the elite
+
+- A new political-economic ideology of nationally-managed trade to replace feudalism: .hi[mercantilism]
+]
+]
+---
+
+# Mercantilism: The Rise of a New Class I
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/4fmz0603kkwkejg/downtonmatthew.jpg?raw=1)
+]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/67oe21v2lb4fq8w/downtongrantham.jpg?raw=1)
+]
+]
+
+---
+
+# Mercantilism: The Rise of a New Class II
+
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/35zae79q2l2eakk/marxengels.png?raw=1)
+
+Karl Marx (1818-1883)
+
+Friedrich Engels (1820-1895)
+
+]
+]
+
+.right-column[
+
+.font90[
+> "The feudal system of industry, in which industrial production was monopolised by closed guilds, now no longer sufficed for the growing wants of the new markets. The manufacturing system took its place. The guild-masters were pushed on one side by the manufacturing middle class; division of labour between the different corporate guilds vanished in the face of division of labour in each single workshop," $(\S2$ Proletarians and Communists)
+]
+]
+
+.source[Marx, Karl and Friedrich Engels, 1848, [*Manifesto of the Communist Party*](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/)]
+
+---
+
+# Mercantilism: The Rise of a New Class III
+
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/35zae79q2l2eakk/marxengels.png?raw=1)
+
+Karl Marx (1818-1883)
+
+Friedrich Engels (1820-1895)
+
+]
+]
+
+.right-column[
+
+.font90[
+> "The bourgeoisie, wherever it has got the upper hand, has put an end to all feudal, patriarchal, idyllic relations. It has pitilessly torn asunder the motley feudal ties that bound man to his "natural superiors," and has left remaining no other nexus between man and man than naked self-interest, than callous "cash payment." It has drowned the most heavenly ecstasies of religious fervour, of chivalrous enthusiasm, of philistine sentimentalism, in the icy water of egotistical calculation. It has resolved personal worth into exchange value, and in place of the numberless indefeasible chartered freedoms, has set up that single, unconscionable freedom---Free Trade," $(\S2$ Proletarians and Communists)
+]
+]
+
+.source[Marx, Karl and Friedrich Engels, 1848, [*Manifesto of the Communist Party*](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/)]
+
+---
+
+# Mercantilism: The Rise of a New Class IV
+
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/35zae79q2l2eakk/marxengels.png?raw=1)
+
+Karl Marx (1818-1883)
+
+Friedrich Engels (1820-1895)
+
+]
+]
+
+.right-column[
+
+.font90[
+> "The bourgeoisie, during its rule of scarce one hundred years, has created more massive and more colossal productive forces than have all preceding generations together. Subjection of Nature's forces to man, machinery, application of chemistry to industry and agriculture, steam-navigation, railways, electric telegraphs, clearing of whole continents for cultivation, canalisation of rivers, whole populations conjured out of the ground---what earlier century had even a presentiment that such productive forces slumbered in the lap of social labour?," $(\S2$ Proletarians and Communists)
+]
+]
+
+.source[Marx, Karl and Friedrich Engels, 1848, [*Manifesto of the Communist Party*](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/)]
+
+---
+
+# Mercantilism as a Political-Economic Ideology I
+
+.pull-left[
+.center[
+![:scale 80%](https://www.dropbox.com/s/y2xrc1sedez37oi/goldsmith.png?raw=1)
+]
+]
+
+.pull-right[
+
+- What does the new merchant class want?
+
+- Commerce! Trade!
+
+- But not just any commerce...like any self-interest elite, they want commerce favorable to themselves
+  - Monopolies, privileged terms of trade
+
+]
+
+---
+
+# Mercantilism as a Political-Economic Ideology II
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/e8kxj72cc9kjti6/treasurechest.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Nation-states (monarchs) as principle actors
+
+- National economies, stimulated by activist State interventions
+
+- *The wealth of nations* is the quantity of their "specie" (gold and silver; i.e. money)
+  - More money $\implies$ hire more soldiers $\implies$ win more wars $\implies$ gain more wealth
+]
+
+---
+
+# Mercantilism as a Political-Economic Ideology III
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/xvrtcn0zofmxh2h/seaport.png?raw=1)
+]
+]
+
+.pull-right[
+
+- .hi-purple[Wealth comes from international trade]! 
+  - Particularly producing selling **manufactures** abroad
+
+- A nation must maintain a .hi-purple["favorable balance of trade"]
+  - export more than you import
+
+- International trade between nations/empires is war by other means
+]
+
+---
+
+# Mercantilism as a Political-Economic Ideology IV
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/xvrtcn0zofmxh2h/seaport.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Total wealth of the world is fixed - one must gain at others' expense
+
+- Goal of economic activity is production
+
+- *Monetary* factors determine economic activity & growth
+]
+
+---
+
+# Mercantilism as a “Philosophy” I
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/xvrtcn0zofmxh2h/seaport.png?raw=1)
+]
+]
+
+.pull-right[
+.smaller[
+- Possibility of analyzing, understanding, and directing *the economy*
+  - Scientific revolution in physics (Newton)
+
+- Mechanistic causal model of the economy via government control
+
+]
+]
+
+---
+
+# Mercantilism as a “Philosophy” II
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/xvrtcn0zofmxh2h/seaport.png?raw=1)
+]
+]
+
+.pull-right[
+.smaller[
+- Fundamental conflict between private interests and public welfare
+  - Can't change human nature, but can direct it for national wealth and power
+  - Government as key mechanism to manage fallen people for common good
+
+- Wealth of nation depended on the poverty of the many
+  - Keep low wages to encourage work, production
+]
+]
+
+---
+
+# Policy Implications of Mercantilism I
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/dhh5cdalulwr0js/encomienda.jpeg?raw=1)
+]
+]
+
+.pull-right[
+- Maximize country's stock of gold and silver
+
+- Mine gold & silver at home
+
+- Seek colonies with gold & silver mines
+
+- Prohibit exports of gold & silver
+
+- Export goods to import gold & silver (as payments for our exports)
+]
+
+---
+
+# Policy Implications of Mercantilism II
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/17b4eopxqmdwzhr/textilemanufacturing.jpg?raw=1)
+]
+]
+
+.pull-right[
+.smallest[
+- Encourage domestic manufacturing for export
+
+- Import raw materials
+  - better yet, acquire colonies that have these so you don't have to give other countries gold or silver for them!
+
+- Limit imports of manufactured goods from other countries
+
+- Limit exports of raw materials
+  - other countries can use them to make their own manufactures for export
+]
+]
+
+---
+
+# Policy Implications of Mercantilism III
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/kptxfp83mau6d4u/eastindiacompany1.jpg?raw=1)
+]
+]
+
+.pull-right[
+.smallest[
+- Grant monopolies to encourage domestic production
+
+- Poach inventors from other countries (grant protections & exemptions from guild laws)
+
+- Sales of monopoly privileges a major source of State revenue (less costly than taxation)
+  - Especially in France
+
+- Political considerations: monarchs give privileges to dominant commercial elites in exchange for loyalty
+
+]
+]
+---
+
+# Trading Monopolies I
+
+.pull-left[
+.smaller[
+- Crown granted .hi-purple[Letters Patent]
+
+- Created a chartered trading company that had a monopoly on a trade
+  - e.g. sugar, salt, tea, tobacco
+  - or found a colony
+
+- Crown often gave these to powerful elites as patronage for support
+  - often *sold* as a source of State revenue
+
+- Not all that different from a guild
+]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/r6c4hgjotpx25a4/letterspatent.jpg?raw=1)
+]
+]
+
+---
+
+# Trading Monopolies II
+
+.left-column[
+.center[
+![:scale 75%](https://www.dropbox.com/s/eydf15cwpfn38g9/edwardcoke.jpg?raw=1)
+
+Lord Edward Coke
+
+1552--1634
+
+Chief Justice (King's Bench)
+
+]
+]
+
+.right-column[
+
+> "A monopoly is an institution or allowance by the king, by his grant, commission, or otherwise...to any person or persons, bodies politic or corporate, for the sole buying, selling, making, working, or using of anything, whereby any person or persons, bodies politic or corporate, are sought to be restrained of any freedom or liberty that they had before, or hindered in their lawful trade."
+
+]
+
+---
+
+# Trading Monopolies III
+
+> "[A man lives] in a house built with monopoly bricks, with windows...of monopoly glass; heated by monopoly coal (in Ireland monopoly timber), burning in a grate made of monopoly iron...He washed himself in monopoly soap, his clothes in monopoly starch. He dressed in monopoly lace, monopoly linen, monopoly leather, monopoly gold thread...His clothes were dyed with monopoly dyes. He ate monopoly butter, monopoly currants, monopoly red herrings, monopoly salmon, and monopoly lobsters. His food was seasoned with monopoly salt, monopoly pepper, monopoly vinegar...He wrote with monopoly pens, on monopoly writing paper; read (through monopoly spectacles, by the light of monopoly candles) monopoly printed books," (quoted in Acemoglu and Robinson 2011, pp.187-188).
+
+.source[Hill, Christoper, (1961), *The Century of Revolution*]
+
+---
+
+# Trading Monopolies IV
+
+.pull-left[
+
+.center[
+![:scale 40%](https://www.dropbox.com/s/eypljhxdx438aeq/navigationacts.jpg?raw=1)
+]
+]
+
+.pull-right[
+.smaller[
+- .green[**Example**:] British Navigation Acts
+
+> "[N]o goods of the growth, production, or manufacture of Asia, Africa, or America, shall be imported only by ships that belong to the people of the British Commonwealth."
+
+- All trade with Britainand her colonies must use British ships and British seamen
+
+- Intended to target rival European empires (esp. Dutch)
+
+- A major grievance for the American colonists
+]
+]
+
+---
+
+# Colonization and Imperialism I
+
+.center[
+European Empires at their (anachronistic) *maximal* historical extent
+![:scale 70%](https://www.dropbox.com/s/9g547tv4ge2y1vy/europeanempires.png?raw=1)
+]
+
+---
+
+# Colonization and Imperialism II
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/twqrfhcyhsal828/spanishempire.jpg?raw=1)
+]
+]
+
+.pull-right[
+- Portugal (c.1498+), Spain (c. 1492+), France (1530s+), Netherlands (1540s+), Britain (1600s+) establish colonies in Africa, Caribbean, Latin America, and Southern Asia
+
+- Between 15<sup>th</sup> and 20<sup>th</sup>, many wars and changes of hands and fortunes of different European colonial overlords
+
+- Several waves of colonialism - some are for conquest, some are for trade, some are for settlement
+
+- Recall the connection to mercantilist political and economic philosophy
+]
+
+---
+
+# Colonization and Imperialism II
+
+- Acemoglu, Johnson, and Robinson:
+  - Europeans chose one of two colonization strategies
+  - Strategy chosen in 16<sup>th</sup> century *strongly* affects whether those former-colony countries are wealthy & developed or not *today*
+
+.center[
+![](https://www.dropbox.com/s/opi7yoo7nfcu502/ajr3.png?raw=1)
+
+Acemoglu, Johnson, and Robinson, 2001: 1253
+]
+
+.source[Acemoglu, Daron, Simon Johnson, and James A Robinson, (2001), "The Colonial Origins of Comparative Development: An Empirical Investigation," *American Economic Review* 91(5): 1369-1401
+
+Acemoglu, Daron, Simon Johnson, and James A Robinson, (2002), "Reversal of Fortune: Geography and Institutions in the Making of the Modern World Income Distribution," *Quarterly Journal of Economics* 117(4): 1231-1294
+
+Acemoglu, Daron, Simon Johnson, and James A Robinson, (2005), "Institutions as a Fundamental Cause of Long-Run Growth," Chapter 6 in Phillippe Aghion and Steven N. Durlauf, eds, *Handbook of Economic Growth*
+
+Acemoglu, Daron and James A Robinson, (2012), *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*]
+
+---
+
+# The Mercantilist Writers
+
+.pull-left[
+.center[
+![](../images/seaport.png)
+]
+]
+
+.pull-right[
+
+- Mostly merchant pamphleteers writing about their own single-issue politics, focus on how government can fix problems in *their* industry
+
+- Few mercantlists had a rigorous *system* to analyze economics or an economy
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Thomas Mun
+
+---
+
+# Thomas Mun
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/pmumz9wb1p9fs9u/mun.png?raw=1)
+
+Thomas Mun
+
+1571-1641
+
+]
+]
+
+.right-column[
+- One of the most sophisticated, influential, intellectual mercantilists
+  - Adam Smith singled him & his book out as leading mercantilist thought
+
+- Director of the East India Company
+  - Had to defend British net exports of bullion to India
+  - Justified: EIC brings back goods from India so Britain can then manufacture for export!
+]
+
+---
+
+# Thomas Mun
+
+.left-column[
+.center[
+![:scale 80%](../images/mun.png)
+
+Thomas Mun
+
+1571-1641
+
+]
+]
+
+.right-column[
+
+> "The ordinary means therefore to encrease our wealth and treasure is by Forraign Trade, wherein wee must ever observe this rule; to sell more to strangers yearly than wee consume of theirs in value [sic]"
+
+]
+.source[Mun, Thomas, 1664, *England's Treasure by Forraign Trade or the Ballance of our Forraign Trade is the Rule of our Treasure*]
+
+---
+
+class: inverse, center, middle
+
+# Sir William Petty
+
+---
+
+# Sir William Petty
+
+.left-column[
+.center[
+![:scale 80%](../images/Sir_William_Petty.jpg)
+
+Sir William Petty
+
+1623-1687
+
+]
+]
+
+.right-column[
+
+- English physician and philosopher, lived a very interesting life
+  - Doctor to [Anne Greene](https://en.wikipedia.org/wiki/Anne_Greene), who lived twice
+  - Doctor to Cromwell's New Model Army in English Civil Wars
+
+- Served Cromwell in Ireland
+  - Managed redistribution of Irish land conquered by English
+  - Efficient surveyor, but endless disputes
+
+- Moved to Netherlands during English Civil War
+  - worked with Thomas Hobbes, doing the same
+
+]
+
+---
+
+# Sir William Petty
+
+.left-column[
+.center[
+![:scale 80%](../images/Sir_William_Petty.jpg)
+
+Sir William Petty
+
+1623-1687
+
+]
+]
+
+.right-column[
+
+- Baconian focus on empiricism and measurement
+  - Helped found the Royal Society (1662)
+
+- Famous in his day for *Political Arithmetic*
+
+- Focus on need for collecting *statistical data*
+
+- Laughably crude and unreliable to our modern eyes
+
+]
+
+---
+
+# Sir William Petty
+
+.left-column[
+.center[
+![:scale 80%](../images/Sir_William_Petty.jpg)
+
+Sir William Petty
+
+1623-1687
+
+]
+]
+
+.right-column[
+
+- Appears to have anticipated:
+  - (Ricardian) theory of rent
+    - interest rate approximates return on land over time
+  - (Smith-Ricardian-Marxian) labor theory of value
+  - (Georgist) land taxation
+  - public finance
+  - idea that rates of return equalize across sectors
+
+- Defense of usury!
+
+]
+
+---
+
+# Sir William Petty: on Rent
+
+.left-column[
+.center[
+![:scale 80%](../images/Sir_William_Petty.jpg)
+
+Sir William Petty
+
+1623-1687
+
+]
+]
+
+.right-column[
+.smallest[
+> "We should endeavor to explain the mysterious nature of [Rents], with reference as well to Money, the rent of which we call usury...
+
+> Suppose a man could with his own hands plant a certain scope of Land with Corn...I say, that when this man hath subducted his seed out of the proceed of his Harvest...that the remainder of Corn is the natural and true Rent of the Land for that year; and the *medium* of even years...doth give the ordinary Rent of the Land in *Corn*.
+
+> "How much English money this Corn or Rent is worth I answer, so much as the money, which another single man can save...if he imployed himself wholly to produce an make it..."
+]
+]
+
+---
+
+# Sir William Petty: on Land and Labor
+
+.left-column[
+.center[
+![:scale 80%](../images/Sir_William_Petty.jpg)
+
+Sir William Petty
+
+1623-1687
+
+]
+]
+
+.right-column[
+
+> "The world measures things by gold and silver...which I would say upon this matter is, that all things ought to be valued by two natural Denominations, which is Land and Labor...we should be glad to finde out a natural Par between Land and Labour."
+
+]
+
+---
+
+# Sir William Petty: on Usury
+
+.left-column[
+.center[
+![:scale 80%](../images/Sir_William_Petty.jpg)
+
+Sir William Petty
+
+1623-1687
+
+]
+]
+
+.right-column[
+
+> "As for Usury, the least that can be, is the Rent of so much Land as the money lent will buy...then a kinde of ensurance must be enterwoven with the simple natural Interest, which may advance the Usury very conscionably unto any height below the Principle it self."
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Bernard de Mandeville
+
+---
+
+# Bernard de Mandeville
+
+.left-column[
+.center[
+![:scale 80%](../images/mandeville1.jpg)
+
+Bernard de Mandeville
+
+1670-1733
+
+]
+]
+
+.right-column[
+
+- Dutch philospher who moved to England
+
+- Wrote a doggerel poem in 1705, *The Grumbling Hive, or Knaves Turn'd Honest*
+  - Influential, republished as larger book in 1715 *The Fable of the Bees: or, Private Vices, Public Benefits*
+
+- Polemical, controversial, but extraordinarily influential
+  - Like Machievalli in political science, all philosophers wrote reactions to (against) Mandeville's poem
+
+]
+
+---
+
+# Bernard de Mandeville
+
+.left-column[
+.center[
+![:scale 80%](../images/mandeville1.jpg)
+
+Bernard de Mandeville
+
+1670-1733
+
+]
+]
+
+.right-column[
+
+- *The Fable of the Bees* meant to troll moralists
+
+- Society kept in order, division of labor, via government channeling human *vices* not *virtues!* (as moralists supposed)
+  - "vices" to Mandeville $\approx$ not living the ascetic life
+
+- Mandeville allegory of society as beehive
+  - prospers only when it is full of vice
+  - when the hive tries to live virtuous, the system collapses
+]
+
+---
+
+# Bernard de Mandeville
+
+.left-column[
+.center[
+![:scale 80%](../images/mandeville1.jpg)
+
+Bernard de Mandeville
+
+1670-1733
+
+]
+]
+
+.right-column[
+
+- Adam Smith was tremendously influenced by Mandeville
+  - impressed with Mandeville's argument
+  - but would refute that it is *vice* that powers society
+]
