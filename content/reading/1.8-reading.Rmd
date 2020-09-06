@@ -1,5 +1,5 @@
 ---
-title: "1.8 — Humean & Smithean Moral Philosophy  — Readings"
+title: "2.1 — Humean & Smithean Moral Philosophy  — Readings"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
