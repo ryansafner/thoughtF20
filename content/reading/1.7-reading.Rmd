@@ -1,0 +1,40 @@
+---
+title: "1.7 — Cantillon, Physiocrats, & Turgot — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Monday, September 7, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Cantillon, Quesnay, and Turgot, and their writings in *Reader*
+
+## If You Hadn't Yet:
+- <i class="fas fas fa-book"></i> Finish Ch.3 Early Preclassical Economic Thought in Landreth & Colander
+- <i class="fas fas fa-book"></i> Finish Ch.1 Pre-Adamite Economics in Blaug
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background on these writers and their famous works:
+
+- [<i class="fab fa-wikipedia-w"></i> Richard Cantillon](https://en.wikipedia.org/wiki/Richard_Cantillon)
+- [<i class="fab fa-wikipedia-w"></i> François Quesnay](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Quesnay)
+- [<i class="fab fa-wikipedia-w"></i> Physiocracy](https://en.wikipedia.org/wiki/Physiocracy)
+- [<i class="fab fa-wikipedia-w"></i> Jean-Baptiste Colbert](ttps://en.wikipedia.org/wiki/Jean-Baptiste_Colbert)
+- [<i class="fab fa-wikipedia-w"></i> Anne Robert Jacques Turgot](https://en.wikipedia.org/wiki/Anne_Robert_Jacques_Turgot)
+
+# Questions to Help Your Reading
+
+- What does Cantillon have to say about ‘undertakers’ (*entrepreneurs*)?
+- What does Cantillon have to say about (Locke's) quantity theory of money, and whether an increase in the money supply truly leads to a proportionate increase in prices?
+- What do Quesnay & the physiocrats have to say about agriculture? Why is it so much more productive (increasing the “net product”) than manufacturing?
+  - What does the famous Tableau economique imply?
+  - How is this like the famous circular flow in macroeconomics? How is it different?
+- What does Turgot have to say about capital?
+  - How is it related to savings, and ‘advances’?
+  - How is capital related to land and labor?
+  - Who are capitalists? How do they relate to landowners or proprietors and undertakers?
+- What is the difference between a capitalist and an entrepreneur, in their economic functions? Are they often the same people, or different people?
+- Most of the writers like to classify different groups in society (e.g. productive and unproductive labor; workers, landowners, capitalists, proprietors, undertakers, etc), and this trend will continue for quite some time. How rigid should these classifications be? Is it anything other than an analytic tool (i.e. are there social, political, moral implications)? Is this useful?

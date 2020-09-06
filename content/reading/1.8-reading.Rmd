@@ -1,0 +1,30 @@
+---
+title: "1.8 — Humean & Smithean Moral Philosophy  — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, September 9, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> David Hume, *Political Discourses*, and Adam Smith (but not *WON* yet) in *Reader*
+
+## If You Hadn't Yet:
+- <i class="fas fas fa-book"></i> Start Ch.4 "Adam Smith" in Landreth & Colander
+- <i class="fas fas fa-book"></i> Start Ch.2 "Adam Smith" in Blaug
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background on these writers and their famous works:
+
+- [<i class="fas fa-podcast"></i> *Econtalk*: Dennis Rasmussen on Hume and Smith and The Infidel and the Professor](https://www.econtalk.org/dennis-rasmussen-on-hume-and-smith-and-the-infidel-and-the-professor/)
+- [<i class="fas fa-podcast"></i> *Econtalk*: Russ Roberts and Mike Munger on How Adam Smith Can Change Your Life](https://www.econtalk.org/dennis-rasmussen-on-hume-and-smith-and-the-infidel-and-the-professor/)
+- [<i class="fas fas fa-book"></i> Roberts, *How Adam Smith Can Change Your Life: An Unexpected Guide to Human Nature and Happiness*](https://www.amazon.com/gp/product/1591847958)
+- [<i class="fab fa-wikipedia-w"></i> David Hume](https://en.wikipedia.org/wiki/David_Hume)
+- [<i class="fab fa-wikipedia-w"></i> Adam Smith](https://en.wikipedia.org/wiki/Adam_Smith)
+- [<i class="fab fa-wikipedia-w"></i> Theory of Moral Sentiments](https://en.wikipedia.org/wiki/The_Theory_of_Moral_Sentiments)
+
+# Questions to Help Your Reading
+

@@ -33,13 +33,16 @@ lessons:
     slides: "1.6-slides"
     
   - title: "1.7 Cantillon, Physiocrats, & Turgot"
+    reading: "1.7-reading"
     slides: "1.7-slides"
     
   - title: '<span class="fake-header-table">II Classical Economics (c.1750-1870)</span>'
     header: True
 
   - title: "2.1 Pre-Smithian Political Economy"
-
+    reading: "1.7-reading"
+    slides: "1.7-slides"
+    
   - title: "2.2 Smith & the Invisible Hand"
 
   - title: "2.3 Hume, Locke & Money"
