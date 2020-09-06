@@ -32,8 +32,9 @@ lessons:
     class: "1.6-class"
     slides: "1.6-slides"
     
-  - title: "1.7 The Physiocrats"
-
+  - title: "1.7 Cantillon, Physiocrats, & Turgot"
+    slides: "1.7-slides"
+    
   - title: '<span class="fake-header-table">II Classical Economics (c.1750-1870)</span>'
     header: True
 
