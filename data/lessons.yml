@@ -39,8 +39,10 @@ lessons:
   - title: '<span class="fake-header-table">II Classical Economics (c.1750-1870)</span>'
     header: True
 
-  - title: "2.1 Pre-Smithian Political Economy"
+  - title: "2.1 David Hume & Adam Smith the Philosopher"
     reading: "2.1-reading"
+    class: "2.1-class"
+    slides: "2.1-slides"
 
   - title: "2.2 Smith & the Invisible Hand"
 
