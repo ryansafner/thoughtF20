@@ -35,6 +35,7 @@ lessons:
   - title: "1.7 Cantillon, Physiocrats, & Turgot"
     reading: "1.7-reading"
     slides: "1.7-slides"
+    class: "1.7-class"
     
   - title: '<span class="fake-header-table">II Classical Economics (c.1750-1870)</span>'
     header: True
