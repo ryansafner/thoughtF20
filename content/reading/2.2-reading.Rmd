@@ -1,0 +1,52 @@
+---
+title: "2.2 — Adam Smith & The Classical System  — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Monday, September 14, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Adam Smith's *Wealth of Nations*: Book IV excerpts in *Reader* (pp.165-179)
+
+## If You Hadn't Yet:
+- <i class="fas fas fa-book"></i> Ch.4 "Adam Smith" in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.2 "Adam Smith" in Blaug
+
+Though he is admittedly long-winded and lapses between theoretical statements, historical examples, and analogies or current events from the 18^th^ century, Adam Smith is quite easy and entertaining to read. Any educated person should read Smith, and, if you are interested in economics, **you should read as much Smith as you can get your hands on.** *Everything* is there (in some form).
+
+Today we will focus primarily on understanding the system of the Classical Economics (so a bit of foreshadowing), as well as Smith's refutation of mercantilism and physiocracy. As such, in addition to Smith, I will be quoting from Hume and Bastiat regarding their views on mercantilism (see recommended readings below). The quotes from Hume we have already seen. 
+
+The reading for Smith comes primarily from *Book IV: Of the Systems of Political Oeconomy.* These sections are in your *Reader* (p.165-179). I will also be quoting form *Book III* when describing the emergence of commercial society out of feudal society. You can find all of *The Wealth of Nations* online for free here: 
+
+- [<i class="fas fas fa-book"></i> Wealth of Nations (Online)](https://www.econlib.org/library/Smith/smWN.html)
+
+Next class we will dive into more of Smith's analytical insights and the analysis of markets, prices, and economic growth. See the associated readings from *WON* [for next class](/reading/2.3-reading).
+
+# Recommended Readings:
+
+- [<i class="fas fas fa-book"></i> Bastiat (1845) “The Candlemakers Petition”](http://bastiat.org/en/petition.html)
+- [<i class="fas fas fa-book"></i> Bastiat (1850) “The Balance of Trade”](https://www.econlib.org/library/Bastiat/basEss.html?chapter_num=16#book-reader)
+
+
+The following Wikipedia entries can also provide more background on these writers and their famous works:
+
+- [<i class="fab fa-wikipedia-w"></i> Adam Smith](https://en.wikipedia.org/wiki/Adam_Smith)
+- [<i class="fab fa-wikipedia-w"></i> The Wealth of Nations](https://en.wikipedia.org/wiki/The_Wealth_of_Nations)
+
+
+# Questions to Help Your Reading
+
+Book III
+
+- How did Europe escape feudalism and emerge a “commercial society”?
+
+Book IV
+
+- What does Smith say about the goal of mercantilism?
+- What does Smith say is the goal of all economic activity?
+- What does Smith say about the “balance of trade” doctrine?
+- What does Smith think of Quesnay and the physiocrats?
+- What is the “obvious and simple system of natural liberty?” What duties does Smith believe the government has?

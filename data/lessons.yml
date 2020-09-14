@@ -45,10 +45,12 @@ lessons:
     class: "2.1-class"
     slides: "2.1-slides"
 
-  - title: "2.2 Smith & the Invisible Hand"
-
-  - title: "2.3 Hume, Locke & Money"
-
+  - title: "2.2 Adam Smith & the Classical System"
+    reading: "2.2-reading"
+    
+  - title: "2.3 Adam Smith: Division of Labor & the Invisible Hand"
+    reading: "2.3-reading"
+    
   - title: "2.4 Malthus & Population"
 
   - title: "2.5 The Ricardian System"

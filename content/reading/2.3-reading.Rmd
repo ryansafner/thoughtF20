@@ -1,0 +1,53 @@
+---
+title: "2.3 — Adam Smith: The Division of Labor & The Invisible Hand  — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, September 16, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Adam Smith's *Wealth of Nations*: Books I-II excerpts in *Reader* (pp.156-165)
+
+## If You Hadn't Yet:
+- <i class="fas fas fa-book"></i> Ch.4 "Adam Smith" in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.2 "Adam Smith" in Blaug
+
+Today we dive into Smith's analytical system, and some may say, the first organized discussion of economic analysis. The reading for Smith comes primarily from Book I: *Of the Causes of Improvement in the productive Powers of Labour* and Book II *Of the Nature, Accumulation, and Employment of Stock* and a little bit from Book V: *Of the Revenue of the Sovereign or Commonwealth*. Your reader focuses primarily on Book I and the division of labor (pp.156-165), which is great, but sadly lacks selections on capital from Book II or public finance from Book V. 
+
+It is a good idea whenever you can, to read as much of Books I^[You can skip Smith's difficult digression on silver in Chapter 11.] and II as you can. You can find all of *The Wealth of Nations* online for free here:
+
+- [<i class="fas fas fa-book"></i> Wealth of Nations (Online)](https://www.econlib.org/library/Smith/smWN.html)
+
+Lastly, note the following useful tidbit, although he does use both words occasionally, “stock” is Adam Smith's word for “capital.”
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> Adam Smith](https://en.wikipedia.org/wiki/Adam_Smith)
+- [<i class="fab fa-wikipedia-w"></i> The Wealth of Nations](https://en.wikipedia.org/wiki/The_Wealth_of_Nations)
+
+# Questions to Help Your Reading
+
+Book I
+
+- What is/are the “wealth of nations”?
+- What is the division of labor? What limits or augments it?
+- Explain Adam Smith's famous pin factory example, and his woolen coat example.
+- What three reasons does Smith give for why dividing our labor makes us more productive?
+- Are our differences in talents a *cause* or a *consequence* of the division of labor? (Smith's philosopher and the porter example.)
+- Why and how did we discover the division of labor? Was it a conscious choice?
+- What is the difference between “real” and “nominal” price?
+- What are the “component parts” of the price of commodities?
+  - What differs between “rude” vs. “civilized” societies, and how does value & prices differ?
+- What is the “natural price” vs. the “market price”?
+- How are wages, profits, and rent determined?
+
+Book II
+
+- How does the division of labor depend on capital accumulation?
+- What does Adam Smith view as “productive” vs. “unproductive” labor? Why? How does this differ from the physiocrats?
+- What is capital and where does it come from? What is its purpose?
