@@ -27,9 +27,23 @@ Next class we will dive into more of Smith's analytical insights and the analysi
 
 # Recommended Readings:
 
-- [<i class="fas fas fa-book"></i> Bastiat (1845) “The Candlemakers Petition”](http://bastiat.org/en/petition.html)
-- [<i class="fas fas fa-book"></i> Bastiat (1850) “The Balance of Trade”](https://www.econlib.org/library/Bastiat/basEss.html?chapter_num=16#book-reader)
+Weingast discusses Adam Smith's Book III on the economic history of Europe in the context of his views on economic development. Those of you in my [Economic Development course](https://devf19.classes.ryansafner.com) should remember this quite extensively:
 
+- [<i class="fas fas file-pdf"></i> Weingast (2016) - “Adam Smith's Theory of Violence and the Political-Economics of Development”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2881042)
+
+Below are the readings from Bastiat that I quote. I also make everyone in ECON 306 read (or at least I discuss) Bastiat's broken window parable in “What is Seen and Not Seen”
+
+- [<i class="fa-external-link-square-alt"></i> Bastiat (1845) “The Candlemakers Petition”](http://bastiat.org/en/petition.html)
+- [<i class="fa-external-link-square-alt"></i> Bastiat (1850) “The Balance of Trade”](https://www.econlib.org/library/Bastiat/basEss.html?chapter_num=16#book-reader)
+- <i class="fas fa-external-link-square-alt"></i> Bastiat, 1848 [“What is Seen and Not Seen”](https://www.econlib.org/library/Bastiat/basEss.html?chapter_num=4#book-reader), (Section 1)
+
+As I mentioned in class, you might find [How the Dismal Science Got its Name](https://www.econlib.org/library/Columns/LevyPeartdismal.html) insightful and surprising. It is a 6 part series of blog posts based on research by David Levy & Sandra Peart.
+- [Part I](https://www.econlib.org/library/Columns/LevyPeartdismal.html)
+- [Part II](https://www.econlib.org/library/Columns/LevyPeartdismal2.html)
+- [Part III](https://www.econlib.org/library/Columns/LevyPeartdismal3.html)
+- [Part IV](https://www.econlib.org/library/Columns/LevyPeartdismal4.html)
+- [Part V](https://www.econlib.org/library/Columns/LevyPeartdismal5.html)
+- [Part VI](https://www.econlib.org/library/Columns/LevyPeartdismal6.html)
 
 The following Wikipedia entries can also provide more background on these writers and their famous works:
 
