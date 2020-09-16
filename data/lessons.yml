@@ -50,8 +50,10 @@ lessons:
     class: "2.2-class"
     slides: "2.2-slides"
     
-  - title: "2.3 Adam Smith: Division of Labor & the Invisible Hand"
+  - title: "2.3 Adam Smith: Economic Growth & Price Theory"
     reading: "2.3-reading"
+    class: "2.3-class"
+    slides: "2.3-slides"
     
   - title: "2.4 Malthus & Population"
 
