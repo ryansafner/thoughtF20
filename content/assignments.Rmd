@@ -7,61 +7,31 @@ slug: assignments
 
 Use this tool to calculate your final course grade and predict what grades you would need on remaining assignments to obtain a desired course grade.
 
-### Homeworks
+## Short Papers {-}
 
-There will only be a handful of homework assignments this semester, mostly in the first third of the course (where we are reviewing and practicing models). These questions will help check your understanding and mastery of the material, and will be a combination of quantitative, graph, and short answer questions of examples. These will also be good indicators of what to expect on the exams. You may collaborate with other students to work on homeworks, but *each person must turn in an individual assignment*. Homeworks are due *one week* from the class period where we finish a lesson, and must be turned in at the beginning of class. I will grade homeworks as follows: **70%** of the grade for **completion**, and **30%** for **one randomly selected question**. This is to reward students for putting in a full faith effort to try to reach an answer for each question, but not worry that every answer has to be fully correct.
+There will be two short papers on assigned topics. The first will be early in the semester, covering topics from the first several weeks. The second will cover topics from the remaining weeks. I am looking for 3-5 page papers that explore subjects prompted by questions that I will provide to you in advance. However, I also encourage you to take the less-trodden path and explore something unique and interesting to you.
 
-### Tournament Votes
+## Term Paper {-}
 
-This semester, we will hold a tournament to determine "the most interesting economist in history." There will be a single-elimination NCAA-basketball-style tournament bracket, with each "region" being an era or theme in the history of economic thought. I will determine "seeds" and match-ups between two economists, and each of you will vote on which economist in each matchup is more "interesting." For each head-to-head vote, you must explain your vote in 2-3 sentences.
+Each of you will write a term paper tracing and critically discussing the intellectual history of an economic topic of your choice. This assignment will be scaffolded so that certain sections of the paper are due partway through the semester so that I can provide feedback for you to incorporate into the final draft. More information will be provided in class.
 
-You can vote for whomever you want in each matchup, but your explanations should be derived from some combination of the key concepts the economist contributed, their influence on their contemporaries or modern economics, and anything else you find relevant.
+## Participation and Discussion {-}
 
-We will only consider economists that we have discussed and read in this course. By necessity, we must leave out a lot of interesting, influential, and worthy economists from consideration.
+Every week, we will have a discussion board thread on Blackboard. You will be expected to contribute to the discussion board at least twice in the week. Your weekly contribution will be graded out of 5 points. At the end of the semester, I will apply the *average* of your weekly participation grades to apply (40%) towards your final course grade. 
 
-# Participation and Discussion {-}
+I am interested in your thoughts, reactions, comments, and questions about any of the material (lectures and/or readings). You do not need to write more than a paragraph. Anything more than that, including continuing to reply to each others’ thoughts, questions, or comments, (which I strongly hope you do!) is solely based on your own interest and curiosity. I will jump in to answer questions the group is stuck on, give my two cents, and stir the pot as needed. I strontly hope we still keep a conversation going and can learn from each other, that was always my goal, not to lecture at you! If you crave visual human contact, you can submit your comments/reactions in the form of a short video, and we can try that out! Though we might eventually need to move beyond Blackboard in that case. We’ll see how things go.
 
-At the end of most lessons, we will hold a discussion. During our discussions, we will follow the rules pioneered and perfected by the Liberty Fund seminars.^[These rules are shamelessly adapted and modified from the highly-successful *Liberty Fund* seminars and from my colleagues Emily Chamlee-Wright, Joshua Hall, and Steve Horwitz.] I will provide you with a handout detailing the rules on the first discussion day. These discussions help shift the focus of the course away from me lecturing material at you more towards your learning and building upon material. This requires you to take ownership of your own learning. It is critical that you come to class having done the readings and are prepared for discussion. **You are required to email to me a list of 2-3 questions or points you want to discuss before class begins on each discussion day.** Everyone will receive a grade from 0-5 on each discussion day based on their participation. If I feel that students are not diligently doing the readings, *I reserve the right to implement readings-based quizzes and allocate some of the participation grade towards them.*
+Rubric:
 
-## General Information
- 
-At the beginning of each class, I may give a brief overview and background of the reading or the underlying topic. Then we will have a discussion for the remainder of class, unless otherwise specified. Please come on time and prepared to sit for that length of time. If you do need to step out, try to do so quietly. To the extent possible, we will have the desks arranged in a circle, so please help arrange them when directed. For the first few sessions, we may use nametags to to encourage mutual reference between discussion participants, e.g., "I want to respond to something John said earlier..."
- 
-## Discussion Rules
- 
-I as the instructor will begin by highlighting some points within the readings and posing questions to which discussion participants might wish to respond. Those introductory remarks should take no more than 5 minutes, leaving the balance of the discussion time for participants to respond to those queries, present your own questions, and respond to other discussion participants. This means that you are duty-bound to come prepared, with the text read carefully, with notes and/or questions written down so that you can contribute to a lively and engaged discussion.
- 
-After I finish my introductory remarks, the "queue" is then opened for participants to respond and/or pose their own questions. I will keep the queue and acknowledge whose turn it is to speak. You may indicate your interest in making a comment by raising your hand upward. If, while another discussion participant is speaking you decide that you would like to make your own points, you should ``catch my eye'' by raising your hand quietly, and wait for a silent nod indicating that you have been placed on the queue. I will periodically remind everyone who is in line to speak.
- 
-If discussion participants wish to make a very brief comment that pertains to something that was just said, you can be put on the "brief comment queue which allows you to get your short point in right away before the conversation moves too far beyond the specific issue being raised. Participants wishing to be put on the short comment queue indicate this by putting their finger and thumb together (as if to say, "this will be short, I promise.") A position within the brief comment queue does not eliminate a position in the main queue. This helps to assure that brief comments remain brief and that participants will have time to articulate their longer points when their turn in the long comment queue comes around.
- 
-I may participate in both queues, but I will have to abide by the same rules as everyone else (i.e., I have to wait my turn just like everyone else). I also reserve the right to change the order of the queue to make sure that everyone who wants to speak gets the chance. This may include moving people up the queue who have not spoken yet before someone else speaks for a second or third time. I also reserve the right to cut short comments that go on too long and to take other appropriate measures necessary to maintaining order and decorum.
- 
-Mutual respect is an absolute in these discussions. That said, one can be respectful while still engaging in lively argument. Striking this balance is the key to a successful discussion and is the responsibility of everyone at the table.
- 
-## Grading Policy
- 
-Each discussion day, students will earn 0 to 5 points. While it is perfectly acceptable to not speak on any given discussion day, consecutive discussion days with no active participation will earn successively lower scores.
+| Category | 3 Points | 2 Points | 1 Point | 0 points |
+|----------|----------|----------|---------|----------|
+| Quantity | More than 2 replies/started threads | 2 replies/started threads | 1 reply | 0 posts |
+| Quality | Extremely thought provoking, demonstrates clear grappling with readings, adds to conversation | Provides a well-reasoned reply, suggests familiarity with readings, keeps conversation going | A simple reply, may make no reference to readings or ideas, makes further conversation difficult | No effort |
 
-- **0**: For students who are not present (without a legitimate excuse) on a discussion day.
-- **1**: For students who do attend but appear inattentive or disengaged from the discussion.
-- **2**: For students who attend and do not say anything, but who appear to be engaged and are focused on the conversation. (Now, I know what you are thinking. ``How does he know whether I am engaged or disengaged? He cannot read my thoughts!'' True enough. But I can tell whether or not you appear to be engaged and this makes a difference. A student who appears to be disengaged creates a negative externality that causes the slow death of what might otherwise have been a lively discussion. Students who appear to be engaged, even if they are silent, encourage others to continue their active participation, hence the 3 points.)
-- **4**: For students who speak up a few times during the course of the discussion.
-- **5**: For students who offer frequent thoughtful commentary, connects their comments to the comments of others, sparks debate, etc.
+## Tournament Votes
 
-## Questions and Grading
+Since we all missed out on the NCAA Basketball Tournament last spring, I have set up a tournament for "the most interesting person in the history of economics." Each era of economic thought (Classical, Neoclassical, Heterodox, Modern) will have its own "division", in which we will vote for the champion of each era (out of up to 8 thinkers), who will then go head to head against the champions of other divisions for the title. 
 
-You are required to come up with 2-3 questions or topics prior to the discussion that they wish to discuss. These must be **emailed to me before** a discussion. These questions are to be substantive, and meant to provoke discussion. No questions that either evidence that students' have not done the reading, or simple definitional questions that can be answered in a sentence (e.g. "what does Adam Smith say the division of labor is?"). 
+Once we complete an era, we will hold the votes in head-to-head matchups between economists. Your assignment is to write up a short explanation behind your vote (1-3 sentences) between each pair. This will allow you to remember and place each thinker in the context of the history of economic thought.
 
-Your "questions" need not be in the form of a question -- some suggestions are putting provocative claims or an argument out there and seeing what others think, bringing in a topic from current events or your daily life that is relevant to the topic, or connecting the topic or readings to other courses you have taken. Ideally, your questions will be directed towards the readings, but they may cover anything broadly connected to the week's topic.
-
-- Good questions that are provocative and/or demonstrate careful reading can **add +1 point** to a discussion grade. This encourages students who might be a bit shy to talk during discussion to get something better than a 3 for a day.^[You can earn a 6 out of 5 points for days where you have very good questions and participate very well. I try to give these out sparingly.]
-- Not turning in questions, turning in questions *after class begins*, or having questions that are too simplistic or demonstrate a lack of reading can **subtract -1 point** to a discussion grade. This is to penalize those of you who may be able to get by with talking a lot (earning a 5) but clearly have not done the readings.
-
-The main purpose of the questions is to provide evidence that students are doing the readings and are prepared to talk about them, so bear this in mind. 
-
-At the end of the semester, I will take an average by adding up your total accumulated score and divide it by the number of discussion days we had. This average score will constitute your participation grade for the course. 
-
-# Final exam {-}
-
-The take-home final exam will be a series of essay questions.
+Whomever is able to most closely predict the outcome of the tournament in advance will earn 20 bonus points.
