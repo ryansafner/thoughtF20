@@ -26,7 +26,7 @@ Rubric:
 | Category | 3 Points | 2 Points | 1 Point | 0 points |
 |----------|----------|----------|---------|----------|
 | Quantity | More than 2 replies/started threads | 2 replies/started threads | 1 reply | 0 posts |
-| Quality | Extremely thought provoking, demonstrates clear grappling with readings, adds to conversation | Provides a well-reasoned reply, suggests familiarity with readings, keeps conversation going | A simple reply, may make no reference to readings or ideas, makes further conversation difficult | No effort |
+| Quality | Extremely thought provoking, demonstrates clear grappling with readings, adds to conversation | Provides a well-reasoned reply, suggests familiarity with readings, keeps conversation going | A simple reply, may make no reference to readings or ideas, makes further conversation difficult | Minimal effort |
 
 Recall, these are out of 5 points. Notice it is possible to get above 5 points for a truly remarkable week of contributions, but I give these sparingly.
 
