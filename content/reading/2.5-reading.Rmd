@@ -1,0 +1,38 @@
+---
+title: "2.5 — The Ricardian System — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, September 23, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> David Ricardo & *The High Price of Bullion*, *On the Principles of Political Economy and Taxation* in *Reader*
+- <i class="fas fas fa-book"></i> start Ch.5 "Ricardo and Malthus" in Landreth & Colander
+- <i class="fas fas fa-book"></i> start Ch.4 "Ricardo's System" in Blaug
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> David Ricardo](https://en.wikipedia.org/wiki/David_Ricardo)
+- [<i class="fab fa-wikipedia-w"></i> Corn Laws](https://en.wikipedia.org/wiki/Corn_Laws)
+
+# Questions to Help Your Reading
+
+- How were the theories and policy recommendations affected by the events of the era?
+  - What were the Corn Laws?
+  - What is the principle of comparative costs (or comparative advantage)?
+- What did Ricardo view was the purpose, scope, and proper method of economics?
+  - How was Ricardo’s focus different than Smith’s?
+- What was Ricardo’s view on the labor theory of value?
+- What is the role of capital (and capitalists), and of land (and landlords), in Ricardo’s model?
+- What is rent? Where does it come from? Is it “price-determined” or “price-determining?”
+  - How is the rate of rent determined?
+  - What is the difference between the “intensive margin” and the “extensive margin”?
+- What is profit? Where does it come from? Is it “price-determined” or “price-determining?”
+- How might we describe Ricardo’s production theory with modern production functions?
+- How did Ricardo integrate Malthusian population dynamics into his model?
+- How does diminishing returns figure into Ricardo’s model?

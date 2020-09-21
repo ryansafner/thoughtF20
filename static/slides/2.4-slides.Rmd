@@ -1,0 +1,1046 @@
+---
+title: "2.4 — Malthus & Population"
+subtitle: "ECON 452 • History of Economic Thought • Fall 2020"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/thoughtF20"><i class="fa fa-github fa-fw"></i>ryansafner/thoughtF20</a><br> <a href="https://thoughtF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>thoughtF20.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    df_print: paged
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F)
+library(tidyverse)
+set.seed(256)
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+```
+
+class: inverse
+
+# Outline
+
+## [A Detour: Utilitarianism, Utopianism, and the French Revolution](#5)
+
+## [Thomas Malthus](#18)
+
+## [Classical Economics and Population](#31)
+
+## [Interpreting Malthus](#37)
+
+---
+
+# After Adam Smith
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+.smallest[
+- Smith dies in 1790, two generations of English classical economists in 19<sup>th</sup> century:
+
+- First generation:
+  - David Ricardo, Thomas Malthus, James Mill, Jeremy Bentham, Robert Torrens, J.B. Say (France)
+  - Founded the London Political Economy Club
+  - Pamphlets about debates in Britain: tariffs & corn laws, bullion & paper currency
+  - Ricardo’s *Principles* (1817) dominated
+  
+- Second generation
+  - John Stuart Mill, Nassau Senior, J.E. Cairnes, Frederic Bastiat (France)
+  - Mill’s *Principles* became the final classical authority
+
+]
+]
+
+---
+
+# After Adam Smith
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+
+- Classicals all largely agree with Smith, extend, refine, and correct Smith’s insights
+
+- Forced by current political controversies in 19<sup>th</sup> Britain to write about public policy in pamphlets
+
+- Later, each major leader writes their own treatise on economic theory
+  - Starting with Ricardo, we’re about to see a lot of *Principles of Political Economy* books over the next 2 centuries!
+]
+
+---
+
+class: inverse, center, middle
+
+# A Detour: Utilitarianism, Utopianism, and the French Revolution
+
+---
+
+# Utilitarianism
+
+.pull-left[
+
+- .hi-purple[Utilitarianism] is a philosophy spanning ethics and political philosophy that prescribes actions that maximize happiness 
+
+- Possible precursors (Aristotle, Hutcheson, Hume)
+
+- Modern utilitarianism starts with Jeremy Bentham & his followers
+  - James Mill & John Stuart Mill
+  - Today: Peter Singer
+]
+
+.pull-right[
+.center[
+![](../images/justiceblind.jpg)
+]
+]
+
+
+---
+
+# Utilitarianism
+
+.pull-left[
+.smallest[
+- Put simply: “the greatest happiness for the greatest number”
+  - maximize happiness and minimize pain
+
+- Clear .hi-purple[consequentialism] vs. deontological ethics
+  - but considers interests of all humans equally
+
+- Disagreements over definitions of “utility”, different levels, and different maxims:
+  - maximize total utility? average utility? minimum utility?
+  - act utilitarianism
+  - rule utilitarianism
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/justiceblind.jpg)
+]
+]
+
+---
+
+# Jeremy Bentham
+
+.left-column[
+.center[
+![:scale 80%](../images/bentham.jpg)
+
+Jeremy Bentham
+
+1747-1832
+]
+]
+.right-column[
+.smallest[
+- Philosopher, jurist, and reformer
+
+- Founder of utilitarianism, the “fundamental axiom” that “it is the greatest happiness of the greatest number that is the measure of right and wrong”
+  - felicific calculus: calculate net of pleasure and pain
+
+- Against natural rights or natural law: “nonsense on stilts”
+
+- (Classical) liberal politics & reform
+  - individual freedom, separation of church and state, freedom of expression, equal rights to women, abolition of slavery, animal rights
+  - panopticon prison design
+]
+]
+
+---
+
+# Jeremy Bentham
+
+.left-column[
+.center[
+![:scale 80%](../images/benthamusury.jpg)
+]
+]
+.right-column[
+
+- Wrote on economics
+
+- Notably, wrote a defense of usury ridiculing Adam Smith’s opposition to usury using Smith’s own logic against him
+
+]
+
+---
+
+# James Mill
+
+.left-column[
+.center[
+![:scale 80%](../images/jamesmill.jpg)
+
+James Mill
+
+1773-1836
+]
+]
+.right-column[
+.smallest[
+- Bentham’s student and secretary, great proponent of utilitarianism
+
+- Historical work: *The History of British India*, a colonial administrator of the East India Company
+
+- (In)famously raised his son John Stuart Mill to be the future genius of utilitarianism
+
+- *Commerce Defended* (1808) defense of free trade & markets
+
+- *Elements of Political Economy* (1821) following Ricardo
+
+- (Classical) liberal politics, key figure in the .hi-purple[“radicals”] movement in British politics
+  - pro-democracy reforms, abolition of slavery, equal rights for women
+]
+]
+
+---
+
+# William Godwin
+
+.left-column[
+.center[
+![:scale 80%](../images/williamgodwin.jpg)
+
+William Godwin
+
+1756-1836
+]
+]
+.right-column[
+- English writer: novels & political philosophy
+
+- Early Romantic period of English literature
+
+- Married to feminist Mary Wollstonecraft (who wrote *Vindication of the Rights of Woman*)
+  - daughter: Mary Wollstonecraft Shelley (*Frankenstein*) who would marry Percy Bysshe Shelley
+]
+
+---
+
+# “Those Dark Satanic Mills”
+
+.center[
+![:scale 90%](../images/darksatanicmills.jpg)
+
+.source[Credit: [PeteAmachree](https://www.deviantart.com/peteamachree/art/Dark-Satanic-Mills-189832868)]
+]
+
+---
+
+# William Godwin
+
+.left-column[
+.center[
+![:scale 80%](../images/williamgodwin.jpg)
+
+William Godwin
+
+1756-1836
+]
+]
+.right-column[
+- As a political philosopher, one of the first .hi-purple[utopian anarchists]
+
+- All of our vices & problems are not inherited, but shaped by environment, primarily government 
+
+- *Enquiry Concerning Political Justice* (1793)
+  - anarchist critique of the State
+  - positive vision of how an anarchist society would work
+  - extremely popular (especially after French Revolution)
+
+- Not advocating violent revolution or class conflict, but peaceful moral persuasion
+]
+
+---
+
+# William Godwin
+
+.left-column[
+.center[
+![:scale 80%](../images/williamgodwin.jpg)
+
+William Godwin
+
+1756-1836
+]
+]
+.right-column[
+- If institutions like the State, law, and property are abolished, human beings will live in harmony
+
+- No crime, no conflict, perfect human health, human beings lose their passions and sexual desires
+
+- We might even achieve immortality!
+
+- Utopia in the tradition of Thomas More, etc.
+]
+
+---
+
+# The French Revolution (1789-1799)
+
+.pull-left[
+
+- French Revolution (1789-1799), revolutionaries overthrow the Ancien regime of Louis XVI
+  - initially an abolition of all forms of feudalism; pro-democracy, equal rights for all, liberalism
+
+- New republican government aims to .hi-turquoise[rebuild all social institutions from scratch via positivist science]
+  - rational foundation of society on Enlightenment principles
+  - “Scientism” ?
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/stormingbastille.jpg)
+
+]
+]
+
+---
+
+# The French Revolution (1789-1799)
+
+.pull-left[
+
+.smaller[
+- Devolved into totalitarian Reign of Terror
+  - revolutionary government turns on even its original defenders & philosophers, Voltaire, Rousseau, Condorcet, etc.
+  - becomes profoundly illiberal
+
+- Devolves into chaos until Napoleon stages a coup and crowns himself Emperor
+
+- Lots of writers writing in reaction to the absolutely crazy events unfolding
+
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/frenchrevolutionguilotine.jpg)
+
+]
+]
+
+
+---
+
+# The Napoleonic Wars (1803-1815)
+
+.left-column[
+.center[
+![:scale 100%](../images/napoleoncoronation.jpg)
+
+]
+]
+
+.right-column[
+.center[
+![:scale 100%](../images/Europe_1812_map_en.png)
+
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Thomas Malthus
+
+---
+
+# Thomas Malthus
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Second son of a wealthy landowner, Daniel Malthus
+  - Under primogeniture, first son inherited family’s property
+  - Thomas joined the clergy; trained in mathematics
+
+- Daniel (father) was friends with Hume, Rousseau, Godwin, Condorcet
+  - Dabbled in utopian anarchism, tried to instill it in Thomas
+]
+
+---
+
+# Thomas Malthus
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Thomas strongly disagreed with his father and his father’s friends (Godwin, etc.)
+
+- Sits down to write (1798) *An Essay on the Principle of Population as It Affects the Future Improvements of Society with Remarks on the Speculations of Mr Godwin, Mr Condorcet and Other Writers.*
+
+- This becomes the *first edition* of Malthus’ famous *Essay on the Principle of Population*
+  - goes through several editions, first and second are most important (big changes)
+]
+
+---
+
+# Thomas Malthus: On the Principle of Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+> “[T]he great question is now at issue, whether man shall henceforth start forwards with accelerated velocity towards illimitable, and hitherto unconceived improvement; or be condemned to a perpetual oscillation between happiness and misery, and after every effort remain still at an immeasurable distance from the wished-for goal...I see great, and, to my understanding, unconquerable difficulties in the way,”
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Thomas Malthus: On the Principle of Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Malthus makes two assumptions:
+
+> “That food is necessary to the existence of man...[and t]hat the passion between the sexes is necessary, and will remain nearly in its present state”
+
+- Recall Godwin argued that sexual passion will decay
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Thomas Malthus: On the Principle of Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+> "Population, when unchecked, increases in a geometrical ratio. Subsistence increases only in an arithmetical ratio. A slight acquaintance with numbers will shew the immensity of the first power in comparison of the second."
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Thomas Malthus: On the Principle of Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+.smallest[
+> “The power of population is so superior to the power of the earth to produce subsistence for man, that premature death must in some shape or other visit the human race. The vices of mankind are active and able ministers of depopulation. They are the precursors in the great army of destruction, and often finish the dreadful work themselves. But should they fail in this war of extermination, sickly seasons, epidemics, pestilence, and plague advance in terrific array, and sweep off their thousands and tens of thousands. Should success be still incomplete, gigantic inevitable famine stalks in the rear, and with one mighty blow levels the population with the food of the world.”
+
+]
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+
+---
+
+# Thomas Malthus: On the Principle of Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+> “Necessity, that imperious all-pervading law of nature, restrains [all plants and animals] within the prescribed bounds. The race of plants, and the race of animals shrink under this great restrictive law. And the race of man cannot, by any efforts of reason, escape from it. Among plants and animals its effects are waste of seed, sickness, and pre- mature death. Among mankind, misery and vice.”
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Thomas Malthus: On the Principle of Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Malthus describes two types of .hi-purple[“checks”] on human fertility & population
+
+1. .hi-purple[“Preventative check”]: anything that limits people from having children
+
+2. .hi-purple[“Positive check”]: anything that reduces existing population
+  - famine, disease, war
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Thomas Malthus: On the Principle of Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Refutes Godwin’s “beautiful system”: once governments are removed, population will still increase & outstrip food!
+
+> *Quoting Godwin*: “There is a principle in human society, by which population is perpetually kept down to the level of the means of subsistence.”
+
+> *Malthus*: “This principle, which Mr. Godwin thus mentions as some mysterious and occult cause, and which he does not attempt to investigate, will be found to be the grinding law of necessity; misery, and the fear of misery.”
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Thomas Malthus: On the Principle of Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Most of human race doomed to live on margin of subsistence
+
+- Privileged property (land) owners were above the margin in the long run
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Thomas Malthus: Influence & Revision
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- This was all in Malthus’ *first* (1798) edition of the *Essay* (published anonymously)
+
+- His *Essay* very widely read, quickly attributed to him
+
+- He then travels Europe, collects lots of data, and then republishes a *second* (1803) edition of the *Essay*, a whole different book
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Thomas Malthus: Second Version
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+.smaller[
+- Second book is longer, duller, full of statistics and facts
+
+- Adds existence of a *third* check: .hi-purple[“moral restraint”] or the .hi-purple[“prudential check”]:
+
+> “Throughout the whole of the present work, I have so far differed in principle from the former, as to suppose another check to population possible, which does not strictly come under the head either of vice or misery; and, in the latter part, I have endeavoured to soften some of the harshest conclusions of the first essay.”
+
+- Contraception? No, he primarily meant delaying marriage (and thus sex)
+]
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Classical Economics and Population
+
+---
+
+# Classical Economics and Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- The population thesis was .hi-purple[central] to Classical Economics
+  - overpopulation a constant threat
+  - key part of their attitudes towards social reforms
+
+- Bentham had already suggested deliberate family planning contraception
+
+- John Stuart Mill interpretted Malthus not as pessimistic, but a “banner of hope”
+
+- Further influence on Charles Darwin (reading Malthus convinced him of his theory of evolution)
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Classical Economics and Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Between Smith’s .hi-purple[wages fund theory] and Malthus’s population principle, the .hi[“iron law of wages”]: wages will always tend towards subsistence level
+
+- But Smith: with continual capital accumulation, wages *can* rise! Requires continual economic growth to avoid the stagnant steady state with subsistence wages
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# The Poor Laws
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Major political controversy .hi-purple[the poor laws] to relieve poverty in Britain starting in 16<sup>th</sup> century
+
+- Long distinction between the “deserving’ (disabled) vs. “undeserving” (“lazy” vagabonds) poor
+
+- Partially caused by social upheavals of the end of feudalism, enclosure movement
+
+- Used to be church’s function, but English State began managing workhouses, etc.
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Classical Economics and Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Birth of the factory system & early days of industrial revolution
+  - Massive movements from countryside to cities
+  - Massive increase in urban poverty; no real wage increases for decades
+  - Working poor in “dark satanic mills”
+  - Poor had very high fertility rate
+
+- Poor Laws passed to keep able-bodied poor working in factories or the military
+  - at one point, a subsidy paid for each child had
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+# Classical Economics and Population
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+.right-column[
+
+- Malthus *opposed* the Poor Laws
+
+- Improving the least-well off $\implies$ increasing fertility $\implies$ further misery of checks
+
+- Belief that the poor will not restrain their own fertility
+
+- Tread carefully: an easy path to Social Darwinism & eugenics!
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Interpretting Malthus
+
+---
+
+# 3,000 Years of Economic History in One Graph
+
+.center[
+![:scale 60%](https://www.dropbox.com/s/7apspai7gsecf1p/malthusiantrap.png?raw=1)
+]
+
+.source[Clark, Gregory, (2007), *A Farewell to Alms: A Brief Economic History of the World*, p.2]
+
+---
+
+# Diminishing Returns to Agriculture
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+
+.right-column[
+
+- Key to his principle, which Malthus *almost* describes, is  .hi-purple[diminishing returns] (in agriculture)
+
+- Arguably descovered by Turgot, others
+
+- Malthus & Ricardo would both later *explicitly* describe diminishing returns as key to their systems
+]
+
+---
+
+# Malthusian Economies
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+
+.right-column[
+- Two Malthusian implications
+
+1. Population increases with living standards
+  - suppose technology improves agricultural productivity
+  - higher wages and incomes, people are wealthier and can support more children
+  - hence, population grows
+
+2. Living standards decline with population
+  - A growing population with a fixed supply of land with diminishing returns implies living standards eventually decrease
+  - population will die off and return to subsistence equilibrium
+
+]
+
+---
+
+# Malthusian Economies I
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+
+.right-column[
+
+- In sum: .hi-purple[living standards and population are inversely proportional!]
+
+- Think GDP per capita $=\frac{GDP}{population}$ where $population$ is increasing!
+
+]
+
+---
+
+# Malthusian Economies III
+
+.center[
+![:scale 65%](https://www.dropbox.com/s/6ybs9twiahuv2ul/malthusianwages.png?raw=1)
+]
+
+.source[Galor, Oded, 2012, *Unified Growth Theory*]
+
+---
+
+# Malthusian Economies IV
+
+.center[
+![:scale 60%](https://www.dropbox.com/s/zfzps5qtq70kydy/malthusianpopandproductivity.png?raw=1)
+]
+
+.source[Ashraf, Quamrul and Oded Galor, 2011, "Dynamics and Stagnation in the Malthusian Epoch," *American Economic Review* 101: 2003-2048]
+
+---
+
+# Malthusian Economies V
+
+.center[
+![](https://www.dropbox.com/s/26bxjpqgbngkopi/ashrafgalor2011b.png?raw=1)
+]
+
+.source[Ashraf, Quamrul and Oded Galor, 2011, "Dynamics and Stagnation in the Malthusian Epoch," *American Economic Review* 101: 2003-2048]
+
+---
+# Malthusian Economies VI
+
+> "This  paper  examines   the   central   hypothesis   of   the   influential   Malthusian  theory,  according  to  which  improvements  in  the  technological  environment  during  the  preindustrial  era  had  generated  only temporary gains in income per capita, eventually leading to a larger, but not significantly richer, population. Exploiting exogenous sources of cross-country variations in land productivity and the level of  technological  advancement,  the  analysis  demonstrates  that,  in  accordance  with  the  theory,  technological  superiority  and  higher  land productivity had significant positive effects on population density but insignificant effects on the standard of living, during the time period 1–1500 CE."
+
+.source[Ashraf, Quamrul and Oded Galor, 2011, "Dynamics and Stagnation in the Malthusian Epoch," *American Economic Review* 101: 2003-2048]
+
+---
+
+# The Malthusian Trap I
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+
+.right-column[
+
+- .hi["Malthusian" Trap]: for most of human history, humans unable to escape poverty because of the following cycle:
+
+Living standards improve $\rightarrow$
+
+$\rightarrow$ population growth $\rightarrow$
+
+$\rightarrow$ competition over scarce resources $\rightarrow$
+
+$\rightarrow$ positive checks (war, famine, disease)
+
+- .hi-purple[Humanity stuck in a subsistence-level equilibrium for 1000s of years]
+
+]
+
+.source[Malthus, Thomas, 1798, [*An Essay on the Principle of Population*](https://www.econlib.org/library/Malthus/malPop.html)]
+
+---
+
+# The Malthusian Trap II
+
+.center[
+![:scale 60%](https://www.dropbox.com/s/p1x8gvbaagpi1gt/dansemacabre.jpg?raw=1)
+]
+
+---
+
+# Malthusian Virtues and Vices
+
+- If you buy the Malthusian argument: .hi-purple[ordinary virtues are Malthusian vices, and ordinary vices are Malthusian virtues]
+
+- Policies that help improve living standards and life expectancy, particularly among the poor and sickly make Malthusian pressures of overpopulation even greater!
+
+---
+
+# \#ThanosDidNothingWrong...According to Malthus
+
+.center[
+![:scale 80%](https://www.dropbox.com/s/chfw5vz1xbz680g/thanosdidnothingwrong.jpg?raw=1)
+]
+
+---
+
+# \#ThanosDidNothingWrong...According to Malthus
+
+.center[
+![:scale 80%](https://www.dropbox.com/s/95in0a0i6vo390n/thomas-malthus-thanos.jpg?raw=1)
+]
+
+---
+
+# Malthus is Misunderstood
+
+.pull-left[
+.center[
+![:scale 70%](https://www.dropbox.com/s/w3tjpbj41wiriuk/malthusianmeme.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Yes, Malthus was "wrong" in the long-run
+
+- missed the enormous rise in productivity
+
+- but he accurately described the history of the world up until 1800
+
+]
+
+---
+
+# To Be Continued
+
+.left-column[
+.center[
+![](../images/malthusricardo.png)
+
+]
+]
+
+
+.right-column[
+.smaller[
+- This is not the last we will hear of Malthus or his influence on later writers
+  - Marx, Keynes
+
+- He will write his own *Principles of Political Economy* (1820) to rival Ricardo
+  - Harder to read, less important than his *Essay*
+
+- Great debate with Ricardo in 1810s
+  - the first great debate in economics!
+
+- We next turn to the giant that is Ricardo
+]
+]

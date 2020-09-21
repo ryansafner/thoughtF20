@@ -55,10 +55,14 @@ lessons:
     class: "2.3-class"
     slides: "2.3-slides"
     
-  - title: "2.4 Malthus & Population"
-
+  - title: "2.4 Thomas Malthus & The Population Principle"
+    reading: "2.4-reading"
+    class: "2.4-class"
+    slides: "2.4-slides"
+    
   - title: "2.5 The Ricardian System"
-
+    reading: "2.5-reading"
+    
   - title: "2.6 Say & Classical 'Macroeconomics'"
   
   - title: "2.7 Marxist Challenges"
