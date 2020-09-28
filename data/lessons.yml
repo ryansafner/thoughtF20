@@ -65,13 +65,18 @@ lessons:
     class: "2.5-class"
     slides: "2.5-slides"
     
-  - title: "2.6 Say & Classical 'Macroeconomics'"
-  
-  - title: "2.7 Marxist Challenges"
+  - title: "2.6 Classical Macroeconomics & The Great Debate Over Say’s Law"
+    reading: "2.6-reading"
+    class: "2.6-class"
+    slides: "2.6-slides"
+    
+  - title: "2.7 John Stuart Mill & The Apex of Classical Economics"
+    reading: "2.7-reading"
 
-  - title: "2.8 Mill & The Apex of Classical Economics"
+  - title: "2.8 The Marxist Challenge"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Paper 1 Due**'
+  - title: '<i class="fas fa-laptop-code"></i> **Paper 1** due Sunday Oct 11'
+    assignment: "01-short-paper"
 
   - title: '<span class="fake-header-table">III Neoclassical Economics (c.1870-1930)</span>'
     header: True

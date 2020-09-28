@@ -1,0 +1,57 @@
+---
+title: "Short Paper 1"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(pander)
+```
+
+- *Due Sunday, October 11*
+
+> "How can I know what I think until I see what I say?" --- E. M. Forster on Writing
+
+# Overview 
+
+Your task is to write a short paper on a theme that we have discussed or addressed in this course thus far -- whether in my lectures, our discussions, or your reading.
+
+This assignment has several purposes. First, it is my way of gauging whether you understand the material and are attempting to grapple with the challenges it brings to understanding economics. You are perfectly free to accept it, reject it, or find a way to synthesize it with your current understanding of economic issues and research, so long as you argue why!  Second, it is a chance for you to stimulate and develop your own thinking on some of the issues raised in this course, as well as an opportunity to develop your writing and communication skills. These skills are vital to any profession, and in truth, you do not fully understand an idea unless you engage it in writing. Finally, this assignment will be good preparation for your longer term paper (you could even reuse a topic with appropriate changes).
+
+I am *NOT* looking for a survey of existing research, a series of block quotes showing what economists have said about $x$, a regurgitation of my lectures, a list of pros and cons with a last minute conclusion, a book review, and so on. I also do *NOT* want you to compress *everything* you have learned so far into a single paper. You should only use those insights that you believe are relevant to your topic and your argument. 
+
+I am looking for a paper that is your own take on a topic, and one that puts forth an *argument* and defends it. 
+
+# Length, References, & Mechanics
+
+The required mechanics of this assignment are quite informal. This is not a research paper, nor an op-ed. Imagine it like a conversation among friends about some topic -- it should be reasonably informative and persuasive, but not necessarily a formal piece of writing. I expect you to write **between 3 and 5 pages (double spaced, size 12 Times New Roman or Arial font, 1" margins)**. You do not need to do any original research or use any outside sources aside from our readings, if applicable (if you wish to respond to something we read or if you believe it helps make your point).
+
+I would also like you to reference and occasionally quote from the readings or cite to other scholarly works that reference the works we are discussing. Outside research and references are not required, but may help improve your analysis of whatever you choose to write about. I am not particularly picky about exactly how you format your citations or bibliography, just please be consistent, and do not use footnotes or endnotes (only because they annoy me). I *suggest* the APA author-year-page in-text citation format that is fairly standard in economics journals, i.e.: “The division of labor is limited by the extent of the market,” (Smith 1776: 27). Look at my slides or my handouts for a suggested bibliography style. If you use `.bib` files, the default formatting is fine.
+
+# Grading Rubric
+
+Here is the rubric that I will use to grade your paper:
+
+| Category | Points |
+|----------|-------:|
+| Soundness | 40 |
+| Persuasiveness | 40 |
+| Clarity & Organization | 10 |
+| References/Quotes | 10 |
+| TOTAL | 100 |
+
+- **Economic Soundness**: Does your topic have economic content relevant to the history of economic thought? Do you *accurately* describe the opinions of previous economic writiers? If applicable, do you properly apply modern economic theory? Are your explanations consistent and logical, and did you apply them correctly? Did you choose relevant (and non-cherry picked) evidence to back it up? Are your facts, data, or case studies accurate (if appropriate)? 
+- **Persuasiveness:** How persuasive is your argument? Would a reasonably educated college-level reader find themselves understanding and agreeing with you? 
+- **Clarity:** How clear is your paper? Does it focus clearly on a particular issue and provide some analysis or explanation of it?
+- **References/Quotes:** Do you engage with what the writers we discuss had to say? Do you represent their views correctly? Do you have quotes from the readings that can back up your point? If applicable, do you cite scholarly works interpretting or analyzing the works we have read?
+
+## Potential Topic Prompts
+
+Here are a few **suggestions**, based on trains of thought that I think would be interesting, or ideas that I myself am currently grappling with. You are welcome to use these as motivating questions or jumping-off points to develop your own thoughts on an issue, *just make sure to write a paper that has a reasonably clear thesis and argument.* **Do not think of these as a required set of questions that you must choose and specifically answer (i.e. this is not an exam)**. In fact, each bullet point contains multiple related questions, any one of which might spark a separate interesting paper.
+
+**You are _not_ required to pick one of these questions**. That is, you can write on your own topic that is interesting to you so long as it is relevant and builds off of what we have discussed so far. One suggestion would be to take a discussion question that you turned in or found interesting from the readings and lectures as a jumping off point.
+
+**If you truly want to be efficient, I would consider writing about the theme of your longer term paper, focusing on the idea in this era that we have discussed so far (and do a later era of that theme for your 2nd short paper)!**
+
+**[TBD, check back here often!]**

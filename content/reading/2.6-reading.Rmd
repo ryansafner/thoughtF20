@@ -1,0 +1,33 @@
+---
+title: "2.6 — Classical Macroeconomics & The Great Debate Over Say’s Law — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*monday, September 28, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Ricardo readings, Malthus *Principles of Political Economy*, Say *A Treatise on Political Economy* in *Reader*
+- <i class="fas fas fa-book"></i> finish Ch.5 "Ricardo and Malthus" in Landreth & Colander
+- <i class="fas fas fa-book"></i> finish Chs.3-4 "Population, Diminishing Returns, and Rent" and "Ricardo's System" in Blaug
+
+# Recommended Readings:
+
+- <i class="fas fas fa-book"></i> Thornton *An Enquiry into the Nature and Effects of Paper Credit of Great Britain* in *Reader*
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> Say's Law](https://en.wikipedia.org/wiki/Say%27s_law)
+- [<i class="fab fa-wikipedia-w"></i> Real Bills Doctrine](https://en.wikipedia.org/wiki/Real_bills_doctrine)
+- [<i class="fab fa-wikipedia-w"></i> Henry Thornton](https://en.wikipedia.org/wiki/Henry_Thornton_(reformer)
+- [<i class="fab fa-wikipedia-w"></i> British Currency School](https://en.wikipedia.org/wiki/British_Currency_School)
+- [<i class="fab fa-wikipedia-w"></i> Monetary-disequilibrium Theory](https://en.wikipedia.org/wiki/Monetary-disequilibrium_theory)
+
+# Questions to Help Your Reading
+
+- Can there be a “general glut,” a surplus (excess supply) in *all* markets at the same time?
+- What is Say's Law?
+- What does Malthus think of Say's Law?
+- What does Ricardo think of Say's Law (and Malthus' response)?

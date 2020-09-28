@@ -1,0 +1,22 @@
+---
+title: "2.7 — John Stuart Mill & The Apex of Classical Economics — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, October 1, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> John Stuart Mill & *Principles of Political Economy* in *Reader*
+- <i class="fas fas fa-book"></i> Ch.6 "John Stuart Mill and the Decline of Classical Economics" in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.5 in Blaug
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> John Stuart Mill](https://en.wikipedia.org/wiki/John_Stuart_Mill)
+
+# Questions to Help Your Reading
