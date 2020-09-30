@@ -97,7 +97,7 @@ David Ricardo
 - As homogenous land, it being fixed or scarce, creates scarcity rent: the difference between the product of all capital and labor and the product of the final dose at the intensive margin
   - If (in real life) land differs in quality, scarcity of acres of *high* quality gives rise to differential rents
 
-- In reality, land does have a supply price that can create new land (reclaim from ocean, Netherlands, New York, etc)
+- In reality, land does have a supply price that can create new land
   - are paying cost of using land and taking it out of alternative uses (grazing, parking lot, etc)
 ]
 ]
@@ -411,7 +411,7 @@ base+
 # Functional Distribution: Another (Modern) View
 
 .pull-left[
-.smaller[
+.smallest[
 - Another, modern view
 
 - Total product = average product $\times$ quantity of doses (x)
@@ -444,7 +444,7 @@ base+
   # wage fund
   geom_segment(x = 0, y = 2, xend = 15, yend = 2, size = 1, linetype = "dashed")+
   geom_label(x = 12, y = 2, label = "Subsistence Wage")
-  scale_y_continuous(breaks = c(0,2,5,ap(5),10),
+  scale_y_continuous(breaks = c(0,2,5, ap(5),10),
                      labels = c(0,"w", "MP(x)", "AP(x)", "MP(0)"),
                      limits = c(0,11),
                      expand = c(0,0))
@@ -846,7 +846,7 @@ class: inverse, center, middle
 
 .pull-left[
 .smallest[
-- Banking and currency controversy in early 19<sup>th</sup> century Britain
+- Banking & currency controversy in early 19<sup>th</sup> century
 
 - Britain on the gold standard (all paper currency able to be exchanged for gold at fixed rate)
 
@@ -861,7 +861,7 @@ class: inverse, center, middle
 ]
 .pull-right[
 .center[
-![:scale 80%](../images/bullionistcontroversy.jpg)
+![:scale 65%](../images/bullionistcontroversy.jpg)
 
 .smallest[
 1797 political cartoon criticizing the government for going off the gold standard
@@ -886,7 +886,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![:scale 80%](../images/bullionistcontroversy.jpg)
+![:scale 65%](../images/bullionistcontroversy.jpg)
 
 .smallest[
 1797 political cartoon criticizing the government for going off the gold standard
@@ -965,16 +965,17 @@ Henry Thornton
 
 .right-column[
 .smallest[
-- First to really discuss the .hi-purple[velocity of money] in the quantity theory of money
+- First to discuss .hi-purple[velocity of money] in the quantity theory of money
   - Deflationary spiral from contraction of money & credit
 
-- Thorough examination of role & history of Bank of England as 
+- Thorough examination of role & history of Bank of England as lender of last resort
 
 - Role of foreign exchange, as countries are starting to use paper currency
   - Modifies Hume’s price-specie flow: as a country prints more of its currency, leads to a drain of gold outflows under gold standard
 
+- First to see effects of .hi-purple[monetary disequilibrium] on real economy
+  - Classicals only saw *real* variables mattering, money is neutral
 ]
-
 ]
 
 ---
@@ -1020,7 +1021,7 @@ Henry Thornton
 ]
 
 .right-column[
-
+.smallest[
 - Thornton thought the real bills doctrine was nonsense:
 
 - Nobody paid attention to the short-term interest rate
@@ -1033,6 +1034,7 @@ Henry Thornton
 
 - Pay attention for later macroeconomics!
   - Irving Fisher, Knut Wicksell, Bohm-Bawerk, Mises, Hayek
+]
 ]
 
 ---
@@ -1108,20 +1110,20 @@ Jean-Baptiste Say
 ]
 
 .right-column[
-
+.smallest[
 - .hi[“Say’s Law of Markets”]: while there can be temporary gluts (surplus, excess supply) in individual markets, there can be no *general* glut in the economy (insufficient Aggregate Demand)
 
 - Countless macroeconomists have written about Say’s Law (often trying to refute it), and demonstrate that they never understood Say’s Law
   - Baumol (1977): possibly eight versions of Say’s Law
 
 - Led to famous debate between Ricardo & Malthus; John Maynard Keynes further revived & denounced it in 1936
-  - Keynes’ (in)famous version of Say’s law: “supply creates its own demand”
+  - Keynes’ (in)famous version of Say’s law: .hi-turquoise[“supply creates its own demand”] ❌
 
-- Much better summary by John Stuart Mill: “commodities are paid for by commodities (including money)”
+- Better summary by J.S. Mill: .hi-turquoise[“commodities are paid for by commodities (including money)”] ✅
 
-- I wrote my undergraduate HET term paper on Say’s Law
+- I wrote my undergraduate HET term paper on Say’s Law 😇
 ]
-
+]
 ---
 
 # What Say Actually Said
@@ -1140,8 +1142,9 @@ Jean-Baptiste Say
 
 .right-column[
 
-> “A man who applies his labor to the investing of objects with value by the creation of utility of some sort, can not expect such a value to be appreciated and paid for, unless where other men have the means of purchasing it. Now of what do these means consist? Of other values of other products, likewise the fruits of industry, capital, and land. Which leads us to a conclusion that may at first sight appear paradoxical, namely that it is production which opens a demand for product,” I.XV.3
+> “A man who applies his labor to the investing of objects with value by the creation of utility of some sort, can not expect such a value to be appreciated and paid for, unless where other men have the means of purchasing it. Now of what do these means consist? Of other values of other products, likewise the fruits of industry, capital, and land. Which leads us to a conclusion that may at first sight appear paradoxical, namely that .hi[it is production which opens a demand for product],” I.XV.3
 
+.source[Say, Jean-Baptiste, 1803, *Treatise on Political Economy*]
 ]
 
 ---
@@ -1163,31 +1166,12 @@ Jean-Baptiste Say
 .right-column[
 .smaller[
 
-> “But it may be asked, if this be so, how does it happen, that there is at times so great a glut of commodities in the market, and so much difficulty in finding a vent for them? I answer that the glut of a particular commodity arises from its having outrun the total demand for it in one or two ways; either because it has been produced in excessive abundance, or because the production of other commodities has fallen short.,” I.XV.10
+> “But it may be asked, if this be so, .hi[how does it happen, that there is at times so great a glut of commodities] in the market, and so much difficulty in finding a vent for them? I answer that .hi[the glut of a particular commodity arises from its having outrun the total demand for it] in one or two ways; .hi[either because it has been produced in excessive abundance, or because the production of other commodities has fallen short],” I.XV.10
+
+- *Individual* markets may have gluts (unsold surpluses)
 
 ]
-]
-
----
-
-# What Say Actually Said
-
-.left-column[
-.center[
-![:scale 100%](../images/say.png)
-
-.smallest[
-Jean-Baptiste Say
-
-1767-1832
-]
-]
-]
-
-.right-column[
-
-> “The encouragement of mere consumption is no benefit to commerce; for the difficulty lies in supplying the means, not in stimulating the desire of consumption; and we have seen that production alone furnishes those means. Thus, it is the aim of good government to stimulate production, of bad government to encourage consumption,” I.XV.20
-
+.source[Say, Jean-Baptiste, 1803, *Treatise on Political Economy*]
 ]
 
 ---
@@ -1544,6 +1528,55 @@ Jean-Baptiste Say
   - people spend less to acquire more desired money balances
   - in aggregate, pushes down price level
 ]
+
+.source[Say, Jean-Baptiste, 1803, *Treatise on Political Economy*]
+
+]
+
+---
+
+# Say’s Law and Monetary Disequilibrium
+
+.pull-left[
+.smallest[
+- Sales *can* be dull with an excess demand for money
+
+- People demand to hold more money (lower exchange value), stop spending money
+
+- Decreased spending depresses sales, lowers price level (P), but raising purchasing power (PPM)
+
+- Response:
+  - under gold standard, gold flows in, or people mine more gold (more valuable)
+  - under fiat standard ❓❓
+
+]
+]
+
+.pull-right[
+```{r}
+m_d = function(x){10-x}
+ggplot(data = tibble(x = 1:10), aes(x =x))+
+  stat_function(fun = m_d, geom = "line", color = "blue", size = 1)+
+  geom_label(x = 2, y =m_d(2), label = "Money Demand", color = "blue")+
+  geom_vline(xintercept = 5, size =2 , color ="red")+
+  geom_label(x = 5, y =9.5, label = "Money Supply", color = "red")+
+  
+  geom_segment(x=0, y=5, xend=5, yend= 5, linetype="dotted")+
+  geom_segment(x=0, y=3, xend=7, yend= 3, linetype="dotted")+
+  geom_segment(x=7, y=3, xend=7, yend=0, linetype="dotted")+
+  labs(x = "Quantity of Money",
+       y = expression(paste("Purchasing Power of Money, ", PPM==frac(1,P))))+
+  scale_x_continuous(breaks = NULL,
+                     limits = c(0,11),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = c(3,5),
+                     labels = c(expression(hat(PPM)),expression(PPM^{o})),
+                     limits = c(0,11),
+                     expand = c(0,0))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size =14)
+
+```
+
 ]
 
 ---
@@ -1567,6 +1600,8 @@ Jean-Baptiste Say
 - In the long run, fall in price level restores equilibrium
   - But sales slow during short run adjustment of people spending less 
 
+.source[Say, Jean-Baptiste, 1803, *Treatise on Political Economy*]
+
 ]
 
 ---
@@ -1587,12 +1622,18 @@ Jean-Baptiste Say
 
 .right-column[
 
+.smallest[
 > “In such cases, merchants know well enough how to find substitutes for the product serving as the medium of exchange or money: and money itself soon pours in, for this reason, that all produce naturally gravitates to that place where it is most in demand”
 
 - Say assumed price level wouldn’t need to adjust, because of gold standard and Hume’s price-specie flow mechanism:
   - excess demand for money would cause gold inflows (and more gold mining)
 
 - But in non-gold standard (or fiat) economy, price level must adjust
+
+]
+
+.source[Say, Jean-Baptiste, 1803, *Treatise on Political Economy*]
+
 ]
 
 ---
@@ -1637,11 +1678,36 @@ John Stuart Mill
 
 > “If however, we suppose that money is used, these propositions cease to be exactly true...[T]he effect of the employment of money...is, that it enables this one act of interchange to be divided into two separate acts or operations...Although he who sells, really sells only to buy, he needs not buy at the same moment when he sells; and he does not therefore necessarily add to the immediate demand for one commodity when he adds to the supply of another...[T]here may be...a very general inclination to sell with as little delay as possible, accompanied with an equally general inclination to defer all purchases as long as possible....to render the argument for the impossibility of an excess of all commodities applicable to the case in which a circulating medium is employed, money must itself be considered as a commodity [in demand and supply]. It must, undoubtedly, be admitted .hi[there cannot be an excess of all other commodities, and an excess of money at the same time].”
 
+]
+
 .source[Mill, John Stuart, 1844, “On the Influence of Production on Consumption” in *Essays on Unsettled Questions of Political Economy*]
 ]
 
 ---
 
+# What Say Actually Said
+
+.left-column[
+.center[
+![:scale 100%](../images/say.png)
+
+.smallest[
+Jean-Baptiste Say
+
+1767-1832
+]
+]
+]
+
+.right-column[
+
+> “The encouragement of mere consumption is no benefit to commerce; for the difficulty lies in supplying the means, not in stimulating the desire of consumption; and we have seen that production alone furnishes those means. Thus, it is the aim of good government to stimulate production, of bad government to encourage consumption,” I.XV.20
+
+.source[Say, Jean-Baptiste, 1803, *Treatise on Political Economy*]
+
+]
+
+---
 # Takeaways from the Debate
 
 .pull-left[
@@ -1661,6 +1727,6 @@ John Stuart Mill
 - Malthus could not articulate his opposition well, and had no alternative theory
   - was correct that *something was wrong*
   - *could have* provided a monetary theory of depressions, but didn’t
-  - was forgotten for a century, revived by John Maynard Keynes during Great Depression
+  - was forgotten for a century, revived by Keynes
 ]
 ]

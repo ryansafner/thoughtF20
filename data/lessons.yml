@@ -72,7 +72,9 @@ lessons:
     
   - title: "2.7 John Stuart Mill & The Apex of Classical Economics"
     reading: "2.7-reading"
-
+    class: "2.7-class"
+    slides: "2.7-slides"
+    
   - title: "2.8 The Marxist Challenge"
 
   - title: '<i class="fas fa-laptop-code"></i> **Paper 1** due Sunday Oct 11'
