@@ -17,7 +17,7 @@ library(pander)
 
 Your task is to write a term paper on a theme in the history of economic thought. You should either focus on one idea, concept, or issue and trace its evolution from pre-classical to modern economic writings on the subject (while critically appraising the trajectory), *or* you may analyze a particular era or debate that you find interesting. In committing to either path, you should engage the key texts from the famous writers that constitute our readings, as well as some outside readings and research to provide further analysis and ground your arguments.
 
-Although it is only a sample size of 1, I suggest you look at my term paper from my undergraduate history of economic thought course as an example of the latter type of paper (focusing primarily on the debate between Malthus/Keyes and Ricardo/Say, so two primary time periods):
+Although it is only a sample size of 1, I suggest you look at my term paper from my undergraduate history of economic thought course as an example of the latter type of paper (focusing primarily on the debate between Malthus/Keynes and Ricardo/Say, so two primary time periods):
 
 - [<i class="fas fa-file-pdf"></i> Safner (2010), “The Duality of Say’s Law: A Restoration of J.B. Say’s Original Intentions”](/readings/Safner-2010.pdf)
 
@@ -29,7 +29,7 @@ I am looking for a paper that is your own take on a topic, and one that puts for
 
 # Length, References, & Mechanics
 
-As a 400-level term paper, I expect approximately 15 $\pm 5$ pages (the usual double-spaced, size 12 font, 1 inch margins). You will need space to develop your arguments, place the readings in context, and connect it with modern research on the topic.
+As a 400-level term paper, I expect approximately $\mathbf{15 \pm 5}$ pages (the usual double-spaced, size 12 font, 1 inch margins). You will need space to develop your arguments, place the readings in context, and connect it with modern research on the topic.
 
 You should cite the texts of the authors we have read (if useful, you can cite them as chapters in the Warren and Samuels *Reader*). Be aware that the *excerpts* of the works contained in the reader may not be the only thing the author has written about that will be relevant to your topic. Thus, it will often be necessary to find full copies of some of the necessary works. Fortunately, most of the famous books (Smith, Ricardo, Malthus, Marx, Marshall, etc) can be found free online, at websites like the [Library of Economics and Liberty](https://www.econlib.org/books/), [Liberty Fund](https://oll.libertyfund.org/), or [Project Gutenberg](https://www.gutenberg.org/). You should not have to buy additional books for this paper.
 
@@ -41,7 +41,7 @@ Look at my slides or my handouts for a suggested bibliography style. If you use 
 
 # Grading Rubric and Deadlines
 
-This paper is due by email to me by 11:59 PM Sunday November 22. Afterwards, I will deduct 1 point for every hour it is late.
+This paper is **due by email to me by 11:59 PM Sunday November 22**. Afterwards, I will deduct 1 point for every hour it is late.
 
 While it may be possible for many papers in your college career (and worked for me), this not a paper you can easily write in the last minute and do well on. To ensure that you do not get too far behind, I have split the assignment into stages that are due at different intervals over the semester. Note that your topic can and may change depending on what you are able to find and work with.
 
