@@ -70,7 +70,7 @@ lessons:
     class: "2.6-class"
     slides: "2.6-slides"
     
-  - title: "2.7 John Stuart Mill & The Apex of Classical Economics"
+  - title: "2.7 John Stuart Mill & The Decline of Classical Economics"
     reading: "2.7-reading"
     class: "2.7-class"
     slides: "2.7-slides"
@@ -125,4 +125,5 @@ lessons:
 
   - title: "5.8 The Sociology of Economists"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Term Paper Due**'
+  - title: '<i class="fas fa-laptop-code"></i> **Term Paper Due** Sunday Nov 22'
+    assignment: "term-paper"

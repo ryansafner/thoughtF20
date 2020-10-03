@@ -54,4 +54,28 @@ Here are a few **suggestions**, based on trains of thought that I think would be
 
 **If you truly want to be efficient, I would consider writing about the theme of your longer term paper, focusing on the idea in this era that we have discussed so far (and do a later era of that theme for your 2nd short paper)!**
 
-**[TBD, check back here often!]**
+1. A lot of mercantilist tropes and policy ideas remain popular today (“Buy American,” our country needs to to “win at trade”,”tariffs protect American workers,” obsessions over the balance of trade and fixing trade deficits, etc.). Why do you think this remains popular in the minds of the people and/or political leaders? Why do you think some such policies are still in existance?
+
+2. How much does “the Ricardian vice” still persist among economists who focus on abstract theoretical models with simplifying assumptions at the potential expense of real world evidence? Is this a fair or unfair characterization?
+
+3. Ending mercantilism is simple, in theory: get rid of trade barriers, monopoly privileges, and other restrictions. Why is it so hard? And in particular, should we encourage developing countries to do this?
+
+4. How did Europe escape feudalism? Is Adam Smith’s narrative in Book III of the *Weath of Nations* convicing? What remnants of feudal ideas, institutions, and customs remain today?
+
+5. What are the major similarities and differences between Hume and Smith’s theories of moral sentiments? How do they compare to other moral theories (like Kantian deontology or utilitarianism and consequentialism)? What do you find convincing or unconvincing?
+
+6. Grapple with *Das Adam Smith problem*: is there consistency or inconsistency between Smith’s *Theory of Moral Sentiments* and *The Wealth of Nations*?
+
+7. How much of Ricardo’s theoretical system was influenced by the Corn Laws? Do you think Ricardo would have gone about his model differently if there were not policies raising Corn prices and rents at the time?
+
+8. While they clearly agreed agriculture experienced diminishing returns, the classical economists more vaguely thought manufacturing did not (perhaps it was constant returns, perhaps it was increasing returns). How might they have made a Smithean division-of-labor argument defending increasing returns to manufacturing (or to the economy in general)? 
+
+9. What is “capital” to the classical economists, and how does that comport with what we think about “capital” in economics today? What is the difference between “profit” and “interest”, between “capitalist” and “entrepreneur?”
+
+10. The classicals, the physiocrats, and Marxists clearly believed that some labor is productive, and some labor is unproductive. Why did they think this, why did these groups have such different targets for “unproductive” labor, and do you think this distinction is still valid today?
+
+11. In what way are Ricardian rents and Ricardo’s theory of rent connected with what we call “rent-seeking” behavior in modern economics?
+
+12. What do you make of the debate over Say’s law between Ricardo, the Mills, Say, and Malthus? Was there a clear winner and loser?
+
+13. Ricardo used a highly simplified model of the economy as firm in his Corn model to the distribution of income and consequences of economic growth. In what way is this similar to modern macroeconomic models of the steady state?

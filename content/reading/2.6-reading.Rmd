@@ -16,7 +16,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Recommended Readings:
 
 - <i class="fas fas fa-book"></i> Thornton *An Enquiry into the Nature and Effects of Paper Credit of Great Britain* in *Reader*
-- [<i class="fas fa-file-pdf"></i> Safner (2011), “The Duality of Say’s Law: A Restoration of Say’s Original Intentions”](/readings/Safner-2010.pdf) 
+- [<i class="fas fa-file-pdf"></i> Safner (2010), “The Duality of Say’s Law: A Restoration of J.B. Say’s Original Intentions”](/readings/Safner-2010.pdf) 
 
 The second paper is my term paper in my undergraduate History of Economic Thought Class (2010) on Say’s Law.
 
