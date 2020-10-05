@@ -858,8 +858,7 @@ John Stuart Mill
 ]
 ]
 .right-column[
-
--.quitesmall[
+.quitesmall[
 - Wages fund theory (it was he who coined the term)
   - short-run demand of labor fixed by the amount that capitalists can advance to labor
   - increases in real wages have little effect in short run (takes time for population to increase and children to mature into laborers)
@@ -876,7 +875,7 @@ John Stuart Mill
 
 ---
 
-ass: inverse, center, middle
+class: inverse, center, middle
 
 # Digression: A Tax on Land Rent
 
@@ -948,9 +947,9 @@ Henry George
 
 .right-column[
 
-- A "simpler, easier and quieter way" to fund government and end land monopoly is to "appropriate land rent for public use, by taxation"
+- A "simpler, easier and quieter way" (than socialism) to fix problems is to “appropriate land rent for public use, by taxation”
 
-- .hi-purple[Land] ("Gifts of nature") vs. .hi-purple["artifical capital"] (human-made improvements)
+- .hi-purple[Land] (classical “free gifts of nature”) vs. .hi-purple[“artifical capital”] (human-made improvements)
 
 - Solution: allow private ownership in artificial capital, but abolish private ownership in land
   - but not centrally-planned, competitively managed
@@ -974,7 +973,7 @@ Henry George
 
 .right-column[
 
-- .hi-purple["Competitive common ownership"]
+- .hi-purple[“Competitive common ownership”]
 
 - Government owns all land, and *leases* it out to those it thinks make the most productive use of it
   - Terminates lease when a better buyer (higher WTP) comes along
@@ -1035,7 +1034,7 @@ Henry George
 
 - People who can productively use land have high WTP the tax, those who would leave it idle would sell at low prices to avoid tax (no more absentee landlords)
 
-- Georgists often believed this .hi-purple["single tax"] could replace all other taxes
+- Georgists often believed this .hi-purple[“single tax”] could replace all other taxes
 
 ]
 
