@@ -1,5 +1,5 @@
 ---
-title: "2.7 — John Stuart Mill and the Decline of Classical Economics — Class Notes"
+title: "2.8 — The Marxist Challenge — Class Notes"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -11,20 +11,20 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Wednesday, September 30, 2020*
+*Monday, October 5, 2020*
 
 # Overview
 
-Today we begin by wrapping up the (macroeconomic) debate between Ricardo and Malthus over “general gluts” and Say’s law, and begin John Stuart Mill. We will finish him up next week.
+Today we begin by wrapping John Stuart Mill and starting Karl Marx. We will finish him up next class, and start the next unit.
 
 # Readings
 
-Please see [today's recommended readings](/reading/2.7-reading).
+Please see [today's recommended readings](/reading/2.8-reading).
 
 # Slides
 
-- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/2.7-slides.html)
-- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.7-slides.pdf)
+- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/2.8-slides.html)
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.8-slides.pdf)
 
 # Live Class Session on Zoom
 

@@ -1,0 +1,45 @@
+---
+title: "2.8 — The Marxist Challenge — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, October 1, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Karl Marx & *Das Kapital* in *Reader*
+- <i class="fas fas fa-book"></i> Ch.6 "Karl Marx and His Critique of Classical Economics" in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.6 in Blaug
+
+- [<i class="fas fa-external-link-square-alt"></i> Marx and Engels, 1848, *Manifesto of the Communist Party*](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/)
+
+# Recommended Readings:
+
+- [<i class="fas fa-file-pdf"></i> Allen (2009), “Engels’ Pause: Technical Change, Capital Accumulation, and Inequality in the British Industrial Revolution”](/readings/Allen-2009.pdf) 
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> Karl Marx](https://en.wikipedia.org/wiki/Karl_Marx)
+- [<i class="fab fa-wikipedia-w"></i> The Communist Manifesto](https://en.wikipedia.org/wiki/The_Communist_Manifesto)
+- [<i class="fab fa-wikipedia-w"></i> Revolutions of 1848](https://en.wikipedia.org/wiki/Revolutions_of_1848)
+- [<i class="fab fa-wikipedia-w"></i> Marxism](https://en.wikipedia.org/wiki/Marxism)
+
+# Questions to Help Your Reading
+
+- What are Marx’s motivations for his analysis?
+
+- How does Marx’s view of socialism differ from the “utopians” like Robert Godwin?
+
+- How much of Smith and Ricardo does Marx accept for his premises in economic analysis? Is Marx a classical economist?
+
+- What did Marx think of Malthusian population theory?
+
+- What is the difference between use value and surplus value?
+
+- What is the role of the capitalist in Marxian theory?
+
+- What is Marx’s theory of history? What is the dialetic? What is historical materialism? What are the means of production, modes of production, superstructure, and base?
+
+- What are the “laws of capitalism” and the contradictions of capitalism?
