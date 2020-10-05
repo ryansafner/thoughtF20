@@ -206,7 +206,7 @@ class: inverse, center, middle
 # The Industrial Revolution in Britain: “Engels’ Pause”
 
 .center[
-![](../images/engelspause.png)
+![:scale 75%](../images/engelspause.png)
 ]
 
 .source[Allen, Robert C, 2009, “Engels’ pause: Technical change, capital accumulation, and inequality in the british industrial revolution,” *Explorations in Economic History* 46: 418-435]
@@ -243,7 +243,7 @@ class: inverse, center, middle
 
 # The Industrial Revolution in Britain: “Engels’ Pause”
 
-.smaller[
+.quitesmall[
 > “[W]e can outline the story of the industrial revolution as follows: the prime mover was technical progress beginning with the famous inventions of the 18th century including mechanical spinning, coke smelting, iron puddling, and the steam engine. It was only after 1800 that the revolutionized industries were large enough to affect the national economy. Their impact was reinforced by a supporting boost from rising agricultural productivity and further inventions like the power loom, the railroad, and the application of steam power more generally...The adoption of these inventions led to a rise in demand for capital – for cities, housing, and infrastructure as well as for plant and equipment. Consequently, the rate of return rose and pushed up the share of profits in national income. With more income, capitalists saved more, but the response was limited, the capital–labour ratio rose only modestly, the urban enviro ment suffered as cities were built on the cheap, and the purchasing power of wages stagnated...Real wages rising in line with the growth of labour productivity was not a viable option since income had to shift in favour of property owners in order for their savings to rise enough to allow the economy to take advantage of the new productivity raising methods. Hence, the upward leap in inequality.”
 
 ]

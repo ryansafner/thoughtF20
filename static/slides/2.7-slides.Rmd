@@ -872,6 +872,7 @@ John Stuart Mill
 - Mill (famously) changes his mind about wages fund theory by 1869
 
 ]
+]
 
 ---
 
@@ -1082,7 +1083,7 @@ Henry George
 # One Final Lens into Ricardian Rents
 
 .pull-left[
-.smaller[
+.smallest[
 - Consider a market for a factor of production (inputs: land, labor, capital, etc.)
 
 - Recall .hi-blue[market demand] is the **maximum willingness of firms to pay factor owners** for use of the factor
@@ -1366,7 +1367,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_segment(x=0, xend=5, y=3, yend=3, size=1, linetype="dotted")+
   
 annotate("segment", x = 2.5, xend = 2.5, y = 5, yend = 0, color = "purple", size=2.5, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-  geom_label(aes(x=2.5,y=2.5), color = "purple", label=expression(paste(tau==100),"%"), size = 5)+
+  geom_label(aes(x=2.5,y=2.5), color = "purple", label=expression(tau==100), size = 5)+
 
     scale_x_continuous(breaks=c(0,5),
                        labels=c(0,"T*"),
