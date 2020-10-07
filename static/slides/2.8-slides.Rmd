@@ -549,7 +549,7 @@ Friedrich Engels (1820-1895)
 
 ---
 
-# *Marxian* -Socialism: Motivating Ideals III
+# *Marxian*-Socialism: Motivating Ideals III
 
 .left-column[
 .center[
@@ -586,31 +586,117 @@ class: inverse, center, middle
 # Marx’s Methodology and Theory of History
 
 ---
-# *Marxian* -Socialism: Methodology
+
+# Hegelian Methodology
 
 .left-column[
 .center[
 ![:scale 80%](https://www.dropbox.com/s/viiz21ut1z7rptd/hegel.jpg?raw=1)
 
+.smallest[
 Georg Wilhelm Friedrich Hegel
 
 1770-1831
 
 ]
 ]
+]
+
+.right-column[
+.smallest[
+- .hi[German idealism]: History<sup>.magenta[†]</sup> is a clear trend of abstract and unstoppable forces, manifested in *Zeitgeist*, the “spirit of the age”
+
+- To understand History (and the future), one should not study the past, but study ideas
+
+- Can be instantiated in *Volksgeist*, the “national spirit”, guided by the State to achieve the goals of History
+
+- Praised/blamed for the rise of existentialism, communism, fascism, death of God theology, and historicist nihilism
+
+- *Phänomenologie des Geistes, 1807* (*Phenomenology of Spirit*)
+]
+
+.footnote[<sup>.magenta[†]</sup> That’s History, with a capital H, mind you!]
+
+]
+
+---
+
+# Hegelian Methodology
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/viiz21ut1z7rptd/hegel.jpg?raw=1)
+
+.smallest[
+Georg Wilhelm Friedrich Hegel
+
+1770-1831
+
+]
+]
+]
+
+.right-column[
+.smallest[
+- History unfolds in linear fashion as a constant march towards transcendence and Truth, as a .hi-purple[dialectical] struggle between a triad of ideological forces:
+  - A **thesis**
+  - An **antithesis** arises which contradicts the thesis
+  - The death struggle between thesis and antithesis breeds a **synthesis**
+  - This produces a new thesis, which will ultimately be opposed by an antithesis, which ... 
+]
+
+]
+
+---
+
+# Hegelian-Marxian Methodology
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
 
 .right-column[
 
-- Marxian analysis is done through Hegelian .hi-purple[dialectic]
-    - A thesis
-    - An antithesis
-    - A synthesis from contestation of thesis vs. antithesis
-    - Cycle repeats
+- Marx adapts Hegel’s ideological dialectic and describes the unstoppable forces of History as a .hi-purple[*materialist* dialectic] between thesis & antithesis
+
 ]
 
 ---
 
-# *Marxian* -Socialism: Methodology II
+# Marxian Methodology
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+
+.quitesmall[
+> [T]he leading thread in my studies, may be briefly summed up as follows: In the social production which men carry on they enter into definite relations that are indispensable and independent of their will; .hi[these relations of production] .hi[correspond to a definite stage] of development of their .hi[material powers of production]. The sum total of these .hi[relations of production constitutes the economic structure of society]—the real foundation, on which rise .hi[legal and political superstructures] and to which correspond definite forms of social consciousness. .hi[The mode of production in material life determines the general character of the social, political, and spiritual processes of life.] It is not the consciousness of men that determines their existence, but, on the contrary, their .hi[social existence determines their consciousness]. At a certain stage of their development, .hi[the material forces of production in society come in conflict with the existing relations of production]...with the property relations within which they had been at work before. From forms of development of the forces of production these relations turn into their fetters. .hi[Then comes the period of social revolution. With the change of the economic foundation the entire immense superstructure is more or less rapidly transformed.]
+
+]
+
+.source[Marx, Karl, *A Contribution to the Critique of Political Economy*]
+
+]
+
+---
+
+# Marxian Methodology
 
 .pull-left[
 .center[
@@ -621,18 +707,16 @@ Georg Wilhelm Friedrich Hegel
 
 .pull-right[
 
-- Marx's .hi-purple[*materialist* dialectic]
+- History pre-determined by material (economic) forces
+  - .hi-purple[Base]: determined by what social class controls the .hi-purple[modes of production (MOP)]
+  - Creates the .hi-purple[superstructure] of institutions (ideas, culture, religion, politics, the State) to *reinforce class relations*
+  - Superstructure creates .hi[“class consciousness”] of beliefs
 
-- History of the world is pre-determined by produce of material (economic) forces
-    - **Base**: determined by what social class controls the **modes of production (MOP)**
-    - Creates the **superstructure** of institutions (ideas, culture, religion, politics, the State) to reinforce class relations
-    - A new class overthrows the ruling class, takes over modes of production
-    - This collapses the old superstructure, creates a new base and new superstructure
 ]
 
 ---
 
-# *Marxian* -Socialism: Methodology III
+# Marxian Methodology
 
 .pull-left[
 .center[
@@ -642,14 +726,60 @@ Georg Wilhelm Friedrich Hegel
 ]
 
 .pull-right[
+.smallest[
+- In each period of History, .hi-purple[forces of production], the technology used in production, dictates the social .hi-purple[relations of production]
+  - Agriculture & hand mills $\implies$ feudal lord oversees serf on common property
+  - Steam mills & factories $\implies$ capitalist oversees laborer under private property
 
-- Historical materialism:
+- Often about which group *owns* the .hi-purple[means of production]
+  - private property vs. communal property
+  - workers owning their own tools vs. company-owned tools, etc
+]
+]
+
+---
+
+# Marxian Methodology
+
+.pull-left[
+.center[
+![:scale 80%](https://www.dropbox.com/s/6lnmycmlurugdyh/baseandsuperstructure.jpg?raw=1)
+
+]
+]
+
+.pull-right[
+.smallest[
+- Materialist forces create the .hi-purple[superstructure] of ideas, institutions, religion, etc. to enforce a .hi-purple[consciousness] that protects the status quo
+
+- But changes in forces of production (tech.) $\implies$ changes in the “correct” relations of production!
+  - Creates contradictions within the system
+  - Empowers underclass to overthrow ruling class, seize the means of production
+  - Old superstructure collapses, creates a new base & new superstructure
+]
+]
+
+---
+
+# Marxian Methodology
+
+.pull-left[
+.center[
+![:scale 80%](https://www.dropbox.com/s/6lnmycmlurugdyh/baseandsuperstructure.jpg?raw=1)
+
+]
+]
+
+.pull-right[
+.smaller[
+Stages of History:
 
 - **Primitive communism**: hunter-gatherers with no social classes
 - **Ancient MOP**: Citizens $>$ Slaves
 - **Feudal MOP**: Nobility $>$ Serfs & Bourgeoisie
 - **Capitalist MOP**: Bourgeoisie $>$ Proletariat
 - **Communist MOP**: Proletariat ushers in classless, stateless, society
+]
 ]
 
 ---
@@ -662,77 +792,616 @@ Georg Wilhelm Friedrich Hegel
 
 ---
 
-# Capitalism and Socialism II
+class: inverse, center, middle
 
-.pull-left[
+# Marx’s Economic Analysis of Capitalism
 
-- Capitalism (to Marxists) is unplanned "anarchy of production," *ex ante* social disharmony
+---
 
-- Socialism will *rationalize* economy by centrally planning towards a harmonized pre-coordinated plan to achieve greater "advanced material production" than capitalism  
+# Alienation
 
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
 ]
 
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/lbcdr87v4oaqeot/planning.jpg?raw=1)
+.right-column[
+.smallest[
+- In law, property is .hi-purple[alienable], it can be separated from a person and transferred (as in a gift or an exchange)
+  - e.g. Declaration of Independence: natural rights are “unalienable”
+
+- Marx: under capitalism, labor services are *alienated* from workers for production and market exchange
+  - Labor is .hi-purple[commodified] and sold on markets; corrupting or hollowing out human flourishing
+
+- Alienation and commodification are *essential* to market exchange and private propety: the point is to produce and sell something that another will own
 ]
 ]
 
 ---
 
-# Capitalism and Socialism III
+# Alienation
 
 .left-column[
 .center[
-![:scale 80%](https://www.dropbox.com/s/hptz0oijisiancz/marx.png?raw=1)
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
 
-Karl Marx 
+1818-1883
+]
+]
+]
 
-(1818-1883)
+.right-column[
+.smaller[
+- Classical economists accepted all of this, did not discuss effects of market commodification on people
+
+- Marx thought economists were neglecting this, and we need to study:
+
+> “[P]rivate property, avarice and the separation of labor, capital, and landed property; between exchange and competition, value and the devaluation of men, monopoly and competition, etc.; the connection between this whole estrangement and the money system.”
+
+]
+
+.source[Marx, Karl, 1844, *Economic and Philosophical Manuscripts of 1844*]
+
+]
+
+---
+
+# Capitalism and Social Classes
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+
+- Marx’s goal to understand and explain the relations of production & the superstructure and how it affects individuals
+
+- Separation of labor from ownership of the means of production (owned by capitalists)
+  - workers no longer own their own workshops, tools, or raw materials
+
+- Classical society largely two classes: .hi[bourgeoisie] (capitalists) and .hi[proletariat] (labor, primarily urban)
+
+]
+
+---
+
+# Relative Price Theory & Labor Theory of Value
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+
+- Essentially uses Ricardo’s .hi-purple[labor cost theory of value]: relative prices of goods on markets are determined by their relative labor time necessary to produce
+
+- Faces same unsolvable problems as Smith & Ricardo
+  - differing skills, disagreeableness, amount of capital, fertility of land
+
+- Marx simplifies (away from differing skills, etc.) to .hi-purple[“socially necessary labor time”] as the main input, an abstract, homogenous, amount of labor with *average* skills, needed to produce one unit of a good
+
+]
+
+---
+
+# Relative Price Theory & Labor Theory of Value
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+
+- Marx: “capital” defined as indirect, stored-up labor (like Ricardo), resolving all goods into labor-time
+
+- Assumes constant labor/capital ratio across industries (same “capital intensity”)
+
+- Ignores differing fertility of lands in production
+  - Apparently by the end of his life he used Ricardian rent theory
+
+]
+
+---
+
+# Value Theory and Exploitation
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+
+- Recall: Smithean .hi[use value vs. exchange value]
+  - In primitive society, all production was for immediate consumption (use value), no market exchange
+
+- Marx: price of good resolved into two components:
+  - cost of production (i.e. labor-time)
+  - .hi-purple[“surplus value”]: difference between price and cost
+
+- Labor is the only source of value, but .hi-purple[workers aren’t paid the full value of the product]!
+
+]
+
+---
+
+# Value Theory and Exploitation
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smallest[
+- .hi-purple[Labor is exploited by capital]; .hi-purple[Proletariat is exploited by Bourgeoisie]
+
+- Capitalist direct production to produce goods for their *exchange value* on the marketplace, in pursuit of profit, rather than for their use value
+  - trying to get more exchange value *beyond* mere use value, i.e. profit
+
+- Marxist methodology: because capitalists *own* the means of production (private property, factories, tools, etc) and workers do not, capitalists can control & exploit labor
+  - Keep wages low so profits are high
+]
+]
+
+---
+
+# Marxian “Laws of Capitalism”
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+
+- Using Marx’s methodology, given the current (then and now) modes and relations of production, and the ideological superstructure defending bourgeois capitalism, contradictions must arise
+
+- These contradictions (continue to) set in motion the materialist dialectic of History, and sow the seeds of capitalism’s future destruction and transformation into socialism
+
+]
+
+---
+
+# Marxian “Laws of Capitalism”
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+
+- Marxian major .hi-purple[principles] or .hi-purple[“laws of capitalism”]:
+  1. reserve army of the unemployed
+  2. declining rate of profit
+  3. business crises
+  4. concentration of industry/capital
+  5. immiseration of the Proletariat
+
+]
+
+---
+
+# Marx as Mostly Classical Economist
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smallest[
+- In his analysis, uses most of the classical (Ricardian) tools and assumptions to analyze:
+  - Labor cost theory of value
+  - Neutral money
+  - Diminishing returns in agriculture
+  - Constant returns in manufacturing
+  - Perfect competition
+  - Rational agents
+  - Wages fund doctrine
+
+- Rejected Malthusian population principle, full employment (Say’s Law), and Ricardo’s production function (i.e. homogenous “doses” of L+K)
+
+- Differences vs. Classicals/Ricardo are not in analysis, only in ideology!
+]
+]
+
+---
+
+# The Reserve Army of the Unemployed
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smallest[
+
+- Rejects Malthusian population principle
+  - But it explains why, with economic growth (capital accumulation), wages don’t squeeze profits to zero (population increases, depressing real wages to subsistence)
+
+- Marx needs to explain existence of surplus value & profits under capital accumulation and rising wages
+  - Solution: .hi-purple[“reserve army of the unemployed”], an excess supply *always* exists in labor markets!
+  - This depresses wages, keeping surplus value & profits positive
+  - Machines replacing labor (wage increases cause capitalists to substitute cheaper capital for labor)
+
+]
+]
+
+---
+
+# Declining Rate of Profit
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smallest[
+
+- Smith, Ricardo, Mill: in long run, profit declines from more competition
+
+- Marx: With capital accumulation, and rising wages, capitalists substitute machinery for labor, further increasing supply of capital and pushing down profits
+
+- Problem — two opposing forces affect rate of profits:
+  - capital subject to diminishing returns, increases in capital lower profits
+  - technological improvement increases profits
+  - so an *empirical* question: compare rate of capital accumulation with rate of technological improvement
+]
+]
+
+---
+
+# Declining Rate of Profit
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/c7bn0odgx1i87ym/lenin.png?raw=1)
+
+Vladimir Lenin 
+
+(1870-1924)
 
 ]
 ]
 
 .right-column[
 
-> The life-process of society, which is based on the process of material production, does not strip off its mystical veil until it is treated as production by freely associated men, and is **consciously regulated by them in accordance with a settled plan**, (p.92),<sup>.red[1]</sup> 
+- Lenin would extend Marx to say that capitalists’ continual search for profits while they are declining force the search for new markets
 
-> "The positive **transcendence of private property** as the appropriation of human life, is therefore the positive transcendence of all estrangement - that is to say, the return of man from religion, family, state, etc., to his human, i.e. social existence," (p.97).<sup>.red[2]</sup>
+- Imperialism and colonialism
 
-]
+- Dump the surplus of overproduction in other countries
 
-.source[
-<sup>.red[1]</sup> Marx, Karl, 1906, *Das Kapital: A Critique of Political Economy*
+.source[Lenin, Vladmir, 1917, *Imperialism: The Highest Stage of Capitalism*]
 
-<sup>.red[2]</sup> Marx, Karl, 1884, *Economic and Philosophical Manuscripts of 1884*
 ]
 
 ---
 
-# Capitalism and Socialism III
+# Business Crises
 
-.pull-left[
-
-- Marxist dialectic: socialism $=$ negation of capitalism and emerges from its problems:
-
-- Alienates workers from their labor by capitalists who profit from "surplus value"
-
-- Proceeds to monopoly through accumulation of capital amidst a declining rate of profit
-
-- Crisis of overproduction and a "reserve army of the unemployed" (business cycles) 
-- Drives capitalist nations to find new markets to avoid depression: imperialism, exploitation, and colonization of periphery countries<sup>.red[1]</sup>
-
-]
-
-.pull-right[
+.left-column[
 .center[
-![](https://www.dropbox.com/s/lbcdr87v4oaqeot/planning.jpg?raw=1)
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
 ]
 ]
-.footnote[<sup>.red[1]</sup> Lenin, Vladmir, 1917, *Imperialism: The Highest Stage of Capitalism*]
+]
+
+.right-column[
+.smallest[
+
+- Recognized that occasional depressions happen under capitalism
+
+- Overproduction, violations of Say’s Law
+
+- But Marx had no *theory* of the business cycle (why it happens and what causes it)
+
+- Hypothesized that sudden bursts of technological change could generate a depression
+  - increase capital accumulation $\rightarrow$ increased wages & smaller reserve army $\rightarrow$ fall of profit and surplus value $\rightarrow$ spiral into depression
+  - but this creates opportunity for expansion: unemployed labor $\rightarrow$ lowers wages $\rightarrow$ restores profits & production again
+]
+]
 
 ---
 
-class: inverse, center, middle
+# Concentration of Capital
 
-# Marx’s Economic Analysis of Capitalism
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smaller[
+
+- With greater capital accumulation, firms will grow larger and fewer, more centralized command of capital, leading to monopolies
+
+> “The battle of competition is fought by cheapening of commodities. The cheapness of commodities depends, ceteris paribus, on the productiveness of labor, and this again on the scale of production. Therefore, the larger capitals beat the smaller.”
+
+- Larger firms achieve economies of scale, outcompete smaller firms, grow market power
+]
+]
+
+---
+
+# Concentration of Capital
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smallest[
+
+- Corporations further increase centralization
+
+- Corporation $\implies$ .hi-purple[separation of ownership and control]
+
+.quitesmall[
+> “enterprises assume the form of social enterprises as distinguished from individual enterprises. It is the abolition of capital as private property within the boundaries of capitalist production itself. Transformation of the actually functioning capitalist into a mere manager, an administrator of other people’s capital, and of the owners of capital into mere owners, mere money capitalists”
+]
+
+- Lenin and later socialists will argue that monopoly/corporate capitalism is the transition stage to socialism:
+  - just replace “managers” with government, “shareholders” with society; run the economy as a giant corporation!
+]
+]
+
+---
+
+# Concentration of Capital
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smaller[
+
+- Existence of credit markets further increase centralization
+
+> “a new aristocracy of finance, a new sort of parasites in the shape of promoters, speculators, and merely nominal directors; a whole system of swindling and cheating by means of corporation juggling, stock jobbing, and stock speculation. It is private production without the control of private property.”
+
+]
+]
+
+
+---
+
+# Immiseration of the Proletariat
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smaller[
+
+- Several interpretations:
+  1. absolute income to Proletariat decreases as capitalism grows
+  2. *relative* income (“labor’s share”) to Proletariat decreases as capitalism grows
+  3. workers become miserable in a noneconomic, nonmaterial sense (spiritual sense?)
+
+- 1 and 2 were proved flat wrong: increasing prosperity after industrial revolution, labor’s share of income is *remarkably* constant over time (~65-75%)
+
+]
+]
+
+---
+
+# Immiseration of the Proletariat
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smaller[
+
+- Marx has a point about immiseration, are we *happier* under capitalism?
+
+> “[I]n proportion as capital accumulates, the lot of the laborer, be his payment high or low, must grow worse [with] accumulation of misery, agony of toil, slavery, ignorance, brutality, mental degradation.”
+
+- What is the relationship between economic growth and happiness??
+
+]
+]
+
+---
+
+# Influence of Marx and Marxism
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+- Marx is probably the most well known “economist” in history to the average person (though they probably don’t think of him as an economist!)
+
+- His influence on world ideas, politics, philosophy, and governments is undeniable
+
+- In academia, Marxism remains alive and well, but none of it in economics departments!
+  - Marx discarded & rebutted in mainstream economics by the 20<sup>th</sup> century
+]
+
+---
+
+# Influence of Marx and Marxism: Socialist Countries
+
+.center[
+![](../images/mapofsocialism.png)
+
+.source[Source: [Wikipedia](https://en.wikipedia.org/wiki/List_of_socialist_states#/media/File:Socialist_states_by_duration.png)]
+
+]
+
+---
+
+# Influence of Marx and Marxism: Socialist Countries
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+- Marx essentially brings about the end of the Classical system of Economics
+
+- We will see shortly what emerges next, and what they thought of Marx
+
+- Later, we will reexamine the economics of how socialism is supposed to work as economic system, because countries are going to try it!
+  - .hi-purple[Socialist calculation debate] (1920s-1930s) between Marxist-Leninist socialist economists, Austrian economists, and neoclassical economists
+]
+
+---
+
+# Influence of Marx and Marxism
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smallest[
+- Marx’s “laws of capitalism” explain only that there *are* contradictions, does not provide a theory to explain or predict depressions, monopolies, or unemployment; or how to solve them
+
+- So what comes next (socialism), and how does it work? 
+
+- In Marxian methodology: socialism is *defined as* merely the negation of capitalism
+  - the antithesis to the thesis, that yields a synthesis
+  - instead of bourgeois capitalists privately owning the means of production, they are seized by the Proletariat (through the State)
+  - Marx spent little to no time on explaining how socialism ought to work, only wrote that it’s better! 🤷
+]
+]
