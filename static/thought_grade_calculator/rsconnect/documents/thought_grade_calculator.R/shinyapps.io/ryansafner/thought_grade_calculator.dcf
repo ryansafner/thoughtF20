@@ -1,0 +1,12 @@
+name: thought_grade_calculator
+title: thought_grade_calculator
+username:
+account: ryansafner
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2989934
+bundleId: 3726933
+url: https://ryansafner.shinyapps.io/thought_grade_calculator/
+when: 1602444131.69795
+asMultiple: FALSE
+asStatic: FALSE
