@@ -87,7 +87,10 @@ lessons:
     header: True
 
   - title: "3.1 The Marginalist Revolution, Jevons & Menger"
-
+    reading: "3.1-reading"
+    class: "3.1-class"
+    slides: "3.1-slides"
+    
   - title: "3.2 Marginal Productivity Theory"
 
   - title: "3.3 Capital and Interest"
