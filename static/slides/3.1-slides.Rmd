@@ -1,0 +1,1600 @@
+---
+title: "3.1 — The Marginalist Revolution"
+subtitle: "ECON 452 • History of Economic Thought • Fall 2020"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/thoughtF20"><i class="fa fa-github fa-fw"></i>ryansafner/thoughtF20</a><br> <a href="https://thoughtF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>thoughtF20.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    df_print: paged
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F)
+library(tidyverse)
+library(ggrepel)
+library(ggthemes)
+set.seed(256)
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+```
+
+class: inverse
+
+# Outline
+
+## [The Marginalist Revolution](#3)
+
+## [Predecessors](#31)
+
+## [William Stanley Jevons](#36)
+
+## [Carl Menger](#36)
+
+---
+
+class: inverse, center, middle
+
+# The Marginalist Revolution
+
+---
+
+# The Marginalist Revolution
+
+.center[
+![:scale 80%](../images/marginalistrevolution.png)
+]
+
+---
+
+# Different Directions for Economics
+
+.left-column[
+.center[
+![](../images/marginalists2.png)
+]
+]
+
+.right-column[
+
+.smaller[
+- All had same idea of (what we now call) .hi[marginal utility as source of price]
+  - “marginal utility” is a term invented by Menger’s student Wiser
+
+- Menger & Walras applied marginalism to production & the firm
+
+- Jevons & Walras advocated mathematicization of economics
+
+- Menger advocated subjectivism and a causal-genetic theory
+
+- Walras condoned cardinal utility, Menger & Jevons likely ordinal utility
+
+]
+]
+
+---
+
+# Marginalist Revolution: Was it a *Revolution*?
+
+.left-column[
+.center[
+![](../images/marginalists2.png)
+]
+]
+
+.right-column[
+.smallest[
+- Debate about how much of a “revolution” it was
+  - Inspiration vs. simultaneous independent discovery
+  - How much of a radical departure from other writers?
+
+- Other important predecessors that made key contributions to economic theory, often overlooked
+  - Cournot, Gossen, von Thünen, Dupuit
+
+- Controversies about discovery, credit, attribution
+  - Menger independent, did not know of von Thunen, Gossen
+  - Walras know of von Thunen, Gossen; wrote to Jevons, and Jevons alerted Walras to his own writings
+  - Marshall supposedly writing about it in 1860s, published his Principles 30 years later 
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Predecessors
+
+---
+
+# Cournot
+
+.left-column[
+.center[
+![:scale 80%](../images/Cournot.jpg)
+
+.smaller[
+Antoine Augustin Cournot
+
+1801-1877
+]
+]
+]
+
+.right-column[
+.smallest[
+- 1838 *Researches on the Mathematical Principles of the Theory of Wealth*
+
+- First writer to:
+  - ✅ use and advocate mathematics for study of political economy
+  - ✅ relate demand and supply as functions of price and quantity
+  - ✅ draw a demand and supply graph
+  - ✅ use marginal analysis to find profit-maximizing output: where marginal revenue $=$ marginal cost
+
+- Sadly, no influence in his lifetime
+
+- We still use his model of oligopoly today
+
+- Taught Auguste Walras, father of Leon Walras (and may have inspired Leon to general equilibrium theory)
+]
+
+.source[Cournot, Antoine Augustin, 1838, *Researches on the Mathematical Principles of the Theory of Wealth*]
+
+]
+
+---
+
+# Cournot: Supply & Demand
+
+.center[
+![](../images/cournotgraphs.png)
+]
+
+.source[Cournot, Antoine Augustin, 1838, *Researches on the Mathematical Principles of the Theory of Wealth*]
+
+---
+
+# Cournot: Theory of Oligopoly
+
+.left-column[
+.center[
+![:scale 80%](../images/Cournot.jpg)
+
+.smaller[
+Antoine Augustin Cournot
+
+1801-1877
+]
+]
+]
+
+.right-column[
+.smallest[
+- Begins with monopoly up through limiting case of pure competition 
+
+- Famous theory of .hi-purple[oligopoly], a model of .hi-purple[duopoly]:
+  - Two firms produce an identical good (spring water), decide how much to produce (simultaneously), their joint output determines the market price
+  - Game-theoretic equilibrium where firms are playing mutual best responses to one another
+
+- .hi-purple[Cournot competition] model of oligopoly taught in microeconomics & industrial organization
+  - compared with Bertrand competition & Stackelberg competition models of oligopoly
+]
+]
+
+---
+
+# Cournot: Theory of Oligopoly
+
+.left-column[
+.center[
+![:scale 80%](../images/Cournot.jpg)
+
+.smaller[
+Antoine Augustin Cournot
+
+1801-1877
+]
+]
+]
+
+.right-column[
+```{r, fig.align = "center"}
+Saudi=function(x){30-0.5*x}
+Iran=function(x){60-2*x}
+
+ggplot(tibble(x=c(0,10)), aes(x=x))+
+  stat_function(fun=Saudi, geom="line", size=2, color="red")+
+    annotate(geom = "label", x = 45, y = Saudi(45) , label = "Firm 1",color = "red", size = 4) +
+    stat_function(fun=Iran, geom="line", size=2, color="blue")+
+    annotate(geom = "label", x = 15, y = Iran(15) , label = "Firm 2",color = "blue", size = 4) +
+    geom_segment(x=20,xend=20,y=0,yend=20, size=1, linetype="dotted", color="blue")+
+  geom_segment(x=0,xend=20,y=20,yend=20, size=1, linetype="dotted", color="red")+
+  geom_point(x=20,y=20,size=5,color="purple")+
+  annotate(geom = "label", x = 32, y = 24 , label = "Cournot-Nash Equilibrium",color = "purple", size = 5)+
+  scale_x_continuous(breaks = NULL,
+                     limits = c(0,60),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = NULL,
+                     limits = c(0,60),
+                     expand=c(0,0))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  labs(x = expression(paste("Firm 2’s Output, ", q[2]), sep=" "),
+       y = expression(paste("Firm 1’s Output, ", q[1]), sep=" "))
+```
+]
+
+---
+
+# Cournot: Theory of Oligopoly
+
+.left-column[
+.center[
+![:scale 80%](../images/Cournot.jpg)
+
+.smaller[
+Antoine Augustin Cournot
+
+1801-1877
+]
+]
+]
+
+.right-column[
+.smallest[
+- .hi[Cournot Theorem]: as the number of firms $(N)$ in the market increases, market output $Nq$ goes to the competitive level, and price converges to $c$.
+  - Assuming no fixed costs, and an identical constant marginal cost for firms
+
+- .hi-purple[More (fewer) firms reduce (increase) market distortions from market power]
+
+- See some visualizations I made:
+  1. [Cournot: Symmetric Market Changes](https://ryansafner.shinyapps.io/Cournot_market_changes/)
+  2. [Cournot: Asymmetric Costs](https://ryansafner.shinyapps.io/cournot_asymmetric_costs/)
+  3. [Cournot: With n Firms](https://ryansafner.shinyapps.io/Cournot_n_firms/)
+
+]
+]
+
+---
+
+# Cournot: Theory of Oligopoly
+
+.left-column[
+.center[
+![:scale 80%](../images/Cournot.jpg)
+
+.smaller[
+Antoine Augustin Cournot
+
+1801-1877
+]
+]
+]
+
+.right-column[
+
+Major implications from Cournot:
+
+1. As $\uparrow$ number of firms: $\downarrow q$, $\downarrow p$, $\downarrow \pi$, $(\uparrow CS$, $\downarrow DWL)$ closer to perfect competition
+
+2. If a firm has lower costs than others, earns greater profit; firms will want to (equivalently):
+  - lower their own costs
+  - raise rivals’ costs
+]
+
+---
+
+# von Thünen
+
+.left-column[
+.center[
+![:scale 80%](../images/vonthunen.png)
+
+.smaller[
+Johann Heinrich von Thünen
+
+1783—1850
+]
+]
+]
+
+.right-column[
+.smallest[
+- A German landowner, passionately interested in agricultural management
+
+- *Der isolirte Staat in Beziehung auf Landwirtschaft und Nationalökonomie* (*The Isolated State in Relation to Agriculture and Political Economy* (vol. 1: 1826, vol. 2: 1850)
+
+- A (remarkable) .hi-purple[spatial theory of economic geography], industry and production, and .hi-purple[determination of rent and prices]
+  - concentric rings emanating from a city (market)
+  - determines land rent as a function of distance, productivity, and market prices
+  - proponent of mathematics in political economy, first to introduce calculus into analysis
+]
+]
+
+---
+
+# von Thünen
+
+.left-column[
+.center[
+![:scale 80%](../images/vonthunen.png)
+
+.smaller[
+Johann Heinrich von Thünen
+
+1783—1850
+]
+]
+]
+
+.right-column[
+$$R=Y(p-c)-YFm$$
+
+- $R$ is rent
+- $Y$ is yield per unit of land
+- $c$ is production expenses per unit of output
+- $p$ is market price of commodity
+- $F$ is freight rate (transportation cost)
+- $m$ is distance to market (center)
+
+]
+
+
+---
+
+# von Thünen
+
+.left-column[
+.center[
+![:scale 80%](../images/vonthunen.png)
+
+.smaller[
+Johann Heinrich von Thünen
+
+1783—1850
+]
+]
+]
+
+.right-column[
+
+.center[
+![](../images/von_thunen_model.png)
+]
+]
+
+
+---
+
+# von Thünen
+
+.left-column[
+.center[
+![:scale 80%](../images/vonthunen.png)
+
+.smaller[
+Johann Heinrich von Thünen
+
+1783—1850
+]
+]
+]
+
+.right-column[
+
+.center[
+![](../images/vonthunenrent.png)
+]
+]
+
+---
+
+# von Thünen
+
+.left-column[
+.center[
+![:scale 80%](../images/vonthunen.png)
+
+.smaller[
+Johann Heinrich von Thünen
+
+1783—1850
+]
+]
+]
+
+.right-column[
+
+- .hi-purple[von Thünen rent] or .hi-purple[location rent]: price of land that determines its use based on spatial location & competition (proximity to others)
+  - since users will compete for different uses of land, bid up land prices closer to city-center (housing, retailing, etc)
+  - more distant land will be less expensive, used for less-valuable uses (farming, ranching, untouched, etc.)
+
+> “[Rent] is that which can be earned above that which can be earned at the margin of production”
+
+]
+
+---
+
+# von Thünen
+
+.left-column[
+.center[
+![:scale 80%](../images/vonthunen.png)
+
+.smaller[
+Johann Heinrich von Thünen
+
+1783—1850
+]
+]
+]
+
+.right-column[
+.smallest[
+- Essentially a .hi-purple[marginal productivity theory of wages] and labor:
+
+> “The wage is equal to the extra product of the last laborer who is employed in a large enterprise”
+
+- Came up with a rather simplistic formula (that he had engraved on his tombstone): Natural Wages $= \sqrt{AP}$
+  - $A$: value of product of labor and capital
+  - $P$: subsistence of laborer and family
+  - Surplus will arise on initial units of labor and capital, but diminishing returns to later units,  
+
+- Coined the term .hi-turquoise[“marginal cost”] (*Grenzkosten*)
+
+]
+]
+
+---
+# Gossen
+
+.left-column[
+.center[
+![:scale 80%](../images/gossen.png)
+
+.smaller[
+Hermann Heinrich Gossen
+
+1810—1858
+]
+]
+]
+
+.right-column[
+.smallest[
+- Perhaps the first to articulate a theory of marginal utility
+
+- Tragically, his work was ignored: too universal and mathematical
+  - German Historicism was dominant
+
+- 1854 *Die Entwickelung der Gesetze des menschlichen Verkehrs, und der daraus fließenden Regeln für menschliches Handeln (The Development of the Laws of Human Intercourse and the Consequent Rules of Human Action)*
+]
+]
+
+---
+
+# Gossen
+
+.left-column[
+.center[
+![:scale 80%](../images/gossen.png)
+
+.smaller[
+Hermann Heinrich Gossen
+
+1810—1858
+]
+]
+]
+
+.right-column[
+- A humble Jevons found Gossen’s work after he had already published his own: 
+
+> “[I]t is quite apparent that Gossen has completely anticipated me as regards the general principles and method of the theory of Economics. So far as I can gather, his treatment of the fundamental theory is even more general and thorough than what I was able to scheme out.”
+
+
+]
+
+---
+
+# Gossen’s Laws
+
+.left-column[
+.center[
+![:scale 80%](../images/gossen.png)
+
+.smaller[
+Hermann Heinrich Gossen
+
+1810—1858
+]
+]
+]
+
+.right-column[
+
+- .hi-purple[Gossen’s First Law:] marginal utility diminishes with further consumption
+  - .hi-purple[law of diminishing marginal utility]
+]
+
+---
+
+# Gossen’s Laws
+
+.left-column[
+.center[
+![:scale 80%](../images/gossen.png)
+
+.smaller[
+Hermann Heinrich Gossen
+
+1810—1858
+]
+]
+]
+
+.right-column[
+.smallest[
+- .hi-purple[Gossen’s Second Law:] in equilibrium, an agent will allocate resources so that the ratio of marginal utility to price equalizes across all goods and services
+  - the .hi-purple[equimarginal principle]: equalize marginal utility per dollar spent across all goods
+
+$$\cfrac{\left(\frac{\partial U}{\partial x}\right)}{p_x} = \cfrac{\left(\frac{\partial U}{\partial y}\right)}{p_y} \, \forall (x,y)$$ 
+  - where U is the utility function, x and y are goods
+
+- .hi-purple[Gossen’s Third Law]: scarcity is required for objects to have economic value (as goods)
+]
+]
+
+---
+
+# Jules Dupuit
+
+.left-column[
+.center[
+![:scale 80%](../images/julesdupuit.jpg)
+
+.smaller[
+Arsène Jules Étienne Juvenel Dupuit
+
+1804—1866
+]
+]
+]
+
+.right-column[
+.smallest[
+- French civil engineer
+
+- Focused specifically on applied questions
+
+- 1844 *De la mesure de l’utilité des travaux publics* (*On the measurement of the utility of public works*)
+  - what is the optimum toll for a bridge?
+
+- Diminshing marginal utility curve: marginal utility decreases with quantity consumed
+  - lower tolls $\implies$ more use, higher tolls $\implies$ less use
+  - .hi-purple[A downward sloping demand curve due to diminishing marginal utility]
+  
+]
+]
+
+---
+
+# Jules Dupuit
+
+.left-column[
+.center[
+![:scale 80%](../images/julesdupuit.jpg)
+
+.smaller[
+Arsène Jules Étienne Juvenel Dupuit
+
+1804—1866
+]
+]
+]
+
+.right-column[
+- Defined “relative utility” as area under the marginal utility (demand) curve above the market price to measure welfare effects of different prices (.hi-purple[consumer surplus]!)
+
+- Concludes welfare is optimized when toll is zero; role for government subsidies to enhance social welfare
+
+- Also wrote on monopoly and price discrimination
+]
+]
+
+---
+
+# Jules Dupuit
+
+.left-column[
+.center[
+![:scale 80%](../images/julesdupuit.jpg)
+
+.smaller[
+Arsène Jules Étienne Juvenel Dupuit
+
+1804—1866
+]
+]
+]
+
+.right-column[
+
+```{r, fig.align="center"}
+demand_1=function(x){10-x}
+cs_1<-tribble(
+  ~x, ~y,
+  0, 10,
+  0, 5,
+  5, 5
+)
+
+cs<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=demand_1, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=9,y=demand_1(9)), color = "blue", label="Demand = Max WTP", size = 5)+
+  geom_segment(x=0, xend=5, y=5, yend=5, size=1, linetype="dotted")+
+  geom_segment(x=5, xend=5, y=0, yend=5, size=1, linetype="dotted")+
+    scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,10,1),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)),
+                     labels = function(x){paste("$", x, sep="")})+
+  labs(x = "Quantity (q)",
+       y = "Price (p)")+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size=18)
+
+cs+geom_polygon(data=cs_1, aes(x=x,y=y), fill="blue", alpha=0.5)
+```
+]
+
+---
+
+class: inverse, center, middle
+
+# William Stanley Jevons
+
+---
+
+# William Stanley Jevons
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+.smallest[
+- 9th child to middle class family, studied engineering and chemisty
+
+- Became assayer of gold mint in Sydney, Australia for 6 years
+
+- A major British intellectual, known for his work on logic, scientific method, etc.
+  - invented a logic piano, contributed to cryptography
+  - 1874, *Principles of Science: A Treatise on Logic and the Scientific Method*
+
+- Theory of sunspots and economic depressions
+  - 1875, *The Solar Period and the Price of Corn*
+  
+- Drowned in a bathing accident in 1882 (46 years old)
+]
+]
+
+---
+
+# William Stanley Jevons: Applied Political Economy
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+.smaller[
+- Four major works on applied economics, other than his famous treatise on economics:
+
+1. 1863, *A Serious Fall in the Value of Gold*
+  - Uses index numbers and graphs to measure the value of money
+2. 1865, *The Coal Question*
+  - discussed eventual exhaustion of coal supplies
+  - .hi-purple[Jevons paradox]: increases in energy efficiency cause an increase in demand, and thus result in *more* use of energy, rather than less
+3. 1920, *Money and the Mechanism of Exchange*
+4. 1882 *The State in Relation to Labour*
+]
+]
+
+---
+
+# William Stanley Jevons: On The Answer to Political Economy
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+.smallest[
+- 1871 *The Theory of Political Economy*
+
+- Jevons excitedly believes he’s found *the answer* to all problems of political economy
+
+> “[I] have fortunately struck out what I have no doubt is *the true theory of Economy*, so thorough-going and consistent, that I cannot now read other books on the subject without indignation”
+
+- Not a complete textbook on economics (like Ricardo or Mill), but elaborates two fundamental ideas (and innvations):
+  1. theory of value & distribution in relation to utility
+  2. a theory of wages and of capital (lesser known)
+
+- Easiest to read of the marginalist revolutionaries
+]
+]
+
+---
+
+# William Stanley Jevons: On Classicals & On Method
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+.smallest[
+- Critical of classical economists (Ricardo & Mill)
+  - labor theory of value, population principle, and wages fund doctrine all disproven
+
+> “The fact is, that labor once spent has no influence on the future value of any article: it is gone and lost forever. In commerce bygones are for ever bygones,” (p. 164).
+
+- Argues for mathematics (primarily calculus & geometry) in political economy
+  - intuition provides basic premises, then we can *deduce* theory
+  - interested in empirical work, measurement, index numbers
+
+> “[O]ur science must be mathematical, simply because it deals with quantities.”
+
+]
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Utility
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+.smallest[
+- Directly influenced by Benthamite utilitarianism & hedonoic calculus
+
+- 1862, *“Brief account of a general mathematical theory of value”*
+
+> “[A] true theory of economy can only be attained by going back to the great springs of human action, *the feelings of pleasure and pain*”
+ 
+- Individuals seek to maximize pleasure (utility), minimize pain (disutility)
+
+- But, utility is not intrinsic to goods, it comes from individual valuation!
+]
+
+.source[Jevons, William Stanley, 1862, *A Brief account of a general mathematical theory of value*]
+
+]
+
+---
+
+# William Stanley Jevons: Utility
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+
+.smaller[
+> “Repeated reflection and inquiry have led me to the somewhat novel opinion, that .hi[*value depends entirely upon utility*]. Prevailing opinions make labour rather than utility the origin of value; and there are even those who distinctly assert that labour is the cause of value. I show, on the contrary, that we have only to trace out carefully the natural laws of the variation of utility, as depending upon the quantity of commodity in our possession, in order to arrive at a satisfactory theory of exchange, of which the ordinary laws of supply and demand are a necessary consequence,” (p.77).
+
+]
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Incrementalism
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+
+- Political economy principles all focus on the .hi-purple[“incrementalist method”] (marginalism)
+
+> “[In all] questions in Economics, all depends upon the final increments.”
+
+- Note: nobody would call the object of study here .hi-purple[“marginal utility”] until Menger’s student Friedrich Wiser
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Diminishing Marginal Utility
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+.smaller[
+- .hi-turquoise[“Law of Variation of Utility”]: diminishing marginal utility
+  - Assume continuous, differentiable utility functions
+
+- Total utility: $u(\cdot)$
+
+- .hi-turquoise[“Degree of utility”]: $\frac{\partial u}{\partial x}$ (i.e. marginal utility)
+
+> “The degree of utility varies with the quantity of the commodity, and ultimately decreases as quantity increases,” (p.53).
+
+]
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Final Degree of Utility
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+- .hi-turquoise[“Final degree of utility”]: the marginal utility of the last unit consumed 
+
+> “We shall seldom need to consider the degree of utility except as regards the last increment which has been consumed, or, which comes to the same thing, the next increment which is about to be consumed. I shall therefore commonly use the expression *final degree of utility*, as meaning the degree of utility of the last addition.” (p.51)
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Diagrams
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+.center[
+![:scale 50%](../images/jevons1.png) ![:scale 45%](../images/jevons2.png)
+
+]
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Exchange
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+
+- Doesn't go on to derive demand curves from utility
+
+- Next focuses on .hi-purple[problem of exchange]:
+  - individuals start with endowment of goods, but depending on final degree of utility, may wish to exchange to gain more utility
+  - interested in .hi-turquoise[“limits of exchange”]: how much trade will take place between individuals
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Equimarginal Principle
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+
+- Very famous result (Gossen’s second law): equalize the “increment of utility lost and gained at the limits of the quantities exchanged” to determine extent of trade
+  - equality of the price ratios & utility ratios
+  
+$$\frac{MU_x}{MU_y} = \frac{p_x}{p_y}$$
+
+- Easy to extend a 2-person -good model to “any number of commodities...to generalised trade [and] international trade”
+
+- .hi-turquoise[“Law of indifference”]: law of one price — one price for all identical units of agood will prevail on a market
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Labor Supply
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+
+- Worker must balance the marginal utility (pleasure) derived from additional income vs. the marginal disutility (pain) of labor
+  - Decreasing marginal utility of income
+  - Increasing marginal disutility of working (getting more tired)
+
+- Equilibrium labor supply where marginal benefit equals marginal cost
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Labor Supply
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+
+.center[
+![](../images/jevons3.png)
+
+]
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+# William Stanley Jevons: Capital
+
+.left-column[
+.center[
+![:scale 80%](../images/jevons2.jpg)
+
+.smaller[
+William Stanley Jevons
+
+1835—1882
+]
+]
+]
+
+.right-column[
+
+- Interest rate determined by “by *the ratio which a new increment of produce bears to the increment of capital by which it was produced*”
+
+$$i = \frac{\Delta k}{k}$$
+
+> “The interest of capital is, in other words, the rate of increase of the produce divided by the whole produce”
+
+- Foreshadowing a marginal productivity theory of interest
+
+.source[Jevons, William Stanley, 1871, *The Theory of Political Economy*]
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Carl Menger
+
+---
+
+# Carl Menger
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+
+- Lawyer, journalist, and later professor at University of Vienna
+
+- Tutor to Crown Prince Rudolf (died in a suicide pact with his mistress) in infamous [Mayerling incident](https://en.wikipedia.org/wiki/Mayerling_incident) 1889
+
+- Turned to political economy because predictions of classical economics was not consistent with observation (about prices)
+  - 1871 *Grundsätze der Volkswirtschaftslehre* (Principles of Economics)
+]
+
+---
+
+# Carl Menger
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+
+- Also criticized the dominant German Historical school in a famous (and vicious) *Methodenstreit* (battle over methods)
+  - 1883 *Untersuchungen über die Methode der Socialwissenschaften und der politischen Oekonomie insbesondere* (Investigations into the Method of the Social Sciences with Special Reference to Economics) 
+  - would distract him from completing volume 2 of his Principles (supposedly about production and policy)
+  
+]
+
+---
+
+# Menger’s Theory of Goods
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+.smallest[
+
+> “If a thing is to become a good, or in other words, if it is to acquire goods-character (Gu ̈terqualit ̈), all four of the following prerequisites must be simultaneously present:
+1. A human need.
+2. Such properties as render the thing capable of being brought
+into a causal connection with the satisfaction of this need.
+3. Human knowledge of this causal connection.
+4. Command of the thing sufficient to direct it to the satisfaction
+of the need, (p.55)”
+
+]
+
+.source[Menger, Carl, 1871, *Principles of Economics*]
+
+]
+
+---
+
+# Menger’s Theory of Goods
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+
+.smallest[
+
+> “Hence a thing loses its goods-character: (1) if, owing to a change in human needs, the particular needs disappear that the thing is capable of satisfying, (2) whenever the capacity of the thing to be placed in a causal connection with the satisfaction of human needs is lost as the result of a change in its own properties, (3) if knowledge of the causal connection between the thing and the satisfaction of human needs disappears, or (4) if men lose command of it so completely that they can no longer apply it directly to the satisfaction of their needs and have no means of reestablishing their power to do so,” (p.56)
+
+]
+
+.source[Menger, Carl, 1871, *Principles of Economics*]
+
+]
+
+---
+
+# Menger’s Theory of Goods
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+.smallest[
+- Menger consistently applies notion of .hi-purple[subjectivism] and a .hi-purple[causal-genetic] approach to economics
+
+- .hi-turquoise[Free goods] (like air): have want-satisfying power but are not scarce
+  - Goods only become *economic* goods due to scarcity, require economizing choices
+  - Must allocate goods to most important want first, then will allocate goods to lesser wants
+  - Diminishing marginal utility (but not stated in those terms)
+
+- Possibility of .hi-turquoise[“imaginary goods”]: things that people falsely believe will satisfy a need
+  - e.g. quack medicine, fortune tellers, astrology, etc.
+]
+
+.source[Menger, Carl, 1871, *Principles of Economics*]
+
+]
+
+---
+
+# Menger’s Theory of Goods
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+
+> “As a people attains higher levels of civilization, and as men penetrate more deeply into the true constitution of things and of their own nature, the number of true goods becomes constantly larger, and as can easily be understood, the number of imaginary goods becomes progressively smaller. It is not unimportant evidence of the connection between accurate knowledge and human welfare that the number of so-called imaginary goods is shown by experience to be usually greatest among peoples who are poorest in true goods.”
+
+.source[Menger, Carl, 1871, *Principles of Economics*]
+
+]
+
+---
+
+# Menger’s Theory of Value
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+
+> Value is thus nothing inherent in goods, no property of them, nor an independent thing existing by itself. It is a judgment economizing men make about the importance of the goods at their disposal for the maintenance of their lives and well-being. Hence, value does not exist outside the consciousness of men (pp. 120-121).
+
+]
+
+.source[Menger, Carl, 1871, *Principles of Economics*]
+
+---
+
+
+# Menger: Wants and The Diamond-Water Paradox
+
+.left-column[
+.center[
+Wants
+]
+
+| I | II | III | IV | V |
+|----|----|----|----|----|
+| 9 | 8 | 7 | 6 | 5 |
+| 8 | 7 | 6 | 5 | 4 |
+| 7 | 6 | 5 | 4 | 3 |
+| 6 | 5 | 4 | 3 | 2 |
+| 5 | 4 | 3 | 2 | 1 |
+]
+
+.right-column[
+.smallest[
+- Arabic numerals (in cells) indicate want-satisfying power of a unit of the good, i.e. marginal utility
+  - declining with each additional unit (row) of the good
+  - possibly an ordinal ranking
+
+- Roman numerals (columns) indicate goods of different importance
+  - lower numbers (e.g. class I) indicate more important goods
+
+- Always allocate goods to satisfy highest needs (lowest classes) first, based on marginal utility
+
+- Value of a good is defined in terms of want satisfaction lost if the last unit of the good was no longer available
+
+]
+]
+
+---
+
+# Menger: Wants and The Diamond-Water Paradox
+
+.left-column[
+.center[
+Wants
+]
+
+| I | II | III | IV | V |
+|----|----|----|----|----|
+| 9 | 8 | 7 | 6 | 5 |
+| 8 | 7 | 6 | 5 | 4 |
+| 7 | 6 | 5 | 4 | 3 |
+| 6 | 5 | 4 | 3 | 2 |
+| 5 | 4 | 3 | 2 | 1 |
+]
+
+.right-column[
+- Suppose water is Class I, diamonds are Class V
+  - If consumer already has 5 units of water (5<sup>th</sup> row), marginal utility is 5
+  - Versus the first diamonds provides marginal utility of 6
+  - *Total* utility of water (35) $>$ *total* utility of 1 diamond (5)
+
+- Price of diamonds is greater than the price of water because:
+  - marginal utility $\implies$ choice $\implies$ consumers’ willingness to pay $\implies$ price
+]
+
+---
+
+# Value and the Margin II
+
+.pull-left[
+.hi-green[**Example**:] Suppose you have 5 uses for water by their value to you. Assume each use requires exactly 1 gallon of water:
+
+1. Drink water
+2. Take a shower
+3. Wash car
+4. Water plants 
+5. Change goldfish's water
+
+Suppose you have only **1** gallon of water, what will you do with it? 
+]
+
+.pull-right[
+.center[
+![](../images/watergallon.jpg)
+]
+]
+
+---
+
+# Value and the Margin II
+
+.pull-left[
+.hi-green[Example:] Suppose you have 5 uses for water by their value to you. Assume each use requires exactly 1 gallon of water:
+
+1. Drink water
+2. Take a shower
+3. Wash car
+4. Water plants 
+5. Change goldfish's water
+
+Suppose you have have **2** gallons of water, what will you do with them? 
+]
+
+
+.pull-right[
+.center[
+![](../images/watergallon.jpg)
+]
+]
+
+---
+
+# Value and the Margin II
+
+.pull-left[
+.hi-green[Example:] Suppose you have 5 uses for water by their value to you. Assume each use requires exactly 1 gallon of water:
+
+1. Drink water
+2. Take a shower
+3. Wash car
+4. Water plants 
+5. Change goldfish's water
+
+Suppose you had **5** gallons of water, but **spill one.** Which activity will you **stop** doing?
+]
+
+.pull-right[
+.center[
+![](../images/watergallon.jpg)
+]
+]
+
+---
+
+# Menger: Orders of Goods
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+
+.quitesmall[
+> “For in addition to .hi[goods that serve our needs directly] (and which will...henceforth be called .hi[“goods of first order”]) we find a large number of other things in our economy that cannot be put in any direct causal connection with the satisfaction of our needs, but which possess goods-character...In our markets, next to bread and other goods capable of satisfying human needs directly, we also see quantities of flour, fuel, and salt. We find that implements and tools for the production of bread, and the skilled labor services necessary for their use, are regularly traded. All these things, or at any rate by far the greater number of them, are incapable of satisfying human needs in any direct way...That these things are nevertheless treated as goods in human economy...is due to the fact that they serve to produce bread and other goods of first order, and hence are indirectly...capable of satisfying human needs...These things...we will call goods of second order...it could easily be shown...to continue our earlier example, the grain mills, wheat, rye, and labor services applied to the production of flour, etc., appear as goods of .hi[third order], while the fields, the instruments and appliances necessary for their cultivation, and the specific labor services of farmers, appear as goods of .hi[fourth order]...”
+
+]
+
+.source[Menger, Carl, 1871, *Principles of Economics*]
+
+]
+
+---
+
+# Menger: Complementarity, Time, and Uncertainty
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+
+.smallest[
+> “[T]he goods-character of goods of higher order is directly dependent upon complementary goods of the same order being available with respect to the production of at least one good of [all lower orders, down to the first order].”
+
+> “The process by which goods of higher order are progressively transformed into goods of lower order and by which these are directed finally to the satisfaction of human needs is [subject] to the law of causality [and] is inseparable from the idea of time...[but with this comes] economic uncertainty of men, and, as we shall see in what follows, is of the greatest practical significance in human economy.”
+
+]
+
+.source[Menger, Carl, 1871, *Principles of Economics*]
+
+]
+
+---
+
+# Menger: Orders of Goods
+
+.left-column[
+
+.center[
+![:scale 85%](../images/menger2.jpg)
+
+Carl Menger
+
+1840-1921
+]
+]
+
+.right-column[
+
+.smallest[
+
+- Does not directly talk about cost or production (anticipated in his unpublished Volume 2), but he does talk about the supply side:
+
+- Higher order goods must have complements in production in order to be useful
+
+- .hi-purple[Imputation theory]: higher-order goods derive their value from the value of final consumption (1st order goods)
+
+- Value of a factor of production (higher order good) is the value that would be lost if the last unit was withdrawn from production
+
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# The Second Generation Marginalists
+
+---
+
+# What About The Marxist Challenge?
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+.smallest[
+- Marx recognized value requires utility, but use-value of goods is determined outside his analysis
+
+- Marginalist revolutionaries did not know of Marx, relatively unknown then
+  - *Das Kapital* vol 1 published in 1867
+  - Jevons, Menger, Walras already writing or written
+
+- Initial writings did not discuss Marxist economics, but did challenge Classical economics
+  - Marx probably read Jevons, Menger, Walras, and struggled to respond in later volumes of *Kapital*
+  
+]
+]
+
+---
+
+# What About The Marxist Challenge?
+
+.left-column[
+.center[
+![:scale 80%](../images/marx.png)
+.smaller[
+Karl Marx
+
+1818-1883
+]
+]
+]
+
+.right-column[
+
+- *Second* generation of marginalists would confront Marxism head-on
+  - Wicksteed: *The Marxian Theory of Value, Das Kapital: a criticism* (1884)
+  - Böhm-Bawerk: *Karl Marx and the Close of His System* 1896
+
+]
+
+
+---
+
+# Second-Generation of Marginalists
+
+.pull-left[
+- Marginalists have established that price = amount consumers are willing to pay for marginal utility of a unit of a good
+
+- If prices of goods are due to marginal utility, what about the prices of the factors of production??
+  - indirect utility?
+  - imputation
+]
+
+.pull-right[
+.center[
+![](../images/marginalists2.png)
+]
+]

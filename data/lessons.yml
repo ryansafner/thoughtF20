@@ -86,28 +86,30 @@ lessons:
   - title: '<span class="fake-header-table">III Neoclassical Economics (c.1870-1930)</span>'
     header: True
 
-  - title: "3.1 Jevons, Menger, and Walras: The Marginalist Revolution"
+  - title: "3.1 The Marginalist Revolution, Jevons & Menger"
 
-  - title: "3.2 Marshallian Economics I: Demand & Utility"
+  - title: "3.2 Marginal Productivity Theory"
 
-  - title: "3.3 Marshallian Economics II: Theory of the Firm"
+  - title: "3.3 Capital and Interest"
 
-  - title: "3.4 Marginal Productivity Theory"
+  - title: "3.3 Marshallian Economics I: Demand & Utility"
+
+  - title: "3.4 Marshallian Economics II: Theory of the Firm"
   
-  - title: "3.5 Pareto, Pigou & Welfare Economics"
+  - title: "3.5 Walrasian General Equilibrium"
+  
+  - title: "3.6 Welfare Economics"
 
   - title: '<i class="fas fa-laptop-code"></i> **Paper 2 Due**'
 
   - title: '<span class="fake-header-table">IV Challenges & Extensions to Neoclassical Economics</span>'
     header: True
     
-  - title: "4.1 Austrians & Capital Theory"
+  - title: "4.1 The Socialist Calculation Debate"
 
-  - title: "4.2 The Socialist Calculation Debate"
+  - title: "4.2 American Institutional Economics"
 
-  - title: "4.3 American Institutional Economics"
-
-  - title: "4.4 Mathematicization & Samuelsonian Economics"
+  - title: "4.3 Mathematicization & Samuelsonian Economics"
 
   - title: '<span class="fake-header-table">V Mid-20th Century & Macroeconomics</span>'
     header: True
