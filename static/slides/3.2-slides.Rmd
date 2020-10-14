@@ -41,11 +41,11 @@ class: inverse
 
 # Outline
 
-## [Second Generation Austrian Marginalists](#3)
+## [Second Generation Austrian Marginalists](#4)
 
-## [Marginal Productivity Theory](#31)
+## [Marginal Productivity Theory](#13)
 
-## [Product Exhaustion & The Morality of Marginal Productivity](#36)
+## [Product Exhaustion & The Morality of Marginal Productivity](#32)
 
 ---
 
@@ -205,16 +205,16 @@ Friedrich von Wieser
 .smallest[
 - Wieser’s solution was .hi-purple[linear programming] with simultaneous equations (no calculus)
 
-- .hi-green[Example]: consider a three-good society, services involved being $x$, $y$, and $z$, represented by three simultaneous equations:
+- .hi-green[Example]: consider a three-good society, factors in each good’s production are $x$, $y$, and $z$, represented by three simultaneous equations:
 
 $$\begin{align*}
-x+y&=100\\
-2x+3z&=290\\
-4y+5z&=590\\ \end{align*}$$
+x+y&=\$100\\
+2x+3z&=\$290\\
+4y+5z&=\$590\\ \end{align*}$$
 
-- Solve for $x$, $y$, and $z$
+- Solve for $x$, $y$, and $z$ (prices of each factor)
 
-- Assumes prices for final goods are given, and no substitution of factors
+- Assumes prices for final goods are given, fixed production coefficients, and no substitution of factors
 ]
 
 .source[Wieser, Friedrich von, 1893, *Natural Value* p.88]
@@ -293,9 +293,7 @@ Eugen von Böhm-Bawerk
 
 - Followed a phrase in Menger, “the loss principle” — applying to the price of the final good what would be lost if one of the factor services is withdrawn
 
-- A good start, but leads to wrong conclusion if followed too literally (horse, cart, etc)
-
-- In truth, marginal product operates at infinitesimally small changes (derivative)
+- A good start, but in truth, marginal product operates at infinitesimally small changes (derivative)
 ]
 
 ---
@@ -948,20 +946,19 @@ John Bates Clark
 ]
 ]
 .right-column[
+.smallest[
 
-- Professor at Columbia
+- Initially a German Historicist (studied under Karl Knies) in Germany; a Christian socialist
 
-- Independently derived his own version of marginal utility theory
+- Became professor at Columbia, independently derived his own version of marginal utility theory
 
-- Main popularizer of marginal productivity theory
-
-- Opponent to American Institutionalists (see later)
+- Main popularizer of marginal productivity theory, virtues of market competition; opponent to American Institutionalists (see later)
 
 - 1886, *The Philosophy of Wealth*
 
 - 1889, “Possibility of a Scientific Law of Wages” paper at AEA; generalized in 1899 *The Distribution of Wealth*
 ]
-
+]
 ---
 
 # Product Exhaustion
@@ -976,7 +973,9 @@ John Bates Clark
 ]
 
 .pull-right[
-
+.center[
+![](../images/factors.jpg)
+]
 ]
 ---
 
@@ -994,7 +993,9 @@ $$Q=^{?}MP_L \times L + MP_K \times K + MP_T \times T$$
 ]
 
 .pull-right[
-
+.center[
+![](../images/factors.jpg)
+]
 ]
 
 ---
@@ -1018,7 +1019,8 @@ John Bates Clark
 
 - Clark famously argued that on a competitive market, each factor is paid its marginal product, and that this exactly exhausts the product
 
-- Viewed this as a *moral* feature of markets: each factor is paid for its contribution to society
+- Viewed this as a *moral* virtue of markets: each factor is paid for its contribution to society
+  - factor prices are not only efficient, they are just
 
 - Offered no *proof* that this is true
 ]
@@ -1041,7 +1043,7 @@ John Bates Clark
 ]
 
 .right-column[
-
+.smaller[
 - Meant this as a critique of both Karl Marx and Henry George
 
 - Georgists believed rent was undeserved, unearned income of landowners: should go to government
@@ -1051,7 +1053,7 @@ John Bates Clark
 - Clark’s *Distribution of Wealth* argues that marginal productivity theory shows that under competitive markets, each factor is paid its just due
   - Labor *and* land *and* capital are *all* necessary for production, and are paid for their productive contributions
 ]
-
+]
 ---
 
 # John Bates Clark: The Morality of Marginal Productivity
@@ -1214,10 +1216,10 @@ Phillip Wicksteed
 
 .pull-left[
 .smallest[
-- Constant returns to scale: doubling all inputs $\implies$ double output
+- .hi-purple[Constant returns to scale]: doubling all inputs $\implies$ double output
 $$f(cl,ck,ct)=cf(l,k,t) \quad \forall c>1$$
 
-- Constant economies of scale: average and marginal costs (are equal and) do not vary with output
+- .hi-purple[Constant economies of scale]: average and marginal costs (are equal and) do not vary with output
 
 - Total revenues are completely exhausted by the payments to factors (costs to firm)
 ]
@@ -1300,10 +1302,10 @@ crs_q+(crs_tc/crs_mc)
 
 .pull-left[
 .smallest[
-- Decreasing returns to scale: doubling all inputs $\implies$ *less* than double output
+- .hi-purple[Decreasing returns to scale]: doubling all inputs $\implies$ *less* than double output
 $$f(cl,ck,ct)<cf(l,k,t) \quad \forall c>1$$
 
-- Diseconomies of scale: average and marginal costs are increasing with output
+- .hi-purple[Diseconomies of scale]: average and marginal costs are increasing with output
   - AC < MC $\implies$ marginal cost pricing is always profitable
   - Total Costs < Total Revenues $\implies \pi > 0$
 
@@ -1396,10 +1398,10 @@ drs_q+(drs_tc/drs_mc2)
 
 .pull-left[
 .smallest[
-- Increasing returns to scale: doubling all inputs $\implies$ *more* than double output
+- .hi-purple[Increasing returns to scale]: doubling all inputs $\implies$ *more* than double output
 $$f(cl,ck,ct)>cf(l,k,t) \quad \forall c>1$$
 
-- Economies of scale: average and marginal costs are decreasing with output
+- .hi-purple[Economies of scale]: average and marginal costs are decreasing with output
   - AC > MC $\implies$ marginal cost pricing is always loss-inducing
   - Total Costs > Total Revenues $\implies \pi < 0$
 
@@ -1536,9 +1538,9 @@ Knut Wicksell
 .smallest[
 - Most economists believed that an industry would always be either constant, increasing, or decreasing returns
 
-- Wicksell showed that most firms actually go through all three phases of returns to scale
-  - developing long-run U-shaped average cost curve for a firm
-  - would take a few decades for neoclassical economists to deerive shape of AC curve
+- Wicksell showed that most .hi-purple[firms actually go through all three phases of returns to scale]
+  - developing a .hi-purple[long-run U-shaped average cost curve] for a firm
+  - would take a few decades for neoclassical economists to derive and understand shape of AC curve
 
 ]
 ]
