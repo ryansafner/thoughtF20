@@ -1,0 +1,1659 @@
+---
+title: "3.2 — Marginal Productivity Theory"
+subtitle: "ECON 452 • History of Economic Thought • Fall 2020"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/thoughtF20"><i class="fa fa-github fa-fw"></i>ryansafner/thoughtF20</a><br> <a href="https://thoughtF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>thoughtF20.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    df_print: paged
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F)
+library(tidyverse)
+library(ggrepel)
+library(ggthemes)
+set.seed(256)
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+```
+
+class: inverse
+
+# Outline
+
+## [Second Generation Austrian Marginalists](#3)
+
+## [Marginal Productivity Theory](#31)
+
+## [Product Exhaustion & The Morality of Marginal Productivity](#36)
+
+---
+
+# Second-Generation Marginalists
+
+.pull-left[
+.centr[
+![](../images/marginalists2.png)
+]
+]
+
+.pull-right[
+
+.quitesmall[
+- Primarily extended and applied Jevons, Menger, & Walras’ marginalist tendencies to more problems in economics
+  - *especially*, the problem of pricing the factors of production
+
+- In England: Alfred Marshall, Phillip Wicksteed, Francis Edgeworth, A.C. Pigou
+
+- In Austria: Friedrich Wieser, Eugen von Böhm-Bawerk
+
+- In Switz./Italy: Enrico Barone, Vilfredo Pareto
+
+- In United States: John Bates Clark, Irving Fisher, Frank Knight, Frank Fetter
+
+- In Sweden: Knut Wicksell
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Second-Generation Austrian Marginalists
+
+---
+
+
+# Friedrich von Wieser
+
+.left-column[
+.center[
+![:scale 80%](../images/wieser2.jpg)
+
+.smallest[
+Friedrich von Wieser
+
+1851—1926
+]
+]
+]
+.right-column[
+
+- Student of Menger, ultimately replaced Menger as Professor of Political Economy at University of Vienna
+
+- Coined the term “marginal utility” (*Grenznutzen*)
+
+- Teacher to F.A. Hayek
+
+- 1889, *Der natürliche Werth (Natural Value)*
+
+- 1914, *Theorie der gesellschaftlichen Wirtschaft (Theory of Social Economy),*
+
+]
+
+---
+
+# Friedrich von Wieser: Alternative Cost Theory
+
+.left-column[
+.center[
+![:scale 80%](../images/wieser2.jpg)
+
+.smallest[
+Friedrich von Wieser
+
+1851—1926
+]
+]
+]
+.right-column[
+- What role do costs of production (payments to factors) play in value of final goods?
+
+- Costs are the values which are forgone in directing resources to a particular production process rather than other production processes
+
+- In this sense, production costs are really a reflection of utilities elsewhere in the economy
+
+- .hi-purple[Alternative cost theory] or .hi[opportunity cost]
+
+]
+
+---
+
+# Friedrich von Wieser: Alternative Cost Theory
+
+.left-column[
+.center[
+![:scale 80%](../images/wieser2.jpg)
+
+.smallest[
+Friedrich von Wieser
+
+1851—1926
+]
+]
+]
+.right-column[
+- Beginnings of major disagreements:
+
+- Jevons always thought costs were “real” in some sense, e.g. the *disutility* or pain of labor
+  - utility of consumption vs. disutility of production; utility & disutility curves
+
+- Marshall & Edgeworth would later argue you can derive an upward-sloping supply/cost curve for non-land factors by disutility of use
+
+]
+
+---
+
+# Friedrich von Wieser: Imputation Theory
+
+.left-column[
+.center[
+![:scale 80%](../images/wieser2.jpg)
+
+.smallest[
+Friedrich von Wieser
+
+1851—1926
+]
+]
+]
+.right-column[
+- Menger had clear insights about capital and production: goods of higher order, their complementarity and substitutability, etc.
+
+- If we all agree that prices of final goods reflect their marginal utility, how do we price factor services (land, labor, capital)?
+
+- Wieser, using a legal term, this is a .hi-purple[“problem of imputation”]
+
+]
+
+---
+
+# Friedrich von Wieser: Imputation Theory
+
+.left-column[
+.center[
+![:scale 80%](../images/wieser2.jpg)
+
+.smallest[
+Friedrich von Wieser
+
+1851—1926
+]
+]
+]
+.right-column[
+.smallest[
+- Wieser’s solution was .hi-purple[linear programming] with simultaneous equations (no calculus)
+
+- .hi-green[Example]: consider a three-good society, services involved being $x$, $y$, and $z$, represented by three simultaneous equations:
+
+$$\begin{align*}
+x+y&=100\\
+2x+3z&=290\\
+4y+5z&=590\\ \end{align*}$$
+
+- Solve for $x$, $y$, and $z$
+
+- Assumes prices for final goods are given, and no substitution of factors
+]
+
+.source[Wieser, Friedrich von, 1893, *Natural Value* p.88]
+]
+
+---
+
+# Eugen von Böhm-Bawerk
+
+.left-column[
+.center[
+![:scale 80%](../images/Bohmbawerk3.jpg)
+
+.smallest[
+Eugen von Böhm-Bawerk
+
+1851—1914
+]
+]
+]
+.right-column[
+
+- Studied law at University of Vienna; exposed to Menger but never his direct student
+
+- Friend & brother-in-law to Friedrich Wieser
+
+- Became Minister of Finance of Austria-Hungary; amabassador to Germany
+
+- Later became professor of political economy, teacher to Ludwig von Mises
+]
+
+---
+
+# Eugen von Böhm-Bawerk
+
+.left-column[
+.center[
+![:scale 80%](../images/Bohmbawerk3.jpg)
+
+.smallest[
+Eugen von Böhm-Bawerk
+
+1851—1914
+]
+]
+]
+.right-column[
+- Direct critique of Marxism: 1896, *Karl Marx and the Close of His System*
+
+- Famously wrote on capital theory and interest theory
+  - We will dig into this next week
+
+- *Capital & Interest* 2 volumes:
+   - 1884, *History and Critique of Interest Theories*
+   - 1889, *Positive Theory of Capital*
+]
+
+---
+
+# Eugen von Böhm-Bawerk
+
+.left-column[
+.center[
+![:scale 80%](../images/Bohmbawerk3.jpg)
+
+.smallest[
+Eugen von Böhm-Bawerk
+
+1851—1914
+]
+]
+]
+
+.right-column[
+- Took a different approach to the imputation problem (factor pricing) than Wieser:
+
+- Followed a phrase in Menger, “the loss principle” — applying to the price of the final good what would be lost if one of the factor services is withdrawn
+
+- A good start, but leads to wrong conclusion if followed too literally (horse, cart, etc)
+
+- In truth, marginal product operates at infinitesimally small changes (derivative)
+]
+
+---
+
+class: inverse, center, middle
+
+# Marginal Productivity Theory
+
+---
+
+# The Ricardian Roots of Marginal Productivity Theory
+
+.left-column[
+.center[
+![:scale 80%](../images/ricardo2.jpg)
+
+David Ricardo
+
+1772-1823
+]
+]
+
+.right-column[
+.smaller[
+- Ricardo’s theory of rent applied marginal analysis (“doses” of L+K) to a fixed factor (land), concluding the fixed factor earns a residual surplus (gap between AP>MP) of variable factor (L+K)
+
+- .hi[Marginal productivity theory] takes the other side of the coin: .hi-purple[any _variable_ factor must earn a payment equal to its marginal product] (holding all other factors fixed)
+]
+]
+
+---
+
+# Marginal Productivity Theory
+
+.pull-left[
+- Applying Ricardian logic *beyond* agriculture, we arrive at the modern .hi-purple[law of diminishing returns]
+  - .hi-purple[“Law of variable proportions” or “variation of returns”]
+
+- For *any* one variable factor (holding all others constant), increasing use will eventually yield a diminishing marginal product
+  - nothing special about land!
+
+]
+
+.pull-right[
+```{r}
+prod_2=function(x){-0.5*x^3+6*x^2-x}
+
+total<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=prod_2, geom="line", size=2, color="red")+
+  geom_label(aes(x=9.5,y=prod_2(9.5)), color = "red", label="Total Product", size = 5)+
+  geom_vline(xintercept=6, size=1.5, linetype="dashed")+
+  geom_segment(x=4, xend=4, y=0, yend=prod_2(4), size=1, linetype="dotted")+
+  geom_label(x=4.5,y=50, label="Stage I")+
+  geom_vline(xintercept=8, size=1.5, linetype="dashed")+
+  geom_label(x=7,y=50, label="Stage II")+
+  geom_label(x=9,y=50, label="Stage III")+
+    scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,120,20),
+                     limits=c(0,120),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_colour_manual("I.C. equations", values = colors)+
+  guides(color = F)+
+  labs(x = "Input, (i)",
+       y = "Output (q)",
+       title = "Total Output")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+
+mp=function(x){-1.5*x^2+12*x-1}
+ap=function(x){-0.5*x^2+6*x-1}
+
+marginal<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mp, geom="line", size=2, color="blue")+
+  geom_label(aes(x=7.5,y=mp(7.5)), color = "blue", label=expression(MP[l]), size = 5)+
+  stat_function(fun=ap, geom="line", size=2, color="purple")+
+  geom_label(aes(x=9.5,y=ap(9.5)), color = "purple", label=expression(AP[l]), size = 5)+
+  geom_vline(xintercept=6, size=1.5, linetype="dashed")+
+  geom_segment(x=4, xend=4, y=0, yend=mp(4), size=1, linetype="dotted")+
+  geom_label(x=4.5,y=8, label="Stage I")+
+  geom_vline(xintercept=8, size=1.5, linetype="dashed")+
+  geom_label(x=7,y=8, label="Stage II")+
+  geom_label(x=9,y=8, label="Stage III")+
+    scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,24,4),
+                     limits=c(0,24),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_colour_manual("I.C. equations", values = colors)+
+  guides(color = F)+
+  labs(x = "Input, (i)",
+       y = "Output per Factor Unit (q/i)",
+       title = "Output per Input")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+
+library(patchwork)
+total/marginal
+```
+
+]
+
+---
+
+# Diminishing Returns
+
+.pull-left[
+.smallest[
+- .hi[Marginal product of factor i, `\\((MP_i)\\)`]: additional output produced by adding one more unit of factor $i$ (holding all others constant)
+$$MP_i = \frac{\Delta q}{\Delta i}$$
+  - $MP_i$ is slope of $TP$ at each value of $i$
+
+- .hi[Average product of factor i `\\((AP_i)\\)`]: additional output produced by adding one more unit of factor $i$ (holding all others constant)
+$$AP_i = \frac{q}{i}$$
+  - $AP_i$ is slope of a ray from the origin to the production function at any quantity of $i$
+]
+
+]
+
+.pull-right[
+```{r}
+total/marginal
+```
+
+]
+
+---
+
+# Derived Demand in Factor Markets
+
+.pull-left[
+- Demand for factors (e.g. labor) is a .hi-purple[“derived demand”]:
+  - Firm only demands inputs to the extent they **contribute to producing sellable output**
+
+- Firm faces a .hi-purple[tradeoff] when **hiring more labor**, as more labor $\Delta L$ creates:
+  1. .hi[Marginal Benefit]: Increases output and thus revenue
+  2. .hi[Marginal Cost]: Increases costs
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/usjcm7s1euszomm/firms.png?raw=1)
+]
+]
+
+---
+
+# Marginal Revenue Product (of Labor)
+
+- Hiring more labor increases output (i.e. labor's .hi-purple[`\\(MP_L\\)`])
+  - Recall: $MP_L=\frac{\Delta q}{\Delta L}$, where $q$ is units of output
+
+--
+
+- Additional output generates (i.e. labor's .hi-purple[`\\(MR(q)\\)`])
+  - Recall: $MR(q)=\frac{\Delta R(q)}{\Delta q}$, where $R(q)$ is total revenue
+--
+
+- Hiring more labor, on the **margin**, generates a **benefit**, called the .hi[marginal revenue product of labor, `\\(MRP_L\\)`]:
+$$MRP_L=MP_L* MR(q)$$
+  - i.e. the number of new products a new worker makes times the revenue earned by selling the new products
+
+
+---
+
+# Marginal Revenue Product for *Competitive* Firms
+
+.pull-left[
+
+- This is the .hi-blue[Firm's Demand for Labor]:
+
+$$MRP_L=MP_L* MR(q)$$
+
+- For a firm in a .hi[competitive (output) market], firm's $MR(q)=p$, hence:
+
+$$MRP_L=MP_L*p$$
+where $p$ is the price of the firm's *output*
+
+]
+
+```{r, fig.retina=3}
+library("mosaic")
+Demand=function(x){10-2*x}
+MC=function(x){2}
+
+# make plot 
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  
+  # curves 
+  stat_function(fun=Demand, geom="line", size=2, color="blue")+
+  # surpluses
+  #geom_polygon(data=CS, aes(x=x,y=y, fill="Consumer"), alpha=0.5)+ #CS
+
+  # labels 
+  #geom_text(aes(x=q_PC,y=w,label="N.E.",family = "Yanone Kaffeesatz Regular"),hjust=-0.1, vjust=-0.25, color="black")+
+  annotate(geom = "label", x = 2, y = Demand(2), label = expression("Demand"==MRP[L]),
+           color = "blue", size = 6) +
+  scale_x_continuous(breaks = c(0),
+                     labels = c(0),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = c(0,10),
+                     labels = c(0,expression(choke)),
+                     limits = c(0,10),
+                     expand=c(0,0))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  labs(x = "Quantity of Labor (L)",
+       y = "Price of Labor (w)")
+```
+
+---
+
+# Marginal Revenue Product for *Competitive* Firms
+
+.pull-left[
+
+$$MRP_L=MP_L* p$$
+
+- Marginal benefit of hiring labor, $MRP_L$ **falls** with more labor used
+    - production exhibits **diminishing marginal returns to labor**!
+
+- .hi[Choke price for labor demand]: price too high for firm to purchase any labor
+
+]
+
+```{r, fig.retina=3}
+library("mosaic")
+Demand=function(x){10-2*x}
+MC=function(x){2}
+
+# make plot 
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  
+  # curves 
+  stat_function(fun=Demand, geom="line", size=2, color="blue")+
+  # surpluses
+  #geom_polygon(data=CS, aes(x=x,y=y, fill="Consumer"), alpha=0.5)+ #CS
+
+  # labels 
+  #geom_text(aes(x=q_PC,y=w,label="N.E.",family = "Yanone Kaffeesatz Regular"),hjust=-0.1, vjust=-0.25, color="black")+
+  annotate(geom = "label", x = 2, y = Demand(2), label = expression("Demand"==MRP[L]),
+           color = "blue", size = 6) +
+  scale_x_continuous(breaks = c(0),
+                     labels = c(0),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = c(0,10),
+                     labels = c(0,expression(choke)),
+                     limits = c(0,10),
+                     expand=c(0,0))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  labs(x = "Quantity of Labor (L)",
+       y = "Price of Labor (w)")
+```
+
+---
+
+# A Competitive *Factor* Market
+
+.pull-left[
+```{r, fig.retina=3, fig.height=5}
+demand<-function(x){10-x}
+supply<-function(x){x}
+supply_firm<-function(x){5}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=supply_firm, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9,y=supply_firm(9)), color = "red", label="Supply", size = 5)+
+    scale_x_continuous(breaks=c(0),
+                       labels=c(0),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,5),
+                     labels=c(0,"w*"),
+                     limits=c(0,10),                   
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(fill=F)+
+  labs(title = "Representative Firm",
+       x = "Quantity of Labor (L)",
+       y = "Price of Labor, (w)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, fig.height=5}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=demand, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
+  stat_function(fun=supply, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9,y=supply(9)), color = "red", label="Supply", size = 5)+
+  geom_segment(x=5, xend=5, y=0, yend=5, size=1, linetype="dotted")+
+  geom_segment(x=0, xend=5, y=5, yend=5, size=1, linetype="dotted")+
+    scale_x_continuous(breaks=c(0,5),
+                       labels=c(0,"L*"),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,5),
+                     labels=c(0,"w*"),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(fill=F)+
+  labs(title = "Labor Market",
+       x = "Quantity of Labor (L)",
+       y = "Price of Labor, (w)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+- If the .hi[*factor* market is competitive], labor supply for an individual firm is *perfectly elastic* at the market price of labor $(w^*)$
+
+---
+
+# Labor Supply and Firm's Demand for Labor
+
+.pull-left[
+
+- We've seen a falling $MRP_L$, the marginal benefit of hiring labor
+
+- .hi[Marginal cost of hiring labor], $w$, remains constant
+  - so long as firm is not a big purchaser (has no market power) in the labor market 
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  
+  # curves 
+  stat_function(fun=Demand, geom="line", size=2, color="blue")+
+  stat_function(fun=MC, geom="line", size=2, color="red")+
+  annotate(geom = "label", x = 2, y = Demand(2), label = expression("Demand"==MRP[L]),
+           color = "blue", size = 6) +
+  annotate(geom = "label", x = 8, y = 2, label = expression("Supply" == w), color="red", size=6)+
+  scale_x_continuous(breaks = c(0),
+                     labels = c(0),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = c(0,10),
+                     labels = c(0,expression(choke)),
+                     limits = c(0,10),
+                     expand=c(0,0))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  labs(x = "Quantity of Labor (L)",
+       y = "Price of Labor (w)")
+```
+]
+
+
+---
+
+# Labor Supply and Firm's Demand for Labor
+
+.pull-left[
+- At low amounts of labor, marginal benefit $(MRP_L) < w$ marginal cost
+
+- Firm will hire more labor
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  
+  # curves 
+  stat_function(fun=Demand, geom="line", size=2, color="blue")+
+  stat_function(fun=MC, geom="line", size=2, color="red")+
+    annotate(geom = "label", x = 2, y = Demand(2), label = expression("Demand"==MRP[L]),
+           color = "blue", size = 6) +
+  annotate(geom = "label", x = 8, y = 2, label = expression("Supply" == w), color="red", size=6)+
+  annotate("segment", x = 1, xend = 3, y = 3, yend = 3, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  scale_x_continuous(breaks = c(0),
+                     labels = c(0),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = c(0,10),
+                     labels = c(0,expression(choke)),
+                     limits = c(0,10),
+                     expand=c(0,0))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  labs(x = "Quantity of Labor (L)",
+       y = "Price of Labor (w)")
+```
+]
+
+---
+
+# Labor Supply and Firm's Demand for Labor
+
+.pull-left[
+
+- At high amounts of labor, marginal benefit $(MRP_L) < w$ marginal cost
+
+- Firm will hire less labor
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  
+  # curves 
+  stat_function(fun=Demand, geom="line", size=2, color="blue")+
+  stat_function(fun=MC, geom="line", size=2, color="red")+
+  annotate("segment", x = 9, xend = 4, y = 3, yend = 3, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+    annotate(geom = "label", x = 2, y = Demand(2), label = expression("Demand"==MRP[L]),
+           color = "blue", size = 6) +
+  annotate(geom = "label", x = 8, y = 2, label = expression("Supply" == w), color="red", size=6)+
+  scale_x_continuous(breaks = c(0),
+                     labels = c(0),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = c(0,10),
+                     labels = c(0,expression(choke)),
+                     limits = c(0,10),
+                     expand=c(0,0))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  labs(x = "Quantity of Labor (L)",
+       y = "Price of Labor (w)")
+```
+]
+
+---
+
+# Labor Supply and Firm's Demand for Labor
+
+.pull-left[
+
+- Firm hires $L^*$ optimal amount of labor where $w=MRP_L$ 
+
+- i.e. marginal cost of labor $=$ marginal benefit of labor
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3}
+library("mosaic")
+Demand=function(x){10-2*x}
+MC=function(x){2}
+
+# make plot 
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  
+  # curves 
+  stat_function(fun=Demand, geom="line", size=2, color="blue")+
+  stat_function(fun=MC, geom="line", size=2, color="red")+
+  # surpluses
+  #geom_polygon(data=CS, aes(x=x,y=y, fill="Consumer"), alpha=0.5)+ #CS
+
+  # labels 
+  geom_segment(aes(x=4,y=0),xend=4,yend=2,linetype=3)+
+  geom_point(aes(x=4,y=2), color="black", size =3 )+ 
+  #geom_text(aes(x=q_PC,y=w,label="N.E.",family = "Yanone Kaffeesatz Regular"),hjust=-0.1, vjust=-0.25, color="black")+
+  annotate(geom = "label", x = 2, y = Demand(2), label = expression("Demand"==MRP[L]),
+           color = "blue", size = 6) +
+  annotate(geom = "label", x = 8, y = 2, label = expression("Supply" == w),
+           color = "red", size = 6) +
+  #annotate(geom = "label", x = 1.3, y = 5, label = "Consumer Surplus",
+  #         color = "blue", size = 4.5) +
+  scale_x_continuous(breaks = c(0,4),
+                     labels = c(0,expression(L^{"*"})),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = c(0,2,10),
+                     labels = c(0,expression(w^{"*"}),expression(choke)),
+                     limits = c(0,10),
+                     expand=c(0,0))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  labs(x = "Quantity of Labor (L)",
+       y = "Price of Labor (w)")
+```
+]
+
+---
+
+# Labor Supply and Firm's Demand for Labor
+
+.pull-left[
+```{r, fig.retina=3, fig.height=5}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=supply_firm, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9,y=supply_firm(9)), color = "red", label="Supply", size = 5)+
+    stat_function(fun=Demand, geom="line", size=2, color="blue")+
+    geom_label(aes(x=2,y=Demand(2)), color = "blue", label=expression(Demand==MRP[L]), size = 5)+
+    geom_segment(aes(x=2.5,y=0),xend=2.5,yend=5,linetype=3)+
+  scale_x_continuous(breaks = c(0,2.5),
+                     labels = c(0,expression(L[1])),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = c(0,5,10),
+                     labels = c(0,expression(w[1]),expression(choke)),
+                     limits = c(0,10),
+                     expand=c(0,0))+
+  guides(fill=F)+
+  labs(title = "Representative Firm",
+       x = "Quantity of Labor (L)",
+       y = "Price of Labor, (w)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, fig.height=5}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=demand, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
+  stat_function(fun=supply, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9,y=supply(9)), color = "red", label="Supply", size = 5)+
+  geom_segment(x=5, xend=5, y=0, yend=5, size=1, linetype="dotted")+
+  geom_segment(x=0, xend=5, y=5, yend=5, size=1, linetype="dotted")+
+    scale_x_continuous(breaks=c(0,5),
+                       labels=c(0,expression(L[1])),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,5),
+                     labels=c(0,expression(w[L])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(fill=F)+
+  labs(title = "Labor Market",
+       x = "Quantity of Labor (L)",
+       y = "Price of Labor, (w)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+
+---
+
+# Labor Supply and Firm's Demand for Labor
+
+.pull-left[
+```{r, fig.retina=3, fig.height=5}
+supply_firm2=function(x){6}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=supply_firm, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9,y=supply_firm(9)), color = "red", label="Supply", size = 5)+
+    stat_function(fun=supply_firm2, geom="line", size=2, color = "darkred")+
+    geom_label(aes(x=9,y=supply_firm2(9)), color = "darkred", label="Supply 2", size = 5)+
+
+    stat_function(fun=Demand, geom="line", size=2, color="blue")+
+    geom_label(aes(x=4,y=Demand(4)), color = "blue", label=expression(Demand==MRP[L]), size = 5)+
+    geom_segment(aes(x=2.5,y=0),xend=2.5,yend=5,linetype=3)+
+  
+      geom_segment(aes(x=2,y=0),xend=2,yend=6,linetype=3)+
+
+    annotate("segment", x = 2.5, xend = 2, y = 3, yend = 3, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+
+  annotate("segment", x = 1.5, xend = 1.5, y = 5, yend = 6, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+
+  scale_x_continuous(breaks = c(0,2,2.5),
+                     labels = c(0,expression(L[2]), expression(L[1])),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks = c(0,5,6,10),
+                     labels = c(0,expression(w[1]),expression(w[2]),expression(choke)),
+                     limits = c(0,10),
+                     expand=c(0,0))+
+  guides(fill=F)+
+  labs(title = "Representative Firm",
+       x = "Quantity of Labor (L)",
+       y = "Price of Labor, (w)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, fig.height=5}
+supply_low<-function(x){x+2}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=demand, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
+  stat_function(fun=supply, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9,y=supply(9)), color = "red", label="Supply", size = 5)+
+    stat_function(fun=supply_low, geom="line", size=2, color = "darkred")+
+    geom_label(aes(x=7,y=supply_low(7)), color = "darkred", label="Supply 2", size = 5)+
+
+  geom_segment(x=5, xend=5, y=0, yend=5, size=1, linetype="dotted")+
+  geom_segment(x=0, xend=5, y=5, yend=5, size=1, linetype="dotted")+
+  
+  geom_segment(x=4, xend=4, y=0, yend=6, size=1, linetype="dotted")+
+  geom_segment(x=0, xend=4, y=6, yend=6, size=1, linetype="dotted")+
+
+    scale_x_continuous(breaks=c(0,4,5),
+                       labels=c(0,expression(L[2]),expression(L[1])),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,5,6),
+                     labels=c(0,expression(w[1]),expression(w[2])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(fill=F)+
+  
+  annotate("segment", x = 5, xend = 4, y = 3, yend = 3, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+
+    annotate("segment", x = 2, xend = 2, y = 5, yend = 6, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+
+  labs(title = "Labor Market",
+       x = "Quantity of Labor (L)",
+       y = "Price of Labor, (w)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+- If market supply of labor decreases, firms hire fewer workers, at higher wages (and vice versa)
+
+---
+
+# Multiple Inputs and Cost Minimization
+
+.pull-left[
+.quitesmall[
+- But firms produce with many factors, what is the more general rule for hiring the optimal combination of factors?
+
+- Assume three factors: land, labor, capital
+
+- Optimal hiring condition is the .hi-purple[equimarginal rule] (Gossen’s Second Law} again:
+
+$$\frac{MP_l}{p_l}  =  \frac{MP_k}{p_k} = \frac{MP_t}{p_t} = \cdots = \frac{MP_n}{p_n}$$
+
+- Cost of production is minimized where the **marginal product per dollar spent** is **equalized** across all $n$ possible inputs
+  - the “last dollar spent” on each input provides the same marginal product
+]
+]
+
+.pull-right[
+.center[
+![](../images/management.jpg)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Product Exhaustion & The Morality of Marginal Productivity
+
+---
+
+# John Bates Clark
+
+.left-column[
+.center[
+![:scale 80%](../images/johnbatesclark.png)
+
+
+.smallest[
+John Bates Clark
+
+1847—1938
+]
+]
+]
+.right-column[
+
+- Professor at Columbia
+
+- Independently derived his own version of marginal utility theory
+
+- Main popularizer of marginal productivity theory
+
+- Opponent to American Institutionalists (see later)
+
+- 1886, *The Philosophy of Wealth*
+
+- 1889, “Possibility of a Scientific Law of Wages” paper at AEA; generalized in 1899 *The Distribution of Wealth*
+]
+
+---
+
+# Product Exhaustion
+
+.pull-left[
+
+- Ricardian rent theory defined rent as a residual, will always adjust to fill the gap between output price and wages & profits
+  - output price = wages & profits + rent
+
+- Thus, the  payments to all factors of production (land, labor, capital)  .hi-purple[“fully exhaust the product”]
+  - i.e. the sum of factor payments (costs to firm) equals the price
+]
+
+.pull-right[
+
+]
+---
+
+# Product Exhaustion
+
+.pull-left[
+
+- On a competitive market, each product is paid its marginal (revenue) product
+
+- .hi-purple[Does the sum of these marginal products exactly equal the market price of the output?]
+  - .hi-purple[“Product Exhaustion”] debate:
+
+$$Q=^{?}MP_L \times L + MP_K \times K + MP_T \times T$$
+
+]
+
+.pull-right[
+
+]
+
+---
+
+# John Bates Clark
+
+.left-column[
+.center[
+![:scale 80%](../images/johnbatesclark.png)
+
+
+.smallest[
+John Bates Clark
+
+1847—1938
+]
+]
+]
+
+.right-column[
+
+- Clark famously argued that on a competitive market, each factor is paid its marginal product, and that this exactly exhausts the product
+
+- Viewed this as a *moral* feature of markets: each factor is paid for its contribution to society
+
+- Offered no *proof* that this is true
+]
+
+---
+
+# John Bates Clark: The Morality of Marginal Productivity
+
+.left-column[
+.center[
+![:scale 80%](../images/johnbatesclark.png)
+
+
+.smallest[
+John Bates Clark
+
+1847—1938
+]
+]
+]
+
+.right-column[
+
+- Meant this as a critique of both Karl Marx and Henry George
+
+- Georgists believed rent was undeserved, unearned income of landowners: should go to government
+
+- Marxists believed profit was exploitatibe and undeserved (surplus value): belonged to workers
+
+- Clark’s *Distribution of Wealth* argues that marginal productivity theory shows that under competitive markets, each factor is paid its just due
+  - Labor *and* land *and* capital are *all* necessary for production, and are paid for their productive contributions
+]
+
+---
+
+# John Bates Clark: The Morality of Marginal Productivity
+
+.left-column[
+.center[
+![:scale 80%](../images/johnbatesclark.png)
+
+
+.smallest[
+John Bates Clark
+
+1847—1938
+]
+]
+]
+
+.right-column[
+
+- Furthermore, argues that the distribution of income (under competitive markets) is *just* and *deserved*!
+
+- Heavily criticized for this normative theory
+  - Problems: not perfectly competitive, monopolies, labor unions, etc.
+  - His student, Thorstein Veblen reached the opposite conclusion!
+
+- Hume’s is-ought gap
+]
+
+---
+
+# John Bates Clark: The Morality of Marginal Productivity
+
+.left-column[
+.center[
+![:scale 80%](../images/johnbatesclark.png)
+
+
+.smallest[
+John Bates Clark
+
+1847—1938
+]
+]
+]
+
+.right-column[
+
+- Several flaws with marginal productivity theory as a theory of distribution
+
+- MPT is primarily .hi-purple[a theory of factor pricing], not about .hi-turquoise[distribution of relative shares]
+
+- Also an incomplete theory of factor pricing! Considers only demand side of factor market (firms), not the supply side!
+
+- Biggest problem: impossible to observe and measure an individual factor’s marginal product!
+
+]
+
+---
+
+# John Bates Clark: The Morality of Marginal Productivity
+
+.left-column[
+.center[
+![:scale 80%](../images/johnbatesclark.png)
+
+
+.smallest[
+John Bates Clark
+
+1847—1938
+]
+]
+]
+
+.right-column[
+- MPT describes the outcome to which we are always *approaching* (i.e. perfect competition), it is an equilibrium state of rest
+  - *actual* prices in real world are not equilibrium prices, we are not in perfect competition
+
+- A scarce factor will command higher prices, may be efficient, but is that moral? 
+
+]
+
+---
+
+# Phillip Wicksteed
+
+.left-column[
+.center[
+![:scale 80%](../images/wicksteed.jpg)
+
+.smallest[
+Phillip Wicksteed
+
+1844—1927
+]
+]
+]
+.right-column[
+
+- A British economist and unitarian minister
+
+- Learned economics from Jevons, and got inspired to write about political economy after reading Henry George
+
+- 1894, *An Essay on the Co-Ordination of the Laws of Distribution*
+  - tries to solve the product exhaustion problem of marginal productivity theory
+
+- 1910, *The Common Sense of Political Economy: Including a Study of the Human Basis of Economic Law*
+  - one of the greatest books popularizing marginalism 
+]
+
+---
+
+# Phillip Wicksteed
+
+.left-column[
+.center[
+![:scale 80%](../images/wicksteed.jpg)
+
+.smallest[
+Phillip Wicksteed
+
+1844—1927
+]
+]
+]
+
+.right-column[
+
+- Uses Euler’s Theorem of homogeneous functions to prove product exhaustion under specific conditions:
+  - production functions must be linearly homogenous (degree 1)
+  - we would say: .hi-purple[constant returns to scale]
+  - $cY =f(cL,cK,cT)$
+
+]
+
+---
+
+# Returns to Scale
+
+- The .hi[returns to scale] of production refers to the change in output when all inputs are increased *at the same rate*
+
+--
+
+- .hi-purple[Constant returns to scale]: output increases at same proportionate rate as inputs increase
+    - e.g. if you double all inputs, output doubles
+
+--
+
+- .hi-purple[Increasing returns to scale]: output increases *more than* proportionately to the change in inputs
+    - e.g. if you double all inputs, output *more than* doubles
+
+--
+
+- .hi-purple[Decreasing returns to scale]: output increases *less than* proportionately to the change in inputs
+    - e.g. if you double all inputs, output *less than* doubles
+
+---
+
+# Constant Returns to Scale
+
+.pull-left[
+.smallest[
+- Constant returns to scale: doubling all inputs $\implies$ double output
+$$f(cl,ck,ct)=cf(l,k,t) \quad \forall c>1$$
+
+- Constant economies of scale: average and marginal costs (are equal and) do not vary with output
+
+- Total revenues are completely exhausted by the payments to factors (costs to firm)
+]
+]
+
+.pull-right[
+```{r}
+crs_prod=function(x){x}
+
+crs_q<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=crs_prod, geom="line", size=2, color="red")+
+  geom_label(aes(x=2.5,y=crs_prod(2.5)), color = "red", label="Total Product", size = 5)+
+  # first dotted lines
+  geom_segment(x=1, xend=1, y=0, yend=1, linetype="dotted",size=1)+
+  geom_segment(x=0, xend=1, y=1, yend=1, linetype="dotted",size=1)+
+  # second dotted lines
+  geom_segment(x=2, xend=2, y=0, yend=2, linetype="dotted",size=1)+
+  geom_segment(x=0, xend=2, y=2, yend=2, linetype="dotted",size=1)+
+    scale_x_continuous(breaks=c(0,1,2),
+                       labels=c(0,"l","2l"),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,1,2),
+                     labels=c(0,"f(l)", "f(2l)"),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Input, Labor (l)",
+       y = "Output (q)",
+       title = "Constant Returns")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+crs_cost=function(x){x}
+
+crs_tc<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=crs_cost, geom="line", size=2, color="red")+
+  #geom_label(aes(x=2.5,y=crs_prod(2.5)), color = "red", label="Total Product", size = 5)+
+    scale_x_continuous(breaks=c(0),
+                       labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0),
+                     labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Output (q)",
+       y = "Total Costs C(q)",
+       title = "Total Costs")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+crs_mc=function(x){2}
+
+crs_mc<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=crs_mc, geom="line", size=2, color="red")+
+  geom_label(aes(x=2.5,y=2), color = "red", label="MC(q)=AC(q)", size = 5)+
+    scale_x_continuous(breaks=c(0),
+                       labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0),
+                     labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Output (q)",
+       y ="Costs per Unit",
+       title = "Per Unit Costs")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+library(patchwork)
+crs_q+(crs_tc/crs_mc)
+```
+
+]
+
+---
+
+# Decreasing Returns to Scale
+
+.pull-left[
+.smallest[
+- Decreasing returns to scale: doubling all inputs $\implies$ *less* than double output
+$$f(cl,ck,ct)<cf(l,k,t) \quad \forall c>1$$
+
+- Diseconomies of scale: average and marginal costs are increasing with output
+  - AC < MC $\implies$ marginal cost pricing is always profitable
+  - Total Costs < Total Revenues $\implies \pi > 0$
+
+- Total revenues are *not* exhausted by the payments to factors (costs to firm); residual leftover!
+
+]
+]
+.pull-right[
+```{r}
+library(mosaic)
+drs_prod=function(x){sqrt(x)}
+
+drs_q<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=drs_prod, geom="line", size=2, color="red")+
+  geom_abline(intercept=0, slope=1, size=1, linetype="dashed")+
+  geom_label(aes(x=2.5,y=drs_prod(2.5)), color = "red", label="Total Product", size = 5)+
+  geom_label(aes(x=3,y=3), label=expression(45*degree), size = 5)+
+  # first dotted lines
+  geom_segment(x=1, xend=1, y=0, yend=1, linetype="dotted",size=1)+
+  geom_segment(x=0, xend=1, y=1, yend=1, linetype="dotted",size=1)+
+  # second dotted lines
+  geom_segment(x=2, xend=2, y=0, yend=2, linetype="dotted",size=1)+
+  geom_segment(x=0, xend=2, y=2, yend=2, linetype="dotted",size=1)+
+  # function dotted lines
+  geom_segment(x=2, xend=2, y=0, yend=drs_prod(2), linetype="dotted",size=1)+
+  geom_segment(x=0, xend=2, y=drs_prod(2), yend=drs_prod(2), linetype="dotted",size=1)+
+    scale_x_continuous(breaks=c(0,1,2),
+                       labels=c(0,"l","2l"),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,1,drs_prod(2),2),
+                     labels=c(0,"f(l)", "2f(l)", "f(2l)"),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Input, Labor (l)",
+       y = "Output (q)",
+       title = "Decreasing Returns")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+drs_cost=function(x){x^{1.5}}
+
+drs_tc<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=drs_cost, geom="line", size=2, color="red")+
+  #geom_label(aes(x=2.5,y=crs_prod(2.5)), color = "red", label="Total Product", size = 5)+
+    scale_x_continuous(breaks=c(0),
+                       labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0),
+                     labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Output (q)",
+       y = "Total Costs C(q)",
+       title = "Total Costs")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+drs_mc=function(x){1.5*x^{0.5}}
+drs_ac=function(x){x^{0.5}}
+
+drs_mc2<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=drs_mc, geom="line", size=2, color="red")+
+  geom_label(aes(x=2,y=drs_mc(2)), color = "red", label="MC(q)", size = 5)+
+  stat_function(fun=drs_ac, geom="line", size=2, color="orange")+
+  geom_label(aes(x=2,y=drs_ac(2)), color = "orange", label="AC(q)", size = 5)+
+    scale_x_continuous(breaks=c(0),
+                       labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0),
+                     labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Output (q)",
+       y ="Costs per Unit",
+       title = "Per Unit Costs")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+drs_q+(drs_tc/drs_mc2)
+```
+
+]
+
+---
+
+# Increasing Returns to Scale
+
+.pull-left[
+.smallest[
+- Increasing returns to scale: doubling all inputs $\implies$ *more* than double output
+$$f(cl,ck,ct)>cf(l,k,t) \quad \forall c>1$$
+
+- Economies of scale: average and marginal costs are decreasing with output
+  - AC > MC $\implies$ marginal cost pricing is always loss-inducing
+  - Total Costs > Total Revenues $\implies \pi < 0$
+
+- Total revenues are *insufficient* to cover the payments to factors (costs to firm); losses!
+
+]
+]
+
+.pull-right[
+```{r}
+library(mosaic)
+irs_prod=function(x){x^{1.5}}
+
+irs_q<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=irs_prod, geom="line", size=2, color="red")+
+  geom_abline(intercept=0, slope=1, size=1, linetype="dashed")+
+  geom_label(aes(x=2.5,y=irs_prod(2.5)), color = "red", label="Total Product", size = 5)+
+  geom_label(aes(x=3,y=3), label=expression(45*degree), size = 5)+
+  # first dotted lines
+  geom_segment(x=1, xend=1, y=0, yend=1, linetype="dotted",size=1)+
+  geom_segment(x=0, xend=1, y=1, yend=1, linetype="dotted",size=1)+
+  # second dotted lines
+  geom_segment(x=2, xend=2, y=0, yend=2, linetype="dotted",size=1)+
+  geom_segment(x=0, xend=2, y=2, yend=2, linetype="dotted",size=1)+
+  # function dotted lines
+  geom_segment(x=2, xend=2, y=0, yend=irs_prod(2), linetype="dotted",size=1)+
+  geom_segment(x=0, xend=2, y=irs_prod(2), yend=irs_prod(2), linetype="dotted",size=1)+
+    scale_x_continuous(breaks=c(0,1,2),
+                       labels=c(0,"l","2l"),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,1,2, irs_prod(2)),
+                     labels=c(0,"f(l)", "2f(l)", "f(2l)"),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Input, Labor (l)",
+       y = "Output (q)",
+       title = "Increasing Returns")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+irs_cost=function(x){x^{0.5}}
+
+irs_tc<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=irs_cost, geom="line", size=2, color="red")+
+  #geom_label(aes(x=2.5,y=crs_prod(2.5)), color = "red", label="Total Product", size = 5)+
+    scale_x_continuous(breaks=c(0),
+                       labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0),
+                     labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Output (q)",
+       y = "Total Costs C(q)",
+       title = "Total Costs")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+irs_mc=function(x){0.5*x^{-0.5}}
+irs_ac=function(x){1/x^{0.5}}
+
+irs_mc2<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=irs_mc, geom="line", size=2, color="red")+
+  geom_label(aes(x=2.5,y=irs_mc(2.5)), color = "red", label="MC(q)", size = 5)+
+    stat_function(fun=irs_ac, geom="line", size=2, color="orange")+
+  geom_label(aes(x=2.5,y=irs_ac(2.5)), color = "orange", label="AC(q)", size = 5)+
+    scale_x_continuous(breaks=c(0),
+                       labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0),
+                     labels=c(0),
+                     limits=c(0,3),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Output (q)",
+       y ="Costs per Unit",
+       title = "Per Unit Costs")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+irs_q+(irs_tc/irs_mc2)
+```
+
+]
+
+---
+
+# Knut Wicksell
+
+.left-column[
+.center[
+![:scale 80%](../images/wicksell.jpg)
+
+.smallest[
+Knut Wicksell
+
+1851—1926
+]
+]
+]
+
+.right-column[
+
+- Swedish economist at University of Stockholm
+
+- Another supposed independent discoverer of marginal productivity theory
+
+- Made key contributions to capital and interest theory, influence Austrian & Keynesian schools of macroeconomics
+  - we'll explore more next week
+
+- 1898, *Interest and Prices*
+
+]
+
+---
+
+# Wicksell and Product Exhaustion
+
+.left-column[
+.center[
+![:scale 80%](../images/wicksell.jpg)
+
+.smallest[
+Knut Wicksell
+
+1851—1926
+]
+]
+]
+
+.right-column[
+.smallest[
+- Most economists believed that an industry would always be either constant, increasing, or decreasing returns
+
+- Wicksell showed that most firms actually go through all three phases of returns to scale
+  - developing long-run U-shaped average cost curve for a firm
+  - would take a few decades for neoclassical economists to deerive shape of AC curve
+
+]
+]
+
+---
+
+# Wicksell and Product Exhaustion
+
+.left-column[
+.center[
+![:scale 80%](../images/wicksell.jpg)
+
+.smallest[
+Knut Wicksell
+
+1851—1926
+]
+]
+]
+
+.right-column[
+- Thus, it is *not* necessary (as Wicksteed did) to assume constant returns to prove product exhaustion
+
+- Competition would ensure that in the long run, firms are producing at their least-cost combination
+  - $p = MC = AC_{min}$
+  - $\pi = 0$
+  - “product exhaustion”
+]
+
+---
+
+# Wicksell and Product Exhaustion
+
+.pull-left[
+
+- .hi[Minimum Efficient Scale]: $q$ with the lowest $AC(q)$
+  - constant returns to scale
+
+- .hi-green[Economies of Scale]: $\uparrow q$, $\downarrow AC(q)$
+  - increasing returns to scale
+
+- .hi-red[Diseconomies of Scale]: $\uparrow q$, $\uparrow AC(q)$
+  - decreasing returns to scale
+]
+
+.pull-right[
+
+```{r, fig.retina=3}
+ac_mes<-function(x){(x-5)^2+4}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=ac_mes, geom="line", size=2, color="orange")+
+  geom_label(x=8, y=ac_mes(8), color="orange", size=6, label="AC(q)")+
+  geom_segment(x=5, xend=5, y=0, yend=4, linetype="dotted", size =1)+
+  geom_label(x=5, y=2, size=6, label="M.E.S.")+
+    scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,20,2),
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)),
+                     labels = scales::dollar)+
+  annotate("segment", x = 1, xend = 4, y = 14, yend = 2, color = "green", size=2, alpha=0.9, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+    geom_label(x=2, y=4, size=6, label="Economies", color="green")+
+
+  annotate("segment", x = 6, xend = 9, y = 2, yend = 14, color = "red", size=2, alpha=0.9, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+    geom_label(x=8, y=4, size=6, label="Diseconomies", color="red")+
+  labs(x = "Output, q",
+       y = "Costs per Unit")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  theme(legend.position = "bottom")
+```
+]
+
+---
+
+# Wicksell and Product Exhaustion
+
+.pull-left[
+
+- Think about what you learn in microeconomics
+
+- In perfect competition, in the long run, as profits attract entrants and losses force exits, price settles on the break-even point, where profit is 0
+  - $p=MC=AC_{min}$
+
+- We still haven’t gotten to the famous model of perfect competition, but this is where everything is heading
+]
+
+.pull-right[
+```{r}
+mc<-function(x){2*x}
+ac<-function(x){x+9/x}
+avc<-function(x){x}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mc, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9.5,y=mc(9.5)), color = "red", label="MC(q)", size = 4)+
+  stat_function(fun=ac, geom="line", size=2, color = "orange")+
+    geom_label(aes(x=9.5,y=ac(9.5)), color = "orange", label="AC(q)", size = 4)+
+  # break even line
+  geom_hline(yintercept=6, size=1, color="blue")+
+  geom_label(x=9,y=6, label="P=MR=AR", size =5, color="blue")+
+  geom_segment(x = 3, y = 6, xend = 3, yend = 0, linetype = "dotted")+
+    scale_x_continuous(breaks=c(0,3),
+                       labels = c(0,"q*"),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,6),
+                     labels=c("0", expression(p==AC[min])),
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  labs(x = "Output",
+       y = "Price")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+
+```
+]
