@@ -298,6 +298,57 @@ Eugen von Böhm-Bawerk
 
 ---
 
+# Eugen von Böhm-Bawerk: On Opportunity Cost
+
+.left-column[
+.center[
+![:scale 80%](../images/Bohmbawerk3.jpg)
+
+.smallest[
+Eugen von Böhm-Bawerk
+
+1851—1914
+]
+]
+]
+
+.right-column[
+.smallest[
+> “If in any branch of production the price sinks below the cost...men will withdraw from that branch and engage in some better paying branch of production. Conversely, if in one branch of production, the market price of the finished good is considerably higher than the value of the sacrificed or expended means of production, then will men be drawn from less profitable industries. They will press into the better paying branch of production, until through the increased supply, the price is again forced down to cost.
+
+]
+
+.source[Böhm-Bawerk, Eugen von, 1884, *Capital and Interest*]
+
+]
+
+---
+
+# Eugen von Böhm-Bawerk: On Opportunity Cost
+
+.left-column[
+.center[
+![:scale 80%](../images/Bohmbawerk3.jpg)
+
+.smallest[
+Eugen von Böhm-Bawerk
+
+1851—1914
+]
+]
+]
+
+.right-column[
+
+.quitesmall[
+> “What determine the amount of this cost? .hi[The amount of the cost] is identical with the value of the productive power, and, as a rule, is determined by the money marginal utility of this productive power...The price of a definite specie of freely reproducible goods fixes itself in the long run at that point where the money marginal utility, for those who desire to purchase these products, .hi[intersects the money marginal utility of all those who desire to purchase in the other communicating branches of production.] The figure of the two blade of a pair of shears still holds good. One of the two blade, whose coming together determine the height of the price of any species of product, is in truth the marginal utility of this particular product. The other, which we are wont to call .hi["cost," is the marginal utility of the products of other communicating branches of production.] Or, according to Wieser, the marginal utility of "production related goods." .hi[It is, therefore, utility and not disutility which, as well on the side of supply as of demand, determine the height of the price.] This, too, even where the so-called law of cost plays its role in giving value to goods. .hi[Jevons, therefore, did not exaggerate the importance of the one side, but came very near the truth when he said "value depends entirely upon utility.”] (45)
+
+]
+.source[Böhm-Bawerk, Eugen von, 1884, *Capital and Interest*]
+]
+
+---
+
 # Price is Determined at the Margin: B-B’s Example
 
 .pull-left[
