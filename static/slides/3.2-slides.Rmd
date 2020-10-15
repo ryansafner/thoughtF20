@@ -208,9 +208,10 @@ Friedrich von Wieser
 - .hi-green[Example]: consider a three-good society, factors in each good’s production are $x$, $y$, and $z$, represented by three simultaneous equations:
 
 $$\begin{align*}
-x+y&=\$100\\
-2x+3z&=\$290\\
-4y+5z&=\$590\\ \end{align*}$$
+x+y&=100\\
+2x+3z&=290\\
+4y+5z&=590\\
+\end{align*}$$
 
 - Solve for $x$, $y$, and $z$ (prices of each factor)
 
@@ -911,7 +912,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 # Labor Supply and Firm's Demand for Labor
 
 .pull-left[
-- At low amounts of labor, marginal benefit $(MRP_L) < w$ marginal cost
+- At low amounts of labor, marginal benefit $(MRP_L) > w$ marginal cost
 
 - Firm will hire more labor
 
