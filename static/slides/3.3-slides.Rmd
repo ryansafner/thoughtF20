@@ -69,9 +69,10 @@ class: inverse
 - In modern times, capitalist and entrepreneur often (but not always) different persons
 ]
 ]
-
+.pull-right[
 .center[
 ![](../images/classicaleconomists.png)
+]
 ]
 
 
@@ -1102,7 +1103,7 @@ Irving Fisher
 ]
 
 .right-column[
-.smaller[
+.smallest[
 > “The value of the orchard depends upon the value of its crops: and in this dependence lurks implicitly the rate of interest itself.”
 
 - .hi-purple[Interest rate is a price of future goods in terms of present goods]
@@ -1110,7 +1111,7 @@ Irving Fisher
 
 > “the (percentage) excess of the present marginal want for one more unit of present goods over the present marginal want for one more unit of future goods”
 
-- Present consumption expenditures can be reduced to buy or build machinery (invest in capital) that can increase future income flows
+- .hi-purple[Investment in capital]: present consumption can be saved to buy/build machinery that can increase future income flows
 
 ]
 ]
@@ -1122,12 +1123,12 @@ Irving Fisher
 .pull-left[
 - What *are* future goods?
 
-- futures: claims on goods to be delivered at a future date
+- Futures: claims on goods to be delivered at a future date
   - corn futures, oil futures, etc.
 
-- financial assets: bonds, lottery winnings, IOUs
+- Financial assets: bonds, lottery winnings, IOUs
 
-- real goods: immature orchard of fruit trees; durable goods that yield output later
+- Real goods: immature orchard of fruit trees; durable goods that yield output later
 
 ]
 
@@ -1395,9 +1396,10 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 .pull-left[
 .smallest[
 
-- 1 unit of present goods buys $(1+r)$ units of future goods; must give up $(1+r)$ units of future goods to get 1 unit of present good
+- .hi-purple[Intertemporal “opportunity cost”]: 1 unit of present goods buys $(1+r)$ units of future goods; must give up $(1+r)$ units of future goods to get 1 unit of present good
   - Future goods are discounted by $\frac{1}{(1+r)}$
-  - Higher interest rate $r \implies$ steeper line, higher cost of present consumption relative to future consumption
+
+- Higher interest rate $r \implies$ steeper line, higher cost of present consumption relative to future consumption
 
 - $r>0$, and slope is negative because it’s a price
 
