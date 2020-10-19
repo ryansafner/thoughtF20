@@ -96,15 +96,19 @@ lessons:
     class: "3.2-class"
     slides: "3.2-slides"
 
-  - title: "3.3 Capital and Interest"
+  - title: "3.3 Capital & Interest Theory"
+    reading: "3.3-reading"
+    class: "3.3-class"
+    slides: "3.3-slides"
+    
+  - title: "3.4 Marshallian Economics I: Demand & Utility"
+    reading: "3.4-reading"
 
-  - title: "3.3 Marshallian Economics I: Demand & Utility"
-
-  - title: "3.4 Marshallian Economics II: Theory of the Firm"
+  - title: "3.5 Marshallian Economics II: Theory of the Firm"
   
-  - title: "3.5 Walrasian General Equilibrium"
+  - title: "3.6 Walrasian General Equilibrium"
   
-  - title: "3.6 Welfare Economics"
+  - title: "3.7 Welfare Economics"
 
   - title: '<i class="fas fa-laptop-code"></i> **Paper 2 Due**'
 

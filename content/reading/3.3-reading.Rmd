@@ -1,0 +1,32 @@
+---
+title: "3.3 — Capital & Interest Theory — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Monday, October 19, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Finish Ch.9 "The Transition to Neoclassical Economics: Marginal Analysis Extended" in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.11 "Marginal productivity and factor prices" in Blaug
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> Eugen von Böhm-Bawerk](https://en.wikipedia.org/wiki/Eugen_von_Böhm-Bawerk)
+- [<i class="fab fa-wikipedia-w"></i> John Bates Clark](https://en.wikipedia.org/wiki/John_Bates_Clark)
+- [<i class="fab fa-wikipedia-w"></i> Knut Wicksell](https://en.wikipedia.org/wiki/Knut_Wicksell)
+- [<i class="fab fa-wikipedia-w"></i> Irving Fisher](https://en.wikipedia.org/wiki/Irving_Fisher)
+
+# Questions to Help Your Reading
+
+- How are the prices of factors of production (land, labor, capital, etc) determined?
+- What is the problem of imputation?
+- What is marginal (physical) product? What is average (physical) product?
+- What are returns to scale? How are they different from economies of scale?
+- How does the assumption of competitive markets affect the answer to many of these questions?
+- What is “product exhaustion?”
+- Is there a moral connation of factors of production being paid their marginal products?

@@ -1349,60 +1349,6 @@ John Bates Clark
 
 ---
 
-# John Bates Clark: The Morality of Marginal Productivity
-
-.left-column[
-.center[
-![:scale 80%](../images/johnbatesclark.png)
-
-
-.smallest[
-John Bates Clark
-
-1847—1938
-]
-]
-]
-
-.right-column[
-
-- Several flaws with marginal productivity theory as a theory of distribution
-
-- MPT is primarily .hi-purple[a theory of factor pricing], not about .hi-turquoise[distribution of relative shares]
-
-- Also an incomplete theory of factor pricing! Considers only demand side of factor market (firms), not the supply side!
-
-- Biggest problem: impossible to observe and measure an individual factor’s marginal product!
-
-]
-
----
-
-# John Bates Clark: The Morality of Marginal Productivity
-
-.left-column[
-.center[
-![:scale 80%](../images/johnbatesclark.png)
-
-
-.smallest[
-John Bates Clark
-
-1847—1938
-]
-]
-]
-
-.right-column[
-- MPT describes the outcome to which we are always *approaching* (i.e. perfect competition), it is an equilibrium state of rest
-  - *actual* prices in real world are not equilibrium prices, we are not in perfect competition
-
-- A scarce factor will command higher prices, may be efficient, but is that moral? 
-
-]
-
----
-
 # Phillip Wicksteed
 
 .left-column[
@@ -1447,11 +1393,14 @@ Phillip Wicksteed
 
 .right-column[
 
-- Uses Euler’s Theorem of homogeneous functions to prove product exhaustion under specific conditions:
-  - production functions must be linearly homogenous (degree 1)
-  - we would say: .hi-purple[constant returns to scale]
-  - $cY =f(cL,cK,cT)$
-
+- Uses Euler’s Theorem of homogeneous functions to **prove** product exhaustion under specific conditions:
+  - production functions must be linearly homogenous (of degree 1)
+  - $c^{n}Y =f(c^{n}L,c^{n}K,c^{n}T)$ only for $n=1$
+  - we would say: .hi-purple[“constant returns to scale”]
+  
+- Criticized for this by many (Edgeworth, Pareto, Wicksell, etc.)
+  - John Hicks: “Where Wicksteed went wrong was his assumption that he could argue from the shape of the curve at one particular point to the general shape of the curve.”
+  
 ]
 
 ---
@@ -1890,6 +1839,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 - In perfect competition, in the long run, as profits attract entrants and losses force exits, price settles on the break-even point, where profit is 0
   - $p=MC=AC_{min}$
+  - factors are paid their opportunity costs (marginal products); nothing leftover
 
 - We still haven’t gotten to the famous model of perfect competition, but this is where everything is heading
 ]
@@ -1922,5 +1872,213 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   theme_classic(base_family = "Fira Sans Condensed", base_size=20)
 ```
 
+]
+
+---
+
+class: inverse, center, middle
+
+# Implications & Criticisms of Marginal Productivity Theory
+
+---
+
+# Implications of Marginal Productivity Theory
+
+.left-column[
+.center[
+![:scale 80%](../images/johnbatesclark.png)
+
+
+.smallest[
+John Bates Clark
+
+1847—1938
+]
+]
+]
+
+.right-column[
+
+- Several flaws with marginal productivity theory as a theory of distribution
+
+- MPT is primarily .hi-purple[a theory of factor pricing], not about .hi-turquoise[distribution of relative shares]
+
+- It’s even an incomplete theory of factor pricing!
+  - Considers only *demand* side of factor market (firms), not the supply side!
+
+- Assumes competitive output and input markets
+  - Labor unions, monopsony power, bargaining, etc.
+]
+
+---
+
+# Implications of Marginal Productivity Theory
+
+- A big problem: impossible to observe and measure an individual factor’s marginal product!
+
+> “there is no separate product of the tool on the one hand and of the labor using the tool on the other...We can disengage no concretely separable product of labor and capital” — Frank Taussig
+
+---
+
+# The Firm as Nexus of Contracts
+
+.left-column[
+.center[
+![:scale 100%](https://www.dropbox.com/s/tjia1j6jmr1hitn/alchiandemsetz.png?raw=1)
+]
+.smallest[
+L: Armen Alchian (1914-2013)
+
+R: Harold Demsetz (1930-2019)
+
+]
+]
+.right-column[
+
+.smallest[
+
+"[A firm] is a .hi[team] use of inputs and a centralized position of some party in the contractual arrangements of all other inputs. It is the .hi[centralized contractual agent in a team productive process]," (p.778).
+
+]
+.source[Alchian, Armen A and Harold Demsetz, 1972, "Production, Information Costs, and Economic Organization," *American Economic Review* 62: 777-795]
+
+]
+
+---
+
+# The Firm as Nexus of Contracts
+
+.left-column[
+.center[
+![:scale 100%](https://www.dropbox.com/s/tjia1j6jmr1hitn/alchiandemsetz.png?raw=1)
+]
+.smallest[
+L: Armen Alchian (1914-2013)
+
+R: Harold Demsetz (1930-2019)
+
+]
+]
+.right-column[
+
+.smallest[
+
+"Two men jointly lift heavy cargo into trucks. Solely by observing the total marginal productivity and making pay-weight loaded per day, it is impossible to determine each person's marginal productivity...In team production, marginal products of cooperative team members are not so directly and separably (i.e., cheaply) observable. What a team offers to the market can be taken as the marginal product of the team but not of the team members. .hi[The costs of metering or ascertaining the marginal products of the team's members is what calls forth new organizations and procedures]," (pp.778).
+
+]
+.source[Alchian, Armen A and Harold Demsetz, 1972, "Production, Information Costs, and Economic Organization," *American Economic Review* 62: 777-795]
+
+]
+
+---
+
+# Implications of Marginal Productivity Theory
+
+.pull-left[
+
+- Factor employment is determined by supply & demand of factor, where demand is driven by the factor’s marginal revenue product
+  - if market price is above equilibrium (e.g. $w_2)$, a surplus (unemployment) of that factor
+
+- Prices will adjust downwards to equilibrium
+]
+
+.pull-right[
+```{r}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=demand, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
+  stat_function(fun=supply, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9,y=supply(9)), color = "red", label="Supply", size = 5)+
+  geom_segment(x=5, xend=5, y=0, yend=5, size=1, linetype="dotted")+
+  geom_segment(x=0, xend=5, y=5, yend=5, size=1, linetype="dotted")+
+  geom_hline(yintercept=8,size=1,linetype="dashed")+
+  geom_segment(x=2, xend=2, y=0, yend=8, size=1, linetype="dotted")+
+  geom_segment(x=8, xend=8, y=0, yend=8, size=1, linetype="dotted")+
+  annotate("segment", x = 2, xend = 8, y = 9, yend = 9, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x=5,y=9,color="purple",label="Surplus (Unemployment)")+
+    scale_x_continuous(breaks=c(0,2,5,8),
+                       labels=c(0,expression(q[d]),"L*",expression(q[s])),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,5,8),
+                     labels=c(0,"w*",expression(w[2])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(fill=F)+
+  labs(title = "Labor Market",
+       x = "Quantity of Labor (L)",
+       y = "Price of Labor, (w)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
 ```
+]
+
+---
+
+# Implications of Marginal Productivity Theory
+
+.pull-left[
+
+- What implications does this have for macroeconomic policy?
+
+- Applied to the entire economy, implies that (non-frictional) unemployment is due to above-equilibrium factor prices
+  - markets will correct this by adjusting prices downwards
+
+- Anticipating Keynes:
+  - but is it that easy to lower wages??
+  - if workers have less income, will that affect aggregate demand?
+]
+
+.pull-right[
+```{r}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=demand, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
+  stat_function(fun=supply, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9,y=supply(9)), color = "red", label="Supply", size = 5)+
+  geom_segment(x=5, xend=5, y=0, yend=5, size=1, linetype="dotted")+
+  geom_segment(x=0, xend=5, y=5, yend=5, size=1, linetype="dotted")+
+  geom_hline(yintercept=8,size=1,linetype="dashed")+
+  geom_segment(x=2, xend=2, y=0, yend=8, size=1, linetype="dotted")+
+  geom_segment(x=8, xend=8, y=0, yend=8, size=1, linetype="dotted")+
+  annotate("segment", x = 2, xend = 8, y = 9, yend = 9, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x=5,y=9,color="purple",label="Surplus (Unemployment)")+
+    scale_x_continuous(breaks=c(0,2,5,8),
+                       labels=c(0,expression(q[d]),"L*",expression(q[s])),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,5,8),
+                     labels=c(0,"w*",expression(w[2])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(fill=F)+
+  labs(title = "Labor Market",
+       x = "Quantity of Labor (L)",
+       y = "Price of Labor, (w)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+---
+# Implications of Marginal Productivity Theory
+
+.left-column[
+.center[
+![:scale 80%](../images/johnbatesclark.png)
+
+
+.smallest[
+John Bates Clark
+
+1847—1938
+]
+]
+]
+
+.right-column[
+- MPT describes the outcome to which we are always *approaching* (i.e. perfect competition), it is an equilibrium state of rest
+  - *actual* prices in real world are not equilibrium prices, we are not in perfect competition
+
+- In *long run equilibrium* in *perfect competition*, factor prices are paid their marginal products
+  - $p = MC$, all factors are paid opportunity costs, firms break even and “exhaust the product” $AR(q)=AC(q)$
+
+- A scarce factor (talent, etc) will command higher prices (and reap economic rents), might be efficient, but is that *moral*? 
+
 ]
