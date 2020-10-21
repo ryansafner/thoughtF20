@@ -516,11 +516,11 @@ class: inverse, center, middle
 .smallest[
 - Cournot was the first to draw demand curves on a graph
   - He used prices as the independent variable, and quantity as the dependent variable
-  - Price adjusts to quantity
+  - Quantity adjusts in response to price
 
 - Marshall switched the axes:
   - Price as dependent variable, quantity as independent variable
-  - Quantity adjusts to price
+  - Price adjusts in response to quantity
 
 - For better or worse (debatable!), we’ve used Marshall’s version ever since
 ]
@@ -684,8 +684,8 @@ $$R=pq$$
 | Region of Demand Curve | $\Delta R$ and $\Delta p$ |
 |------------------------|---------------------------|
 | Elastic $\vert \epsilon \vert > 1$ | p & R change **opposite** |
-| Elastic $\vert \epsilon \vert = 1$ | p & R **do not change** |
-| Elastic $\vert \epsilon \vert < 1$ | p & R change **together** |
+| Unit Elastic $\vert \epsilon \vert = 1$ | p & R **do not change** |
+| Inlastic $\vert \epsilon \vert < 1$ | p & R change **together** |
 
 ]
 ]
