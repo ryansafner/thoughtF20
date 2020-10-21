@@ -216,6 +216,7 @@ John Neville Keynes
   3. .hi-purple[“Art of economics”]: related lessons learned from positive economics to normative goals determined in the normative branch
 
 ]
+]
 
 ---
 
