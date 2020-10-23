@@ -9,21 +9,51 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required Readings:
 
+- <i class="fas fas fa-book"></i> Skim Irving Fisher, Eugen von Böhm-Bawerk, (optional: Wicksell) and their readings in *Reader*
 - <i class="fas fas fa-book"></i> Finish Ch.9 "The Transition to Neoclassical Economics: Marginal Analysis Extended" in Landreth & Colander
 - <i class="fas fas fa-book"></i> Ch.11 "Marginal productivity and factor prices" in Blaug
 
 # Recommended Readings:
 
+- [<i class="fas fas fa-book"></i> Knight, Frank, 1921, *Risk, Uncertainty, and Profit*](https://www.econlib.org/library/Knight/knRUP.html)
+
 The following Wikipedia entries can also provide more background:
 
 - [<i class="fab fa-wikipedia-w"></i> Eugen von Böhm-Bawerk](https://en.wikipedia.org/wiki/Eugen_von_Böhm-Bawerk)
-- [<i class="fab fa-wikipedia-w"></i> John Bates Clark](https://en.wikipedia.org/wiki/John_Bates_Clark)
 - [<i class="fab fa-wikipedia-w"></i> Frank Knight](https://en.wikipedia.org/wiki/Frank_Knight)
-- [<i class="fab fa-wikipedia-w"></i> Knut Wicksell](https://en.wikipedia.org/wiki/Knut_Wicksell)
 - [<i class="fab fa-wikipedia-w"></i> Irving Fisher](https://en.wikipedia.org/wiki/Irving_Fisher)
-
+- [<i class="fab fa-wikipedia-w"></i> Fisher hypothesis](https://en.wikipedia.org/wiki/Fisher_hypothesis)
+- [<i class="fab fa-wikipedia-w"></i> Intertemporal choice](https://en.wikipedia.org/wiki/Intertemporal_choice)
+- [<i class="fab fa-wikipedia-w"></i> Interest](https://en.wikipedia.org/wiki/Interest)
+- [<i class="fab fa-wikipedia-w"></i> Interest rate](https://en.wikipedia.org/wiki/Interest_rate)
+- [<i class="fab fa-wikipedia-w"></i> Quantity Theory of Money](https://en.wikipedia.org/wiki/Quantity_theory_of_money#Fisher's_equation_of_exchange)
+- [<i class="fab fa-wikipedia-w"></i> Knut Wicksell](https://en.wikipedia.org/wiki/Knut_Wicksell)
+- [<i class="fab fa-wikipedia-w"></i> Cumulative process](https://en.wikipedia.org/wiki/Cumulative_process)
+  
 # Questions to Help Your Reading
+
+# On Profit and Uncertainty
+
+- Is entrepreneurship a fourth factor of production that is paid its marginal product?
+
+- In what way is pure profit a “residual”?
+
+- What is the difference between “risk” and “uncertainty” according to Knight?
+
+- How is profit related to uncertainty?
+
+- What are the main differences between the *theory* of (perfect) competition, and *actual* competition in the real world? How is this tied in with uncertainty, and with profit?
+
+# On Interest
 
 - What are Böhm-Bawerk’s three reasons for a positive rate of interest?
 
-- What 
+- What is “roundaboutness” in production? Why is it more productive, according to Böhm-Bawerk?
+
+- What is “time preference”?
+
+- How does Fisher conceive of interest as it relates to income, and capitalized values? 
+
+- What is the quantity theory of money, and Fisher’s equation of exchange? What are the main takeaways?
+
+- What is the difference between the “natural rate” and the “market rate” of interest, according to Wicksell? Explain Wicksell’s “cumulative process” that results if the two are different.

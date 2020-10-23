@@ -1,0 +1,35 @@
+---
+title: "3.4 — Marshallian Economics I: Demand & Utility — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, October 21, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Ch.10 (up to Marshall on Supply) "Alfred Marshall and Neoclassical Economics" in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.9 "Marshallian Economics: Utility and Demand" in Blaug
+
+# Recommended Readings:
+
+- [<i class="fas fas fa-book"></i> Marshall, Alfred, 1920 (1890), *Principles of Economics* (8th ed.)](https://www.econlib.org/library/Marshall/marP.html)
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> Alfred Marshall](https://en.wikipedia.org/wiki/Alfred_Marshall)
+- [<i class="fab fa-wikipedia-w"></i> Partial equilibrium](https://en.wikipedia.org/wiki/Partial_equilibrium)
+- [<i class="fab fa-wikipedia-w"></i> Utility](https://en.wikipedia.org/wiki/Utility)
+- [<i class="fab fa-wikipedia-w"></i> Price elasticity of demand](https://en.wikipedia.org/wiki/Price_elasticity_of_demand)
+- [<i class="fab fa-wikipedia-w"></i> Economic surplus](https://en.wikipedia.org/wiki/Economic_surplus)
+
+# Questions to Help Your Reading
+
+- What is the definition of economics, according to Marshall
+- What is the proper way to study economics, and what is the role of mathematics, according to Marshall?
+- What do you recognize from your principles & intermediate microeconomics courses from Marshall?
+- What are the problems with Marshall’s approach to utility functions?
+- What are the problems with Marshall’s approach to measuring price and utility?
+- What is the rule for consumer maximization of utility?
+- What is the “marginal utility of money” according to Marshall, and how does it play a role in utility maximization?

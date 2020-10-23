@@ -106,10 +106,12 @@ lessons:
     class: "3.4-class"
     slides: "3.4-slides"
 
-  - title: "3.5 Marshallian Economics II: Theory of the Firm"
-  
-  - title: "3.6 Walrasian General Equilibrium"
-  
+  - title: "3.5 Marshallian Economics II: Supply & Theory of the Firm"
+    reading: "3.5-reading"
+    
+  - title: "3.6 Walrasian General Equilibrium Theory"
+    reading: "3.6-reading"
+    
   - title: "3.7 Welfare Economics"
 
   - title: '<i class="fas fa-laptop-code"></i> **Paper 2 Due**'

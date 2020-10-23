@@ -1,0 +1,22 @@
+---
+title: "3.6 — Walrasian General Equilibrium Theory — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Monday, October 26, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Ch.11 "Walras and General Equilibrium Theory" in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.13 "General Equilibrium and Welfare Economics" in Blaug
+
+# Recommended Readings:
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> Leon Walras](https://en.wikipedia.org/wiki/Leon_Walras)
+- [<i class="fab fa-wikipedia-w"></i> General Equilibrium Theory](https://en.wikipedia.org/wiki/General_equilibrium_theory)
+
+# Questions to Help Your Reading
