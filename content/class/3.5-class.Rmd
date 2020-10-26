@@ -1,5 +1,5 @@
 ---
-title: "3.4 — Marshallian Economics: Demand & Utility — Class Notes"
+title: "3.5 — Marshallian Economics: Supply & Cost — Class Notes"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -11,7 +11,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Wednesday, October 21, 2020*
+*Monday, October 26, 2020*
 
 # Overview
 
@@ -19,12 +19,12 @@ Today we continue the marginalist revolution.
 
 # Readings
 
-Please see [today's recommended readings](/reading/3.4-reading).
+Please see [today's recommended readings](/reading/3.5-reading).
 
 # Slides
 
-- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/3.4-slides.html)
-- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/3.4-slides.pdf)
+- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/3.5-slides.html)
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/3.5-slides.pdf)
 
 # Live Class Session on Zoom
 

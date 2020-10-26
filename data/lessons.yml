@@ -108,6 +108,8 @@ lessons:
 
   - title: "3.5 Marshallian Economics II: Supply & Theory of the Firm"
     reading: "3.5-reading"
+    class: "3.5-class"
+    slides: "3.5-slides"
     
   - title: "3.6 Walrasian General Equilibrium Theory"
     reading: "3.6-reading"
