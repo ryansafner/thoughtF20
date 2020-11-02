@@ -1,0 +1,33 @@
+---
+title: "3.7 — Welfare Economics — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Monday, October 26, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> End of Ch.11 "Walras and General Equilibrium Theory" (on Pareto) in Landreth & Colander
+- <i class="fas fas fa-book"></i> Ch.13 "General Equilibrium and Welfare Economics" in Blaug
+
+# Recommended Readings:
+
+- [<i class="fas fa-file-pdf"></i> Humphrey, 1996, "The Early History of the Box Diagram"](/readings/Huphrey-1996.pdf)
+- [<i class="fas fa-file-pdf"></i> Persky, 2002, "Retrospectives: Pareto’s Law"](/readings/Persky-2002.pdf)
+- [<i class="fas fa-file-pdf"></i> Colander, 2007, "Retrospectives: Edgeworth's Hedonimeter and the Quest to Measure Utility"](/readings/Colander-2007.pdf)
+- [<i class="fas fa-file-pdf"></i> Gabaix, 2016, "Power Laws in Economics"](/readings/Gabaix-2016.pdf)
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> Francis Ysidro Edgeworth](https://en.wikipedia.org/wiki/Francis_Ysidro_Edgeworth)
+- [<i class="fab fa-wikipedia-w"></i> Edgeworth Box](https://en.wikipedia.org/wiki/Edgeworth_box)
+- [<i class="fab fa-wikipedia-w"></i> Vildredo Pareto](https://en.wikipedia.org/wiki/Vildredo_Pareto)
+- [<i class="fab fa-wikipedia-w"></i> Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)
+
+- [<i class="fab fa-wikipedia-w"></i> Arthur Cecil Pigou](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Arthur_Cecil_Pigou)
+- [<i class="fab fa-wikipedia-w"></i> Welfare economics](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Welfare_economics)
+- [<i class="fab fa-wikipedia-w"></i> Fundamental theorems of welfare economics](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics)
+
+# Questions to Help Your Reading

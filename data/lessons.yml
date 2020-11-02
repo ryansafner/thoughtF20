@@ -117,17 +117,21 @@ lessons:
     slides: "3.6-slides"
     
   - title: "3.7 Welfare Economics"
-
-  - title: '<i class="fas fa-laptop-code"></i> **Paper 2 Due**'
-
+    reading: "3.7-reading"
+    class: "3.7-class"
+    slides: "3.7-slides"
+    
+  - title: '<i class="fas fa-laptop-code"></i> **Paper 2 Due** Sunday Nov 8'
+    assignment: "02-short-paper"
+    
   - title: '<span class="fake-header-table">IV Challenges & Extensions to Neoclassical Economics</span>'
     header: True
     
-  - title: "4.1 The Socialist Calculation Debate"
+  - title: "4.1 The German Historical School & American Institutionalism"
 
-  - title: "4.2 American Institutional Economics"
+  - title: "4.2 The Socialist Calculation Debate"
 
-  - title: "4.3 Mathematicization & Samuelsonian Economics"
+  - title: "4.3 The Years of High Theory: Formalist Methods"
 
   - title: '<span class="fake-header-table">V Mid-20th Century & Macroeconomics</span>'
     header: True
