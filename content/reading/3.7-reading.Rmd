@@ -13,7 +13,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 - <i class="fas fas fa-book"></i> Ch.13 "General Equilibrium and Welfare Economics" in Blaug
 
 # Recommended Readings:
-
+- [<i class="fas fa-file-pdf"></i> Blaug, 1996, "The Marginal Conditions" excerpt  pp.577-579](/readings/Blaug-1996-marginal-conditions.pdf)
 - [<i class="fas fa-file-pdf"></i> Humphrey, 1996, "The Early History of the Box Diagram"](/readings/Huphrey-1996.pdf)
 - [<i class="fas fa-file-pdf"></i> Persky, 2002, "Retrospectives: Pareto’s Law"](/readings/Persky-2002.pdf)
 - [<i class="fas fa-file-pdf"></i> Colander, 2007, "Retrospectives: Edgeworth's Hedonimeter and the Quest to Measure Utility"](/readings/Colander-2007.pdf)
@@ -28,6 +28,20 @@ The following Wikipedia entries can also provide more background:
 
 - [<i class="fab fa-wikipedia-w"></i> Arthur Cecil Pigou](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Arthur_Cecil_Pigou)
 - [<i class="fab fa-wikipedia-w"></i> Welfare economics](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Welfare_economics)
-- [<i class="fab fa-wikipedia-w"></i> Fundamental theorems of welfare economics](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics)
+- [<i class="fab fa-wikipedia-w"></i> Fundamental theorems of welfare economics](https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics)
 
 # Questions to Help Your Reading
+
+- What are indifference curves?
+
+- What is the contract curve?
+
+- What does a “determinate” vs. an “indeterminate” outcome of exchange mean?
+
+- Explain the Edgeworth box.
+
+- What is a Pareto improvement? What does Pareto optimal mean?
+
+- What are the two fundamental theorems of welfare economics?
+
+- What are the marginal conditions at an optimum?
