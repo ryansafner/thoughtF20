@@ -480,12 +480,6 @@ Francis Ysidro Edgeworth
 
 ---
 
-
-# Influence of Edgeworth
-
-
----
-
 class: inverse, center, middle
 
 # Vilfredo Pareto & Paretian Welfare Economics

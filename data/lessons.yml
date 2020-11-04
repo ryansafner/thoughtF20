@@ -128,7 +128,10 @@ lessons:
     header: True
     
   - title: "4.1 The German Historical School & American Institutionalism"
-
+    reading: "4.1-reading"
+    class: "4.1-class"
+    slides: "4.1-slides"
+    
   - title: "4.2 The Socialist Calculation Debate"
 
   - title: "4.3 The Years of High Theory: Formalist Methods"
