@@ -1,0 +1,52 @@
+---
+title: "4.1 — The German Historical School & American Institutionalism — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, October 4, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Thorstein Veblen & writings in *Reader*
+- <i class="fas fas fa-book"></i> End of Ch.12 "Institutional and Historical Critics of Neoclassical Economics" in Landreth & Colander
+
+# Recommended Readings:
+
+- I cover Friedrich List and the infant industry argument for protectionism and against free trade in my International Trade course
+
+- [<i class="fas fa-chalkboard-teacher"></i> 2.5 — An Intellectual History of Trade III: Better Protectionist Arguments](https://tradef20.classes.ryansafner.com/class/2.5-class/)
+
+The following Wikipedia entries can also provide more background:
+
+## On The Historical School
+- [<i class="fab fa-wikipedia-w"></i> Historical school of economics](https://en.wikipedia.org/wiki/Historical_school_of_economics)
+- [<i class="fab fa-wikipedia-w"></i> Friedrich List](https://en.wikipedia.org/wiki/Friedrich_List)
+- [<i class="fab fa-wikipedia-w"></i> Infant industry argument](https://en.wikipedia.org/wiki/Infant_industry_argument)
+- [<i class="fab fa-wikipedia-w"></i> Gustav von Schmoller](https://en.wikipedia.org/wiki/Gustav_von_Schmoller)
+- [<i class="fab fa-wikipedia-w"></i> Methodenstreit](https://en.wikipedia.org/wiki/Methodenstreit)
+
+## On American Institutionalism
+- [<i class="fab fa-wikipedia-w"></i> Progressivism in the United States](https://en.wikipedia.org/wiki/Progressivism_in_the_United_States)
+- [<i class="fab fa-wikipedia-w"></i> Institutional economics](https://en.wikipedia.org/wiki/Institutional_economics)
+- [<i class="fab fa-wikipedia-w"></i> Thorstein Veblen](https://en.wikipedia.org/wiki/Thorstein_Veblen)
+- [<i class="fab fa-wikipedia-w"></i> Conspicuous consumption](https://en.wikipedia.org/wiki/Conspicuous_consumption)
+- [<i class="fab fa-wikipedia-w"></i> John R. Commons](https://en.wikipedia.org/wiki/John_R._Commons)
+- [<i class="fab fa-wikipedia-w"></i> New institutional economics](https://en.wikipedia.org/wiki/New_institutional_economics)
+
+# Questions to Help Your Reading
+
+- What was the *Methodenstreit* between Gustav von Schmoller and Carl Menger about?
+
+- What was Friedrich List’s focus, and why did he critique Smith and the Classical economists on free trade? What policies did he recommend?
+
+- What were the unifying themes of the Historical school? What was their view on the scope and methodology of economics?
+
+- What were the unifying themes of the American Institutionalists?
+
+- What was Veblen’s critique of “neoclassical economics?” What fundamental assumptions are flawed? How, according to Veblen, is economic analysis unscientific?
+
+- What was Veblen’s theory of instincts, and the dichotomy in human social affairs?
+
+- What is “conspicuous consumption,” according to Veblen?
