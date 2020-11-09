@@ -1461,7 +1461,6 @@ Stages of the debate:
 
 ---
 
-
 # So How Did it “Work” in the Soviet Union?
 
 .pull-left[
@@ -1472,7 +1471,7 @@ Stages of the debate:
 
 .pull-right[
 
-See lesson 11 in my Economics of Development Course: [Can We Plan an Economy?](https://devf19.classes.ryansafner.com/class/03-class/)
+See lesson 12 in my Economics of Development Course: [Russia ?](https://devf19.classes.ryansafner.com/slides/12-slides/)
 ]
 
 ---
