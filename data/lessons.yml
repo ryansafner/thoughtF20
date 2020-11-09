@@ -133,27 +133,15 @@ lessons:
     slides: "4.1-slides"
     
   - title: "4.2 The Socialist Calculation Debate"
+    reading: "4.2-reading"
+    class: "4.2-class"
+    slides: "4.2-slides"
+    
+  - title: "4.3 The Evolution of Modern Microeconomics"
 
-  - title: "4.3 The Years of High Theory: Formalist Methods"
+  - title: "5.1 The Keynesian Revolution"
 
-  - title: '<span class="fake-header-table">V Mid-20th Century & Macroeconomics</span>'
-    header: True
-
-  - title: "5.1 Pre-Keynesian Macroeconomics"
-
-  - title: "5.2 The Keynesian Revolution"
-
-  - title: "5.3 Monetarism"
-
-  - title: "5.4 New Classical Macroeconomics"
-  
-  - title: "5.5 The Chicago School of Economics"
-
-  - title: "5.6 Public Choice & New Institutional Economics"
-
-  - title: "5.7 Econometrics & Empirical Economics"
-
-  - title: "5.8 The Sociology of Economists"
+  - title: "5.2 The Evolution of Modern Macroeconomics"
 
   - title: '<i class="fas fa-laptop-code"></i> **Term Paper Due** Sunday Nov 22'
     assignment: "term-paper"

@@ -1,0 +1,39 @@
+---
+title: "4.2 — The Socialist Calculation Debate — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, October 4, 2020*
+
+# Required Readings:
+
+- [<i class="fas fa-file-pdf"></i> Mises (1920), "Economic Calculation in the Socialist Commonwealth"](/readings/Mises-1920.pdf)
+- [<i class="fab fa-youtube"></i> "What if There Were No Prices?"](https://www.youtube.com/watch?v=zkPGfTEZ_r4)
+- [<i class="fab fa-youtube"></i> "Mises vs. Marx: The March of History Rap Battle"](https://misesvsmarx.aier.org)
+
+- <i class="fas fas fa-book"></i> End of Ch.12 "Institutional and Historical Critics of Neoclassical Economics" in Landreth & Colander
+
+# Recommended Readings:
+
+- [<i class="fas fa-file-pdf"></i> Hayek (1945), "The Use of Knowledge in Society"](/readings/Hayek-1945.pdf)
+- [<i class="fas fa-file-pdf"></i> White, 2012, "The Bolshevik Revolution and the Socialist Calculation Debate," Ch. 2 in *The Clash of Economic Ideas*](/readings/White-2012-Ch2.pdf)
+
+The following Wikipedia entries can also provide more background:
+
+- [<i class="fab fa-wikipedia-w"></i> Socialist calculation debate](https://en.wikipedia.org/wiki/Socialist_calculation_debate)
+- [<i class="fab fa-wikipedia-w"></i> Austrian School](https://en.wikipedia.org/wiki/Austrian school)
+- [<i class="fab fa-wikipedia-w"></i> Ludwig_von_Mises](https://en.wikipedia.org/wiki/Ludwig_von_Mises)
+- [<i class="fab fa-wikipedia-w"></i> Friedrich Hayek](https://en.wikipedia.org/wiki/Friedrich_Hayek)
+- [<i class="fab fa-wikipedia-w"></i> Oskar Lange](https://en.wikipedia.org/wiki/Oskar_Lange)
+
+# Questions to Help Your Reading
+
+- How would a centrally planned (and/or socialist) economy function?
+- Is socialism as a viable political and economic system “disproven?"
+- If socialism is inefficient, impossible, or has poor incentives, how did socialism and central planning in the USSR last so long? Was it *really* socialism and central planning?
+- What do you make of the *economists*’ claims that we could centrally plan, or simulate, a market economy, with mainstream economic models (such as [general equilibrium theory](https://en.wikipedia.org/wiki/General_equilibrium_theory)) for socialist ends?
+- Mises argues that "*Every step that takes us away from private ownership of the means of production and from the use of money also takes us away from rational economics.*” While there are no serious attempts at socialist societies anymore, and all societies are some variant of capitalism, democracy, and/or a mixed economy, does Mises’ quote (and broader claim) still have relevance today?
+- [A majority of young Americans](https://www.cnbc.com/2018/08/14/fewer-than-half-of-young-americans-are-positive-about-capitalism.html) have positive feelings towards socialism, and negative feelings towards capitalism. Why do people still advocate for socialism today? Is it the same kind socialism as Marx envisioned, or the Soviet experience? What about "capitalism?"
+- How can we trace the differences and divergences between the Marxian view of the State and the liberal (Smith, Locke, etc) view of the State?
