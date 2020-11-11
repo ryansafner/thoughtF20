@@ -5,10 +5,11 @@ bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 ---
 
-*Wednesday, October 4, 2020*
+*Monday, November 11, 2020*
 
 # Required Readings:
 
+- <i class="fas fas fa-book"></i> Ch.13 "Austrian Critique of Neoclassical Economics and the Debate about Socialism and Capitalism" in Landreth & Colander
 - [<i class="fas fa-file-pdf"></i> Mises (1920), "Economic Calculation in the Socialist Commonwealth"](/readings/Mises-1920.pdf)
 - [<i class="fab fa-youtube"></i> "What if There Were No Prices?"](https://www.youtube.com/watch?v=zkPGfTEZ_r4)
 - [<i class="fab fa-youtube"></i> "Mises vs. Marx: The March of History Rap Battle"](https://misesvsmarx.aier.org)
