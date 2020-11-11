@@ -138,13 +138,13 @@ lessons:
     slides: "4.2-slides"
     
   - title: "4.3 The Evolution of Modern Microeconomics"
-    reading: "4.2-reading"
-    class: "4.2-class"
-    slides: "4.2-slides"
+    reading: "4.3-reading"
+    class: "4.3-class"
+    slides: "4.3-slides"
     
-  - title: "5.1 The Keynesian Revolution"
+  - title: "4.4 The Keynesian Revolution"
 
-  - title: "5.2 The Evolution of Modern Macroeconomics"
+  - title: "4.5 The Evolution of Modern Macroeconomics"
 
   - title: '<i class="fas fa-laptop-code"></i> **Term Paper Due** Sunday Nov 22'
     assignment: "term-paper"
