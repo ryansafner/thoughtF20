@@ -1,0 +1,16 @@
+---
+title: "4.5 — The Evolution of Modern Macroeconoimcs — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Wednesday, October 18, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> Finish Ch.15 "The Development of Modern Macroeconomic Thought" in Landreth & Colander
+
+# Recommended Readings:
+
+# Questions to Help Your Reading

@@ -143,8 +143,12 @@ lessons:
     slides: "4.3-slides"
     
   - title: "4.4 The Keynesian Revolution"
-
+    reading: "4.4-reading"
+    class: "4.4-class"
+    slides: "4.4-slides"
+    
   - title: "4.5 The Evolution of Modern Macroeconomics"
-
+    reading: "4.5-reading"
+    
   - title: '<i class="fas fa-laptop-code"></i> **Term Paper Due** Sunday Nov 22'
     assignment: "term-paper"

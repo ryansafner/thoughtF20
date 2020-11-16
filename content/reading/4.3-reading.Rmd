@@ -1,5 +1,5 @@
 ---
-title: "4.3 — The Evolution of Modern Microeconoimcs — Readings"
+title: "4.3 — The Evolution of Modern Microeconomics — Readings"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -14,9 +14,5 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Recommended Readings:
 
 - [<i class="fas fa-file-pdf"></i> Buchanan (1964), "What Should Economists Do"](/readings/Hayek-1945.pdf)
-
-The following Wikipedia entries can also provide more background:
-
-- [<i class="fab fa-wikipedia-w"></i> Socialist calculation debate](https://en.wikipedia.org/wiki/Socialist_calculation_debate)
 
 # Questions to Help Your Reading

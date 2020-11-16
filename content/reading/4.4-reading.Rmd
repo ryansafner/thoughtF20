@@ -1,0 +1,33 @@
+---
+title: "4.4 — The Keynesian Revolution — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Monday, November 16, 2020*
+
+# Required Readings:
+
+- <i class="fas fas fa-book"></i> “Keynesian Macroeconomics” in Ch.15 "The Development of Modern Macroeconomic Thought" in Landreth & Colander
+
+# Recommended Readings:
+
+- [<i class="fas fa-podcast"></i> NPR's *Planet Money*: "The Invention of the Economy"](https://www.npr.org/sections/money/2014/03/05/286366404/episode-521-the-invention-of-the-economy)
+- [<i class="fas fas fa-book"></i> Keynes, 1936, *The General Theory of Employment, Interest and Money*](https://www.marxists.org/reference/subject/economics/keynes/general-theory/)
+
+<!--- [<i class="fas fa-file-pdf"></i> Buchanan (1964), "What Should Economists Do"](/readings/Hayek-1945.pdf)
+-->
+
+# Helpful:
+
+- [<i class="fab fa-wikipedia-w"></i> John Maynard Keynes](https://en.wikipedia.org/wiki/John_Maynard_Keynes)
+- [<i class="fab fa-wikipedia-w"></i> The General Theory of Employment, Interest and Money](https://en.wikipedia.org/wiki/The_General_Theory_of_Employment,_Interest_and_Money)
+- [<i class="fab fa-wikipedia-w"></i> Keynesian Revolution](https://en.wikipedia.org/wiki/Keynesian_Revolution)
+- [<i class="fab fa-wikipedia-w"></i> Keynesian economics](https://en.wikipedia.org/wiki/Keynesian_Revolutionhttps://en.wikipedia.org/wiki/Keynesian_economics)
+
+
+
+
+
+# Questions to Help Your Reading
