@@ -369,7 +369,7 @@ Economics Nobel 1974
 
 .pull-right[
 .center[
-![:scale 70%](../images/abct_boom.png)
+![:scale 50%](../images/abct_boom.png)
 ]
 ]
 
@@ -388,7 +388,7 @@ Economics Nobel 1974
 
 .pull-right[
 .center[
-![:scale 70%](../images/abct_bust2.png)
+![:scale 50%](../images/abct_bust2.png)
 ]
 ]
 
@@ -519,6 +519,11 @@ $$Y=C+I+G+(X-M)$$
 
 - For a country: $\sum$ expenditures $=$ $\sum$ income
 ]
+.pull-right[
+.center[
+![](../images/gdp.jpg)
+]
+]
 
 ---
 
@@ -541,7 +546,7 @@ $$Y=C+I+G+(X-M)$$
 # The Circular Flow
 
 .center[
-![:scale 70%](../images/circularflow.png)
+![:scale 65%](../images/circularflow.png)
 ]
 
 ---
@@ -926,5 +931,5 @@ R: Finn Kydland
 # A Good Summary
 
 .center[
-![:scale 70%](../images/macroschools.png)
+![:scale 60%](../images/macroschools.png)
 ]
