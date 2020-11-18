@@ -149,6 +149,8 @@ lessons:
     
   - title: "4.5 The Evolution of Modern Macroeconomics"
     reading: "4.5-reading"
+    class: "4.5-class"
+    slides: "4.5-slides"
     
   - title: '<i class="fas fa-laptop-code"></i> **Term Paper Due** Sunday Nov 22'
     assignment: "term-paper"
