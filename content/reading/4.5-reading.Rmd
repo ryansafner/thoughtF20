@@ -13,4 +13,13 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Recommended Readings:
 
+- [<i class="fab fa-youtube"></i> "Fear the Boom and Bust: Keynes vs. Hayek - The Original Economics Rap Battle!"](https://www.youtube.com/watch?v=d0nERTFo-Sk)
+- [<i class="fab fa-youtube"></i> "Fight of the Century: Keynes vs. Hayek - Economics Rap Battle Round Two"](https://www.youtube.com/watch?v=GTQnarzmTOc)
+- [<i class="fab fa-youtube"></i> "Game of Theories: The Keynesians," *MR University*](https://mru.org/courses/principles-economics-macroeconomics/business-cycle-theories-keynesian)
+- [<i class="fab fa-youtube"></i> "Game of Theories: The Monetarists," *MR University*](https://mru.org/courses/principles-economics-macroeconomics/business-cycles-monetarists)
+- [<i class="fab fa-youtube"></i> "Game of Theories: Real Business Cycles," *MR University*](https://mru.org/courses/principles-economics-macroeconomics/business-cycles-real-business-cycle)
+- [<i class="fab fa-youtube"></i> "Game of Theories: The Austrians," *MR University*](https://mru.org/courses/principles-economics-macroeconomics/business-cycles-austrian-economic-theory)
+- [<i class="fab fa-youtube"></i> "Game of Theories: The Great Recession," *MR University*](https://mru.org/courses/principles-economics-macroeconomics/business-cycles-great-recession)
+
+
 # Questions to Help Your Reading
