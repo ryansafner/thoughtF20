@@ -13,6 +13,8 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Recommended Readings:
 
-- [<i class="fas fa-file-pdf"></i> Buchanan (1964), "What Should Economists Do"](/readings/Hayek-1945.pdf)
+- [<i class="fas fa-file-pdf"></i> Buchanan (1964), "What Should Economists Do"](/readings/Buchanan-1964.pdf)
+- [<i class="fas fa-file-pdf"></i> Boulding (1971), "After Samuelson, Who Needs Adam Smith?"](/readings/Boulding-1971.pdf)
+- [<i class="fas fa-file-pdf"></i> Boettke (1997), "Where Did Economics Go Wrong: Modern Economics as a Flight from Reality, "](/readings/Boettke-1997.pdf)
 
 # Questions to Help Your Reading
